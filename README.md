@@ -16,3 +16,7 @@ This package is a **staging-only documentation site**, prepared for `docs.devdyl
 8. Before public release, reconcile guides with actual deployment and publish legally approved Privacy Policy, Terms and Cookie Notice. Restore legal navigation only after publishing those pages.
 
 The original complete archive retains the draft legal files for private review. This staging version must never be substituted for the production legal compliance process.
+
+## Documentation navigation maintenance
+
+The ordered chapters in `_data/navigation.yml` power the header, sidebar, page progress, breadcrumbs and Previous/Next links. When adding or moving a page, include its exact `permalink` (including leading and trailing slashes) in that file, then confirm it renders and links work on desktop and mobile. The first page has no Previous link; the final page offers Back to Home. Never link to unpublished legal drafts.

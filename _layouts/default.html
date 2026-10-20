@@ -9,15 +9,87 @@
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
+{% assign chapters = site.data.navigation %}
+{% assign current_index = nil %}
+{% for chapter in chapters %}
+  {% if chapter.url == page.url %}
+    {% assign current_index = forloop.index0 %}
+  {% endif %}
+{% endfor %}
 <a class="skip" href="#content">Skip to content</a>
-<header class="hero"><div class="wrap"><a class="brand" href="{{ '/' | relative_url }}"><span class="mark">⌘</span> BRACKET <strong>CONTROL</strong> <small>DOCS</small></a><p>Run great tournaments. Keep your community in control.</p></div></header>
+<header class="hero" id="top"><div class="wrap">
+  <a class="brand" href="{{ '/' | relative_url }}"><span class="mark">⌘</span> BRACKET <strong>CONTROL</strong> <small>DOCS</small></a>
+  <p>Run great tournaments. Keep your community in control.</p>
+</div></header>
 <nav aria-label="Main navigation" class="navigation"><div class="wrap navinner">
-  <a href="{{ '/' | relative_url }}">Home</a>
-  <a href="{{ '/getting-started/' | relative_url }}">Getting started</a>
-  <a href="{{ '/guides/user-guide/' | relative_url }}">User guide</a>
-  <a href="{{ '/troubleshooting/' | relative_url }}">Help</a>
+  {% for chapter in chapters %}
+    {% if chapter.top_nav %}
+      <a href="{{ chapter.url | relative_url }}"{% if page.url == chapter.url %} aria-current="page"{% endif %}>{{ chapter.title | escape }}</a>
+    {% endif %}
+  {% endfor %}
 </div></nav>
-<div class="wrap shell"><main id="content" class="content">{{ content }}</main><aside aria-label="Quick links" class="sidebar"><h2>Quick links</h2><a href="https://app.devdylnz.com/app/">Open Bracket Control ↗</a><a href="{{ '/guides/organisers/' | relative_url }}">Organisers</a><a href="{{ '/guides/captains/' | relative_url }}">Captains</a><a href="{{ '/guides/drafts/' | relative_url }}">Draft events</a><a href="{{ '/troubleshooting/' | relative_url }}">Troubleshooting</a></aside></div>
-<footer><div class="wrap">© {{ site.time | date: '%Y' }} Bracket Control · New Zealand<p>Bracket Control is independent of Discord. Discord is a trademark of its respective owner.</p></div></footer>
+<div class="wrap shell">
+  <main id="content" class="content">
+    <nav aria-label="Breadcrumb" class="breadcrumbs">
+      <ol>
+        {% if page.url == '/' %}
+          <li aria-current="page">Home</li>
+        {% else %}
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          {% if page.url contains '/guides/' and page.url != '/guides/user-guide/' %}
+            <li><a href="{{ '/guides/user-guide/' | relative_url }}">User guide</a></li>
+          {% endif %}
+          <li aria-current="page">{{ page.title | escape }}</li>
+        {% endif %}
+      </ol>
+    </nav>
+
+    {% if current_index != nil %}
+      {% assign chapter_number = current_index | plus: 1 %}
+      <div class="chapter-progress">
+        <span>Documentation section {{ chapter_number }} of {{ chapters.size }}</span>
+        <progress value="{{ chapter_number }}" max="{{ chapters.size }}" aria-label="Documentation progress: section {{ chapter_number }} of {{ chapters.size }}">{{ chapter_number }} of {{ chapters.size }}</progress>
+      </div>
+    {% endif %}
+
+    {{ content }}
+
+    {% if current_index != nil %}
+      {% assign final_index = chapters.size | minus: 1 %}
+      <nav class="guide-pager" aria-label="Previous and next documentation pages">
+        {% if current_index > 0 %}
+          {% assign previous_index = current_index | minus: 1 %}
+          {% assign previous_chapter = chapters[previous_index] %}
+          <a class="pager-link pager-previous" rel="prev" href="{{ previous_chapter.url | relative_url }}"><span class="pager-kicker">← Previous</span><strong>{{ previous_chapter.title | escape }}</strong></a>
+        {% else %}
+          <span class="pager-placeholder" aria-hidden="true"></span>
+        {% endif %}
+        {% if current_index < final_index %}
+          {% assign next_index = current_index | plus: 1 %}
+          {% assign next_chapter = chapters[next_index] %}
+          <a class="pager-link pager-next" rel="next" href="{{ next_chapter.url | relative_url }}"><span class="pager-kicker">Next →</span><strong>{{ next_chapter.title | escape }}</strong></a>
+        {% else %}
+          <a class="pager-link pager-next" href="{{ '/' | relative_url }}"><span class="pager-kicker">Finished ✓</span><strong>Back to Home</strong></a>
+        {% endif %}
+      </nav>
+    {% endif %}
+    <p class="back-to-top"><a href="#top">↑ Back to top</a></p>
+  </main>
+  <aside aria-label="Documentation menu" class="sidebar">
+    <h2>Contents</h2>
+    <nav aria-label="Documentation chapters">
+      <ol class="chapter-list">
+      {% for chapter in chapters %}
+        <li><a href="{{ chapter.url | relative_url }}"{% if page.url == chapter.url %} class="is-active" aria-current="page"{% endif %}><span class="chapter-index">{{ forloop.index }}</span><span>{{ chapter.title | escape }}</span></a></li>
+      {% endfor %}
+      </ol>
+    </nav>
+    <hr>
+    <a class="open-app" href="https://app.devdylnz.com/app/">Open Bracket Control ↗</a>
+  </aside>
+</div>
+<footer><div class="wrap">© {{ site.time | date: '%Y' }} Bracket Control · New Zealand
+<p>Bracket Control is independent of Discord. Discord is a trademark of its respective owner.</p>
+</div></footer>
 </body>
 </html>
