@@ -1,0 +1,20 @@
+# Single source of truth for all chapter links, sidebar order and Previous / Next navigation.
+# URLs must match each page's front matter permalink exactly.
+- title: Home
+  url: /
+  top_nav: true
+- title: Getting started
+  url: /getting-started/
+  top_nav: true
+- title: Complete user guide
+  url: /guides/user-guide/
+  top_nav: true
+- title: Organiser guide
+  url: /guides/organisers/
+- title: Captain guide
+  url: /guides/captains/
+- title: Draft tournaments
+  url: /guides/drafts/
+- title: Troubleshooting
+  url: /troubleshooting/
+  top_nav: true
