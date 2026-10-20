@@ -1,0 +1,11 @@
+title: Bracket Control Documentation
+description: Official guides, tournament workflows and policies for Bracket Control
+url: "https://docs.devdylnz.com"
+baseurl: ""
+markdown: kramdown
+permalink: pretty
+exclude:
+  - _internal
+  - README.md
+  - Gemfile
+  - Gemfile.lock
