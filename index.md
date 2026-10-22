@@ -16,6 +16,13 @@ permalink: /
 - **[Draft tournaments]({{ '/guides/drafts/' | relative_url }})** — captain checkboxes, the 2/1/2/1 web draft and automated voice rooms.
 - **[Troubleshooting]({{ '/troubleshooting/' | relative_url }})** — common login, evidence and Discord publishing problems.
 
+### Privacy and legal information
+
+- **[Privacy Policy]({{ '/legal/privacy/' | relative_url }})** — what Bracket Control collects and your rights.
+- **[Terms of Service]({{ '/legal/terms/' | relative_url }})** — rules for using the application.
+- **[Cookie Notice]({{ '/legal/cookies/' | relative_url }})** — essential session cookies and browser storage.
+- **[Player Information Notice]({{ '/legal/player-notice/' | relative_url }})** — a short notice to share with players whose details are entered by captains or organisers.
+
 ### Public tournament viewing
 
 An organiser can share a direct tournament URL with you. It shows the event's **Bracket**, **Ladder** and **Match Results** as authorised. **Browse Tournaments** on the home page accepts shared public links; it is not a global list of every connected community.
@@ -26,6 +33,4 @@ An organiser can share a direct tournament URL with you. It shows the event's **
 
 ### Site status
 
-This documentation is a **pre-publication preview**. Some workflows may differ from the currently deployed version. The Privacy Policy, Terms of Service and Cookie Notice are intentionally excluded until the operator has approved them and confirmed the required contact and eligibility details.
-
-[**Open Bracket Control →**](https://app.devdylnz.com/app/)
+Guides are updated alongside the app, but some workflows may differ from the currently deployed version. Publishing these notices does **not** mean that every international legal question or production verification has been resolved.
