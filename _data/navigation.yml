@@ -1,5 +1,4 @@
-# Single source of truth for all chapter links, sidebar order and Previous / Next navigation.
-# URLs must match each page's front matter permalink exactly.
+# Single source of truth for ordered documentation and legal links.
 - title: Home
   url: /
   top_nav: true
@@ -18,3 +17,12 @@
 - title: Troubleshooting
   url: /troubleshooting/
   top_nav: true
+- title: Privacy Policy
+  url: /legal/privacy/
+  top_nav: true
+- title: Terms of Service
+  url: /legal/terms/
+- title: Cookie Notice
+  url: /legal/cookies/
+- title: Player Information Notice
+  url: /legal/player-notice/
