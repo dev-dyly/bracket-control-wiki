@@ -8,6 +8,16 @@
 - title: Complete user guide
   url: /guides/user-guide/
   top_nav: true
+- title: Discord Setup Wizard
+  url: /guides/server-setup/
+- title: Creating tournaments
+  url: /guides/tournament-creation/
+- title: Team captain registration
+  url: /guides/team-registration/
+- title: Approving team registrations
+  url: /guides/team-approvals/
+- title: Divisions
+  url: /guides/divisions/
 - title: Organiser guide
   url: /guides/organisers/
 - title: Captain guide
