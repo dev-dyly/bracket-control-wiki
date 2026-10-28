@@ -8,6 +8,8 @@ permalink: /guides/user-guide/
 
 > **Product branding:** The official public product name is **Bracket Control**. The source-code repository retains its technical name `dev-dyly/Bracket-App` for continuity. Navigation wording can vary between mobile and desktop. An administrator must be authorised in the relevant Discord server; signing in alone does not grant admin access.
 
+**[View all three illustrated guides — screenshots and downloadable PDFs →]({{ '/guides/visual-guides/' | relative_url }})**
+
 ## Illustrated step-by-step guides
 
 The following three online walkthroughs follow the screenshots and steps in the companion **PDF guides**:
