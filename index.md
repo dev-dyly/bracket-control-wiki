@@ -11,6 +11,11 @@ permalink: /
 
 - **[Getting started]({{ '/getting-started/' | relative_url }})** — signing in, choosing your Discord server and the app's main navigation.
 - **[Complete user guide]({{ '/guides/user-guide/' | relative_url }})** — every main screen, role and tournament workflow.
+- **[Discord Setup Wizard]({{ '/guides/server-setup/' | relative_url }})** — automatic setup, safe permissions and recovery (expanded PDF workflow currently staging-only).
+- **[Creating tournaments]({{ '/guides/tournament-creation/' | relative_url }})** — tournament basics, schedule, locked rules, Discord and final review.
+- **[Team captain registration]({{ '/guides/team-registration/' | relative_url }})** — the eight-step Discord-to-web registration and declaration.
+- **[Approving teams]({{ '/guides/team-approvals/' | relative_url }})** — the staff queue, roster revisions, decisions and readiness.
+- **[Divisions]({{ '/guides/divisions/' | relative_url }})** — add, rank, configure Championships, promotion/relegation and assign teams.
 - **[Organiser guide]({{ '/guides/organisers/' | relative_url }})** — series, divisions, readiness, publishing and administration.
 - **[Captain guide]({{ '/guides/captains/' | relative_url }})** — registration, weekly confirmation, roster edits and match reporting.
 - **[Draft tournaments]({{ '/guides/drafts/' | relative_url }})** — captain checkboxes, the 2/1/2/1 web draft and automated voice rooms.
