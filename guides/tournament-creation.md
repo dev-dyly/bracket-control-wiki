@@ -24,7 +24,7 @@ This procedure follows the supplied **Bracket Control Tournament Creation User G
 8. Decide whether to enable **Require Individual Player Acceptance**. If enabled, each listed starter, captain and substitute must complete their own applicable registration and tournament rules acceptance for competitive clearance. A captain cannot accept on their behalf.
 9. Choose **Repeat this tournament weekly**, if appropriate. Review the options, then select **Continue**.
 
-> **Permanent setting:** Tournament rules **and** the individual-acceptance policy are chosen at creation and cannot be edited, added or switched later. To change them, the authorised cancellation/replacement process is required; historical records and receipts are preserved. Availability of individual participation is subject to its release switch.
+> **Permanent setting:** Tournament rules **and** the individual-acceptance policy are chosen at creation and cannot be edited, added or switched later. To change them, the authorised cancellation/replacement process is required; historical records and receipts are preserved.
 
 ## Step 3 — Schedule and registration (PDF pp. 9–15; steps 10–18)
 
