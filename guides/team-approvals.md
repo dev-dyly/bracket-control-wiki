@@ -28,4 +28,4 @@ permalink: /guides/team-approvals/
 
 If a registration is not visible, confirm the selected event, application filter, Discord account and registration invitation. Use **Teams → Review & Resolve** for a current recurring/division conflict rather than trying to override it through an unrelated action.
 
-See also [Team captain registration]({{ '/guides/team-registration/' | relative_url }}), [Creating tournaments]({{ '/guides/tournament-creation/' | relative_url }}) and [Divisions]({{ '/guides/divisions/' | relative_url }}).
+See also [Team captain registration]({{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }}), [Creating tournaments]({{ '/assets/guides/tournament-creation/Bracket_Control_Tournament_Creation_User_Guide.pdf' | relative_url }}) and [Divisions]({{ '/guides/divisions/' | relative_url }}).

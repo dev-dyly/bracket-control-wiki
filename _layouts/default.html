@@ -24,7 +24,7 @@
 <nav aria-label="Main navigation" class="navigation"><div class="wrap navinner">
   {% for chapter in chapters %}
     {% if chapter.top_nav %}
-      <a href="{{ chapter.url | relative_url }}"{% if page.url == chapter.url %} aria-current="page"{% endif %}>{{ chapter.title | escape }}</a>
+      <a href="{{ chapter.url | relative_url }}"{% if chapter.pdf %} target="_blank" rel="noopener noreferrer"{% endif %}{% if page.url == chapter.url %} aria-current="page"{% endif %}>{{ chapter.title | escape }}{% if chapter.pdf %} ↗{% endif %}</a>
     {% endif %}
   {% endfor %}
 </div></nav>
@@ -60,14 +60,14 @@
         {% if current_index > 0 %}
           {% assign previous_index = current_index | minus: 1 %}
           {% assign previous_chapter = chapters[previous_index] %}
-          <a class="pager-link pager-previous" rel="prev" href="{{ previous_chapter.url | relative_url }}"><span class="pager-kicker">← Previous</span><strong>{{ previous_chapter.title | escape }}</strong></a>
+          <a class="pager-link pager-previous" rel="prev" href="{{ previous_chapter.url | relative_url }}"{% if previous_chapter.pdf %} target="_blank" rel="noopener noreferrer"{% endif %}><span class="pager-kicker">← Previous</span><strong>{{ previous_chapter.title | escape }}</strong></a>
         {% else %}
           <span class="pager-placeholder" aria-hidden="true"></span>
         {% endif %}
         {% if current_index < final_index %}
           {% assign next_index = current_index | plus: 1 %}
           {% assign next_chapter = chapters[next_index] %}
-          <a class="pager-link pager-next" rel="next" href="{{ next_chapter.url | relative_url }}"><span class="pager-kicker">Next →</span><strong>{{ next_chapter.title | escape }}</strong></a>
+          <a class="pager-link pager-next" rel="next" href="{{ next_chapter.url | relative_url }}"{% if next_chapter.pdf %} target="_blank" rel="noopener noreferrer"{% endif %}><span class="pager-kicker">Next →</span><strong>{{ next_chapter.title | escape }}</strong></a>
         {% else %}
           <a class="pager-link pager-next" href="{{ '/' | relative_url }}"><span class="pager-kicker">Finished ✓</span><strong>Back to Home</strong></a>
         {% endif %}
@@ -80,7 +80,7 @@
     <nav aria-label="Documentation chapters">
       <ol class="chapter-list">
       {% for chapter in chapters %}
-        <li><a href="{{ chapter.url | relative_url }}"{% if page.url == chapter.url %} class="is-active" aria-current="page"{% endif %}><span class="chapter-index">{{ forloop.index }}</span><span>{{ chapter.title | escape }}</span></a></li>
+        <li><a href="{{ chapter.url | relative_url }}"{% if chapter.pdf %} target="_blank" rel="noopener noreferrer"{% endif %}{% if page.url == chapter.url %} class="is-active" aria-current="page"{% endif %}><span class="chapter-index">{{ forloop.index }}</span><span>{{ chapter.title | escape }}{% if chapter.pdf %} ↗{% endif %}</span></a></li>
       {% endfor %}
       </ol>
     </nav>

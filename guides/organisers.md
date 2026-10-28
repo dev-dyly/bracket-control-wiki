@@ -7,11 +7,11 @@ permalink: /guides/organisers/
 
 ## 1. Configure the community
 
-Select **Your Discord servers**, then open [Discord Server Setup]({{ '/guides/server-setup/' | relative_url }}) or **Server Settings** as displayed. Keep global player registration separate from captain team registration. Check staff-only approval permissions, registered-role hierarchy, timezone and channel overrides before applying. If setup is interrupted, follow the saved-plan recovery controls rather than creating duplicate resources.
+Select **Your Discord servers**, then open [Discord Server Setup]({{ '/assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf' | relative_url }}) or **Server Settings** as displayed. Keep global player registration separate from captain team registration. Check staff-only approval permissions, registered-role hierarchy, timezone and channel overrides before applying. If setup is interrupted, follow the saved-plan recovery controls rather than creating duplicate resources.
 
 ## 2. Create an event
 
-Follow [Creating tournaments]({{ '/guides/tournament-creation/' | relative_url }}): **Dashboard → + Create tournament → Basics → Schedule → Tournament Rules → Discord → Review**. Set format and approved-team cap (2–16), optional division and recurrence, registration dates/timezone, and applicable personal-acceptance policy. **Tournament rules and individual acceptance are permanently locked once created**, so review before confirming. After creation, use **Manage Tournament** for registration, teams, seeds and readiness.
+Follow [Creating tournaments]({{ '/assets/guides/tournament-creation/Bracket_Control_Tournament_Creation_User_Guide.pdf' | relative_url }}): **Dashboard → + Create tournament → Basics → Schedule → Tournament Rules → Discord → Review**. Set format and approved-team cap (2–16), optional division and recurrence, registration dates/timezone, and applicable personal-acceptance policy. **Tournament rules and individual acceptance are permanently locked once created**, so review before confirming. After creation, use **Manage Tournament** for registration, teams, seeds and readiness.
 
 ## 3. Manage entries and confirm readiness
 
