@@ -39,4 +39,4 @@ An organiser can share a direct tournament URL with you. It shows the event's **
 
 ### Site status
 
-Guides are updated alongside the app, but some workflows may differ from the currently deployed version. Publishing these notices does **not** mean that every international legal question or production verification has been resolved.
+These guides cover the current Bracket Control workflows. For detailed screenshots, use the Illustrated Guides. Privacy and legal notices are available separately.
