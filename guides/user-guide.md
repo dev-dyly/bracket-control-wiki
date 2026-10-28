@@ -4,13 +4,13 @@ title: Complete user guide
 permalink: /guides/user-guide/
 ---
 # Bracket Control — Complete user guide
-**Edition:** 2.1 / current fixture workflows · **Updated:** 29 October 2026 · **Source baseline:** Bracket-App main `d9839b2`. Production revision was not independently confirmed. Expanded Discord setup/support tickets (PR #75) remain unmerged and staging-only.
+**Edition:** 2.2 · **Updated:** 29 October 2026 · **Scope:** Current tournament, registration, game reporting and server-management workflows.
 
 > **Product branding:** The official public product name is **Bracket Control**. The source-code repository retains its technical name `dev-dyly/Bracket-App` for continuity. Navigation wording can vary between mobile and desktop. An administrator must be authorised in the relevant Discord server; signing in alone does not grant admin access.
 
 **Quick access to the five illustrated/operational workflows:** [Discord Setup Wizard]({{ '/guides/server-setup/' | relative_url }}) · [Creating Tournaments]({{ '/guides/tournament-creation/' | relative_url }}) · [Captain Team Registration]({{ '/guides/team-registration/' | relative_url }}) · [Approving Teams]({{ '/guides/team-approvals/' | relative_url }}) · [Divisions]({{ '/guides/divisions/' | relative_url }}).
 
-> **PDF status:** The supplied 14-step setup guide shows the expanded **PR #75 staging wizard**, not confirmed production behaviour. The 30-step tournament-creation and eight-step captain PDFs were used to prepare the focused guides. Follow the controls present in the running application.
+> For screenshots and detailed walkthroughs, use the relevant linked guide. Available setup options may depend on your server's configuration.
 
 ## 1. What Bracket Control does
 
@@ -48,14 +48,14 @@ The public occurrence address follows `/app/g/{guildId}/o/{occurrenceId}/`; appe
 
 ## 3. Organiser: connect and configure a server
 
-1. Sign in, open **Your Discord servers**, choose the correct community and check your current Discord administrator/organiser authority.
-2. Where enabled, open **Complete server setup** or **Open Server Setup**. The merged **Stage 2** wizard uses **Welcome, Channel Configuration, Registered Role, Review Configuration, Apply Configuration, Setup Complete**. It remains controlled by a release flag.
-3. The expanded **Automatic Setup / Manual Setup** flow with complete channel categories, private approvals and optional native support tickets is in **PR #75 (staging only)**. The attached screenshot PDF follows that newer **14-step** flow, not the older six-step version.
-4. Review proposed resources and effective private permissions before approval. Keep **Global Player Registration** (`#tournament-registration`) separate from **Team Registration** (`#team-registration`). A registered-player role is not consent or tournament eligibility.
-5. Apply only the exact approved changes. If interrupted or rate-limited, follow the displayed retry period and **Resume setup** using saved receipts rather than making duplicate channels.
-6. After **Setup Complete**, verify real Discord resources. Open **Server settings**, **Discord Settings (Global)** and division/tournament overrides. Setup itself does not create tournaments or approve players.
+1. Sign in with Discord and open **Your Discord servers**. Select the community you administer and verify that the Bracket Control bot is connected.
+2. If your server shows **Complete server setup** or **Open Server Setup**, open it. Choose the setup method offered on screen, review proposed channel destinations, categories and role settings, then continue to the summary.
+3. Keep **Global Player Registration** (`#tournament-registration`) separate from **Team Registration** (`#team-registration`). The first is for individuals; the second is for captain-led tournament team applications. The registered-player Discord role is not tournament admission.
+4. Verify that pending approvals remain private to authorised staff, that the bot can access the selected channels, and that its role hierarchy is correct. Approve only the configuration you intend to apply.
+5. If an application is interrupted, follow the wizard's saved-plan recovery instructions rather than repeating setup and creating duplicate Discord resources.
+6. After setup, verify your resources in Discord. Open **Server Settings**, **Discord Settings (Global)** and any division or tournament overrides. Completing Discord setup does not create a tournament or approve a team.
 
-**Full screenshot-led procedure:** [Discord setup wizard]({{ '/guides/server-setup/' | relative_url }}).
+For screenshots and a fuller walkthrough, see [Discord server setup]({{ '/guides/server-setup/' | relative_url }}).
 
 ## 4. Organiser: create and schedule a tournament
 
@@ -143,7 +143,7 @@ If a confirmed game was recorded incorrectly, the organiser can use **Confirmed 
 
 ## 10. Organiser: Discord Publisher and announcements
 
-Open the selected event's **Discord** tab or **Edit Discord**. Bracket, Teams and Announcement use event-specific modes such as **Do not publish, Automatic PNG, Manual PNG, Custom Embed** and **Plain Message**, where supported. **PR #42 was merged on 20 October 2026**, restoring default automatic bracket/team PNG publication for eligible new occurrences, ladder PNG and private recap actions, while respecting explicit saved off/manual/custom settings. Confirm the **deployed revision and actual saved publishing mode** rather than presuming defaults.
+Open the selected event's **Discord** tab or **Edit Discord**. Bracket, Teams and Announcement use event-specific modes such as **Do not publish**, **Automatic PNG**, **Manual PNG**, **Custom Embed** and **Plain Message**, where supported. Check the event's current publishing choices and effective destination. Automatic publishing may apply to eligible events, but an explicit saved off/manual/custom choice takes priority.
 
 - **Team roster images:** Publish only approved snapshots; inspect actual PNG text and players before sharing.
 - **Registration messages:** Global legal registration/verification is distinct from tournament captain applications.
@@ -176,7 +176,7 @@ Use an organiser-shared **public tournament URL**. Open **Bracket** for match pr
 | **Game waiting for confirmation** | The reporting captain waits until the opposing captain uses **Confirm game result** or **Dispute game result** in **My Matches**. |
 | **Scores conflict / disputed game** | A game dispute pauses progression. An organiser reviews protected evidence and chooses a reasoned resolution. |
 | **Chrome warning after OAuth** | Do not bypass a browser security warning. Keep the exact host and warning category, omit tokens/codes from screenshots, and report it to the operator for Search Console/redirect/registered callback investigation. |
-| **Discord PNG appears blank** | Pause publishing; verify PNG preview text, deployed fonts, asset/image URLs, bot permissions and pending security PR rollout. Report the exact occurrence/channel to an organiser. |
+| **Discord PNG appears blank** | Pause publishing; verify PNG preview text, image assets and channel permissions. Report the exact tournament and Discord channel to an organiser. |
 | **Discord notices delayed** | Check channel permissions, direct-message privacy, background worker and delivery status. A Discord notification is not the authoritative state. |
 | **Public link returns restricted/empty** | Verify occurrence visibility and organiser-issued link. Public browsing intentionally does not list all communities. |
 | **Need personal-data access/deletion** | Use the verified privacy contact once the operator publishes it. Identity verification is required before protected disclosure. |
@@ -187,17 +187,6 @@ Use an organiser-shared **public tournament URL**. Open **Bracket** for match pr
 - Team names, public display names, approved rosters, match results and standings can be visible publicly, including on Discord. Never put private data into usernames or public announcement fields.
 - Uploaded scoresheets are organiser-only evidence rather than general public content. Automatic 90-day live evidence removal is planned but not yet enabled; lawful holds and backups affect availability/deletion.
 - For help with tournament settings or score disputes, contact your Discord community organiser. The operator must confirm the published privacy/contact address and legal minimum-age rules before an unrestricted launch. The operator must publish a verified privacy, security and legal contact before unrestricted launch.
-- This guide describes the repository's current feature set. Features in security PRs still under release review should be treated as **not confirmed on production** until the team validates the deployed SHA and live behavior.
+- Only use controls available for your server and tournament. For additional instructions, open the matching guide linked above.
 
-## 15. Release notes and verified documentation scope — 29 October 2026
 
-| Feature | Status when this page was updated |
-| --- | --- |
-| Global Player Registration | **PR #67 merged**; separate release flag/actual production state still matters. Separate from team registration. |
-| Base Discord Setup Wizard | **PR #68 merged**, feature-gated; follow the wizard shown in the running app. |
-| Expanded Discord wizard and native Support Tickets | **PR #75 open and staging-only**; 14-step screenshot PDF is *not* production confirmation. |
-| Individual tournament rules acceptance | **PR #69 merged**, separately gated; rules/policy cannot be changed after creation. |
-| Automatic Bracket/Teams PNG and recap actions | **PR #42 merged**; verify deployment and saved per-event overrides. |
-| Simplified wording and cleanup | **PR #72 merged**; screenshot labels may differ from later builds. |
-
-This wiki is maintained against reviewed repository source and the three operator-provided PDFs, **not** an independently verified production SHA. No change to a public guide is proof of live Discord acceptance, legal approval, age-eligibility enforcement or a deployed release. Tier-based skill balancing and automatic Valorant/Fortnite statistics remain future proposals, not current creation controls.
