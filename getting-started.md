@@ -14,7 +14,7 @@ permalink: /getting-started/
 
 **Important:** A Discord member is not necessarily a Bracket Control organiser. Ask your server administrator for an authorised organiser role. The app is **free at launch** and does not handle fees or prizes.
 
-Administrators can follow the [Discord Server Setup guide]({{ '/guides/server-setup/' | relative_url }}). For screenshot-led instructions, open the [three illustrated guides]({{ '/guides/visual-guides/' | relative_url }}). Captains can go straight to [Team Captain Registration]({{ '/guides/team-registration/' | relative_url }}). Global player registration is a separate process from registering a team.
+Administrators can follow the [Discord Server Setup guide]({{ '/assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf' | relative_url }}). For screenshot-led instructions, open the [three illustrated guides]({{ '/guides/visual-guides/' | relative_url }}). Captains can go straight to [Team Captain Registration]({{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }}). Global player registration is a separate process from registering a team.
 
 Continue with the [full guide]({{ '/guides/user-guide/' | relative_url }}) or jump to [captain instructions]({{ '/guides/captains/' | relative_url }}).
 
