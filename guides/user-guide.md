@@ -6,21 +6,19 @@ permalink: /guides/user-guide/
 # Bracket Control — Complete user guide
 **Edition:** 2.2 · **Updated:** 29 October 2026 · **Scope:** Current tournament, registration, game reporting and server-management workflows.
 
-> **Product branding:** The official public product name is **Bracket Control**. The source-code repository retains its technical name `dev-dyly/Bracket-App` for continuity. Navigation wording can vary between mobile and desktop. An administrator must be authorised in the relevant Discord server; signing in alone does not grant admin access.
+> **Access:** The official product name is **Bracket Control**. Navigation can vary between desktop and mobile. Administrators must have permission to manage the selected Discord server; signing in alone does not grant administration rights.
 
-**[View all three illustrated guides — screenshots and downloadable PDFs →]({{ '/guides/visual-guides/' | relative_url }})**
+**[Open all three original PDF guides →]({{ '/guides/visual-guides/' | relative_url }})**
 
-## Illustrated step-by-step guides
+## Illustrated PDF guides
 
-The following three online walkthroughs follow the screenshots and steps in the companion **PDF guides**:
+Each link opens the original document with its screenshots and step-by-step instructions:
 
-1. **[Discord Server Setup — illustrated setup guide]({{ '/guides/server-setup/' | relative_url }})** — connecting the bot, automatic/manual setup, confirming permissions and completing configuration.
-2. **[Creating a Tournament — illustrated tournament guide]({{ '/guides/tournament-creation/' | relative_url }})** — tournament basics, schedules, rules, Discord delivery and final review.
-3. **[Team Captain Registration — illustrated captain guide]({{ '/guides/team-registration/' | relative_url }})** — creating a team, entering starters/substitutes, agreeing to terms and submitting for approval.
+1. [**Discord Server Setup — original PDF (8 pages)**]({{ '/assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf' | relative_url }})
+2. [**Creating Tournaments — original PDF (23 pages)**]({{ '/assets/guides/tournament-creation/Bracket_Control_Tournament_Creation_User_Guide.pdf' | relative_url }})
+3. [**Team Captain Registration — original PDF (8 pages)**]({{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }})
 
 Additional written instructions: [Approving Teams]({{ '/guides/team-approvals/' | relative_url }}) · [Adding and Configuring Divisions]({{ '/guides/divisions/' | relative_url }}).
-
-> For screenshots and detailed walkthroughs, use the relevant linked guide. Available setup options may depend on your server's configuration.
 
 ## 1. What Bracket Control does
 
