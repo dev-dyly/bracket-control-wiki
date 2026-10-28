@@ -11,12 +11,15 @@
 - title: Illustrated guides
   url: /guides/visual-guides/
   top_nav: true
-- title: Discord Setup Wizard
-  url: /guides/server-setup/
-- title: Creating tournaments
-  url: /guides/tournament-creation/
-- title: Team captain registration
-  url: /guides/team-registration/
+- title: Discord Setup Guide (PDF)
+  url: /assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf
+  pdf: true
+- title: Creating Tournaments (PDF)
+  url: /assets/guides/tournament-creation/Bracket_Control_Tournament_Creation_User_Guide.pdf
+  pdf: true
+- title: Team Registration (PDF)
+  url: /assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf
+  pdf: true
 - title: Approving team registrations
   url: /guides/team-approvals/
 - title: Divisions
