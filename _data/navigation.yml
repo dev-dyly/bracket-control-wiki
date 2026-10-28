@@ -94,3 +94,9 @@
   url: /legal/player-notice/
   previous_url: /legal/cookies/
   previous_title: "Cookie Notice"
+  next_url: /legal/support-tickets/
+  next_title: "Support Ticket Privacy Disclosure"
+- title: Support Ticket Privacy Disclosure
+  url: /legal/support-tickets/
+  previous_url: /legal/player-notice/
+  previous_title: "Player Information Notice"
