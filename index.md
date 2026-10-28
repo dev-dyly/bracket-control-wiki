@@ -12,9 +12,9 @@ permalink: /
 - **[Getting started]({{ '/getting-started/' | relative_url }})** — signing in, choosing your Discord server and the app's main navigation.
 - **[Complete user guide]({{ '/guides/user-guide/' | relative_url }})** — every main screen, role and tournament workflow.
 - **[Illustrated guides]({{ '/guides/visual-guides/' | relative_url }})** — direct links to the three screenshot-based walkthroughs for setup, tournament creation and team registration.
-- **[Discord Setup Wizard]({{ '/guides/server-setup/' | relative_url }})** — automatic/manual setup, safe permissions and recovery.
-- **[Creating tournaments]({{ '/guides/tournament-creation/' | relative_url }})** — tournament basics, schedule, locked rules, Discord and final review.
-- **[Team captain registration]({{ '/guides/team-registration/' | relative_url }})** — the eight-step Discord-to-web registration and declaration.
+- **[Discord Setup Wizard]({{ '/assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf' | relative_url }})** — automatic/manual setup, safe permissions and recovery.
+- **[Creating tournaments]({{ '/assets/guides/tournament-creation/Bracket_Control_Tournament_Creation_User_Guide.pdf' | relative_url }})** — tournament basics, schedule, locked rules, Discord and final review.
+- **[Team captain registration]({{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }})** — the eight-step Discord-to-web registration and declaration.
 - **[Approving teams]({{ '/guides/team-approvals/' | relative_url }})** — the staff queue, roster revisions, decisions and readiness.
 - **[Divisions]({{ '/guides/divisions/' | relative_url }})** — add, rank, configure Championships, promotion/relegation and assign teams.
 - **[Organiser guide]({{ '/guides/organisers/' | relative_url }})** — series, divisions, readiness, publishing and administration.
