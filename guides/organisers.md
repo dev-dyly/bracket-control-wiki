@@ -7,7 +7,7 @@ permalink: /guides/organisers/
 
 ## 1. Configure the community
 
-Select **Your Discord servers** and open the applicable [Setup Wizard]({{ '/guides/server-setup/' | relative_url }}) or **Server settings**. The merged Stage 2 wizard is feature-gated; the expanded **14-step automatic/manual wizard and native support tickets are only in open, staging PR #75** at this review. Global Player Registration and Team Registration are separate. Check effective staff-only approval permissions, registered-role hierarchy, timezone and channel overrides before applying. An interrupted setup uses the saved-plan recovery rather than duplicate resource creation.
+Select **Your Discord servers**, then open [Discord Server Setup]({{ '/guides/server-setup/' | relative_url }}) or **Server Settings** as displayed. Keep global player registration separate from captain team registration. Check staff-only approval permissions, registered-role hierarchy, timezone and channel overrides before applying. If setup is interrupted, follow the saved-plan recovery controls rather than creating duplicate resources.
 
 ## 2. Create an event
 
@@ -19,12 +19,11 @@ In **Teams → Approval queue**, filter pending/approved/rejected/withdrawn, ver
 
 ## 4. Run and complete
 
-Use **Seed** to set eligible team placement, then generate when ready. In **Matches**, review **one-file per-game victory reports**, opposing confirmations, disputes, optional evidence and audited corrections. Older legacy match reports still use two files; use logged correction controls when necessary. Double elimination supports the original grand-final reset, and optional placement games can delay event completion.
+Use **Seed** to set eligible team placement, then generate when ready. In **Matches**, review **one-file per-game victory reports**, opposing confirmations, disputes, optional evidence and audited corrections. Use the logged correction controls when a reported game needs to be corrected. Double elimination supports the original grand-final reset, and optional placement games can delay event completion.
 
 ## 5. Discord and divisions
 
-For each event, choose its **Discord** publishing mode and effective channel; explicit saved off/manual/custom settings override automatic defaults. **Automatic bracket/team PNG and private recap actions are in merged PR #42**, not open review, but confirm deployed behaviour and image content before posting. The official winner announcement remains an organiser-approved public action.
+For each event, choose its **Discord** publishing mode and effective channel. Explicit saved off/manual/custom settings override automatic defaults. Confirm the actual preview and saved destination before posting. The official winner announcement remains an organiser-approved public action.
 
 Use [Divisions]({{ '/guides/divisions/' | relative_url }}) to create/rank divisions, select optional eligible recurring Championships, set 1–3 promotions/relegations and record reasoned team moves. Transfers affect future registrations, not past results.
 
-**Release check (29 October 2026):** The 14-step expanded setup/support-ticket screenshot guide is for **staging PR #75**. Stage 1 Global Player Registration and Stage 3 personal tournament rules acceptance are separately controlled; merged source does not by itself prove those switches are active on the production deployment.
