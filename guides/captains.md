@@ -21,4 +21,6 @@ Open **My Matches** (across your captain-owned Discord servers) and choose the f
 
 If selected as a draft captain, follow the web page when it is your turn to pick. Click the button beside an available player; the draft follows **2/1/2/1** and supports passing eligible optional picks. Players stay in the waiting room until selection completes; the bot moves connected assigned participants into temporary team rooms after draft completion in the new workflow.
 
+For the complete screenshot-led team-entry procedure, see [Team captain registration]({{ '/guides/team-registration/' | relative_url }}). **Captain declarations do not count as every teammate's individual acceptance**. If a tournament requires personal rules acceptance, each starter and substitute must complete their own current requirements. Submitted teams remain pending until an organiser approves their roster.
+
 For errors, see [Troubleshooting]({{ '/troubleshooting/' | relative_url }}) and the [complete guide]({{ '/guides/user-guide/' | relative_url }}).
