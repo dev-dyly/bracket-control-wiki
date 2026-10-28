@@ -63,7 +63,7 @@ The public occurrence address follows `/app/g/{guildId}/o/{occurrenceId}/`; appe
 5. If an application is interrupted, follow the wizard's saved-plan recovery instructions rather than repeating setup and creating duplicate Discord resources.
 6. After setup, verify your resources in Discord. Open **Server Settings**, **Discord Settings (Global)** and any division or tournament overrides. Completing Discord setup does not create a tournament or approve a team.
 
-For screenshots and a fuller walkthrough, see [Discord server setup]({{ '/guides/server-setup/' | relative_url }}).
+For screenshots and a fuller walkthrough, see [Discord server setup]({{ '/assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf' | relative_url }}).
 
 ## 4. Organiser: create and schedule a tournament
 
@@ -76,7 +76,7 @@ For screenshots and a fuller walkthrough, see [Discord server setup]({{ '/guides
 7. **Review:** Confirm the permanent lock, check optional per-round game/placement formats, verify all settings and choose **Create tournament** once.
 8. Return to **Dashboard → Manage Tournament**, review registration and readiness, approve teams, set seeds and generate the bracket when eligible. Registration closing alone does not create a bracket.
 
-**Full procedure:** [Creating tournaments]({{ '/guides/tournament-creation/' | relative_url }}) — based on the supplied **30-step, 23-page PDF**.
+**Full procedure:** [Creating tournaments]({{ '/assets/guides/tournament-creation/Bracket_Control_Tournament_Creation_User_Guide.pdf' | relative_url }}) — based on the supplied **30-step, 23-page PDF**.
 
 ### Series versus occurrence changes
 
@@ -92,7 +92,7 @@ Schedule changes to the recurring series differ from changes to one occurrence. 
 4. Choose **Approve** or **Reject**, giving the reason where prompted. Check **Approval history**. A revised roster generally needs reapproval; a previous approved snapshot remains protected.
 5. Recheck event readiness. Attendance, division, capacity, personal global registration and optional tournament-specific player acceptance remain independent conditions. Valid completed draft rosters are approved by their draft workflow.
 
-Read [Team captain registration]({{ '/guides/team-registration/' | relative_url }}) and [Approving teams]({{ '/guides/team-approvals/' | relative_url }}).
+Read [Team captain registration]({{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }}) and [Approving teams]({{ '/guides/team-approvals/' | relative_url }}).
 
 ### Returning teams and weekly confirmation
 
@@ -108,7 +108,7 @@ For recurring fixed teams, choose **New application every week** or **Prefilled 
 6. Use **Edit team members** where available; changes may require reapproval. Withdrawal from one tournament differs from leaving the recurring competition.
 7. Where **Individual Player Acceptance** is required, every listed player must personally satisfy global registration and this event's immutable rules. The captain cannot do it for them.
 
-See the [eight-step screenshot guide]({{ '/guides/team-registration/' | relative_url }}) for each field and declaration.
+See the [eight-step screenshot guide]({{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }}) for each field and declaration.
 
 ## 7. Organiser and captains: draft-pool tournaments
 
