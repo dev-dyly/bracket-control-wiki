@@ -39,4 +39,4 @@ permalink: /troubleshooting/
 For tournament decisions and prize/fee disputes, contact your **Discord community organiser**. For privacy or legal requests, use the operator contact published in the approved policy once available. Do not send passwords or unnecessary private scoresheets.
 
 - **Chrome blocks the OAuth page as unsafe:** Do not bypass the Chrome warning. Record the host/category without sending tokens, state or callback codes; report to the operator. The browser reputation investigation is still unresolved.
-- **Automatic Discord PNG missing:** At the current live baseline, check each occurrence’s saved Teams/Bracket automatic publishing mode. The behaviour depends on the active production release and event configuration; verify saved settings and the deployed version before assuming defaults.
+- **Automatic Discord PNG missing:** Check the tournament's saved Teams/Bracket publishing modes, Discord channel permissions and delivery status. Explicitly disabled or manual publishing does not send images automatically.

@@ -30,4 +30,50 @@ This procedure is based on the eight-page illustrated **Bracket Control Team Reg
 
 **Player not found:** Check the correct Discord account/ID and server membership. **Wrong server or tournament:** Go back before submitting. **Cannot submit:** Check required starters, consent/declaration, open registration and any displayed reason. **Already have a team:** Choose **Update current team** to avoid duplicates. For administrative review, see [Approving teams]({{ '/guides/team-approvals/' | relative_url }}).
 
-**Screenshot source:** *Bracket_Control_Team_Registration_User_Guide.pdf* (8 pages, supplied by the documentation owner). Images remain in the companion PDF.
+
+
+## Illustrated walkthrough — 8 pages
+
+**[Download Team Captain Registration PDF]({{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }})** · [All illustrated guides]({{ '/guides/visual-guides/' | relative_url }})
+
+The original guide pages are displayed below so you can follow the screenshots without opening a separate file.
+
+<figure class="illustrated-page" id="illustration-01">
+  <img src="{{ '/assets/guides/team-registration/page-01.jpg' | relative_url }}" alt="Team Captain Registration: illustrated page 1 of 8, showing application screenshots and instructions" fetchpriority="high" decoding="async" width="1440">
+  <figcaption>Team Captain Registration — illustrated guide page 1 of 8</figcaption>
+</figure>
+
+<figure class="illustrated-page" id="illustration-02">
+  <img src="{{ '/assets/guides/team-registration/page-02.jpg' | relative_url }}" alt="Team Captain Registration: illustrated page 2 of 8, showing application screenshots and instructions" loading="lazy" decoding="async" width="1440">
+  <figcaption>Team Captain Registration — illustrated guide page 2 of 8</figcaption>
+</figure>
+
+<figure class="illustrated-page" id="illustration-03">
+  <img src="{{ '/assets/guides/team-registration/page-03.jpg' | relative_url }}" alt="Team Captain Registration: illustrated page 3 of 8, showing application screenshots and instructions" loading="lazy" decoding="async" width="1440">
+  <figcaption>Team Captain Registration — illustrated guide page 3 of 8</figcaption>
+</figure>
+
+<figure class="illustrated-page" id="illustration-04">
+  <img src="{{ '/assets/guides/team-registration/page-04.jpg' | relative_url }}" alt="Team Captain Registration: illustrated page 4 of 8, showing application screenshots and instructions" loading="lazy" decoding="async" width="1440">
+  <figcaption>Team Captain Registration — illustrated guide page 4 of 8</figcaption>
+</figure>
+
+<figure class="illustrated-page" id="illustration-05">
+  <img src="{{ '/assets/guides/team-registration/page-05.jpg' | relative_url }}" alt="Team Captain Registration: illustrated page 5 of 8, showing application screenshots and instructions" loading="lazy" decoding="async" width="1440">
+  <figcaption>Team Captain Registration — illustrated guide page 5 of 8</figcaption>
+</figure>
+
+<figure class="illustrated-page" id="illustration-06">
+  <img src="{{ '/assets/guides/team-registration/page-06.jpg' | relative_url }}" alt="Team Captain Registration: illustrated page 6 of 8, showing application screenshots and instructions" loading="lazy" decoding="async" width="1440">
+  <figcaption>Team Captain Registration — illustrated guide page 6 of 8</figcaption>
+</figure>
+
+<figure class="illustrated-page" id="illustration-07">
+  <img src="{{ '/assets/guides/team-registration/page-07.jpg' | relative_url }}" alt="Team Captain Registration: illustrated page 7 of 8, showing application screenshots and instructions" loading="lazy" decoding="async" width="1440">
+  <figcaption>Team Captain Registration — illustrated guide page 7 of 8</figcaption>
+</figure>
+
+<figure class="illustrated-page" id="illustration-08">
+  <img src="{{ '/assets/guides/team-registration/page-08.jpg' | relative_url }}" alt="Team Captain Registration: illustrated page 8 of 8, showing application screenshots and instructions" loading="lazy" decoding="async" width="1440">
+  <figcaption>Team Captain Registration — illustrated guide page 8 of 8</figcaption>
+</figure>

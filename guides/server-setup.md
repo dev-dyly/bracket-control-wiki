@@ -19,9 +19,9 @@ permalink: /guides/server-setup/
 
 ## Automatic setup — illustrated walkthrough
 
-The accompanying eight-page administrator PDF shows these **14 steps** with genuine test-server screenshots:
+The illustrated setup PDF shows these **14 steps**, with screenshots:
 
-1. Open the production app and sign in (**PDF p. 1**).
+1. Open the Bracket Control app and sign in (**PDF p. 1**).
 2. Select **Your Discord servers** (**p. 2**).
 3. Open **Complete server setup** for the connected server (**p. 2**).
 4. Select **Automatic Setup** (**p. 3**). Preparing choices does not change Discord.
@@ -38,7 +38,7 @@ The accompanying eight-page administrator PDF shows these **14 steps** with genu
 
 **Important:** Automatic setup creates or reuses resources **only after** the final reviewed confirmation. Existing compatible channels keep their original locations and permissions. Private approvals must remain inaccessible to ordinary players, regardless of the chosen support role.
 
-## Manual setup — when the option is available
+## Manual setup
 
 1. Choose **Manual Setup** on the method screen.
 2. Create and permission the desired channels/categories yourself inside Discord first.
@@ -47,10 +47,6 @@ The accompanying eight-page administrator PDF shows these **14 steps** with genu
 5. Review the exact mapping and consequences, confirm, apply and verify. If interrupted, resume the saved plan rather than starting over.
 
 If Support Tickets are turned off, they should not require an optional support category/channel or panel publication. Existing support resources are preserved rather than deleted by that choice.
-
-## Alternative setup screens
-
-Some communities have a shorter wizard with **Welcome → Channel Configuration → Registered Role → Review Configuration → Apply Configuration → Setup Complete**. It may offer **Custom Setup** rather than **Manual Setup**. Choose only the controls actually shown; do not attempt to complete optional fields that your screen does not offer.
 
 
 ## After setup
@@ -61,8 +57,54 @@ Review **Server Management → Discord Settings (Global)** and your division/tou
 
 - **Bot role warning:** Correct the role order in Discord and then resume the saved setup.
 - **Rate limit / retry-after:** Observe the exact displayed waiting period. Never clear receipts or create duplicate channels to bypass a cooldown.
-- **No setup button:** The server may already be configured, setup may not be available for your server, or your account may lack organiser permissions.
+- **No setup button:** Confirm the server is connected and you are signed in with an authorised administrator account.
 - **Unexpected public staff channel:** Stop and verify staff/private channel permission overwrites before publishing.
 - **Missing registration panel:** Confirm which of the two distinct registration messages was explicitly selected for publication.
 
-**Illustrated reference:** *Bracket Control Discord Server Setup Guide* (8 pages). This online procedure follows the original PDF screenshots and labels. [See all three illustrated guides]({{ '/guides/visual-guides/' | relative_url }}).
+
+
+## Illustrated walkthrough — 8 pages
+
+**[Download Discord Server Setup PDF]({{ '/assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf' | relative_url }})** · [All illustrated guides]({{ '/guides/visual-guides/' | relative_url }})
+
+The original guide pages are displayed below so you can follow the screenshots without opening a separate file.
+
+<figure class="illustrated-page" id="illustration-01">
+  <img src="{{ '/assets/guides/server-setup/page-01.jpg' | relative_url }}" alt="Discord Server Setup: illustrated page 1 of 8, showing application screenshots and instructions" fetchpriority="high" decoding="async" width="1440">
+  <figcaption>Discord Server Setup — illustrated guide page 1 of 8</figcaption>
+</figure>
+
+<figure class="illustrated-page" id="illustration-02">
+  <img src="{{ '/assets/guides/server-setup/page-02.jpg' | relative_url }}" alt="Discord Server Setup: illustrated page 2 of 8, showing application screenshots and instructions" loading="lazy" decoding="async" width="1440">
+  <figcaption>Discord Server Setup — illustrated guide page 2 of 8</figcaption>
+</figure>
+
+<figure class="illustrated-page" id="illustration-03">
+  <img src="{{ '/assets/guides/server-setup/page-03.jpg' | relative_url }}" alt="Discord Server Setup: illustrated page 3 of 8, showing application screenshots and instructions" loading="lazy" decoding="async" width="1440">
+  <figcaption>Discord Server Setup — illustrated guide page 3 of 8</figcaption>
+</figure>
+
+<figure class="illustrated-page" id="illustration-04">
+  <img src="{{ '/assets/guides/server-setup/page-04.jpg' | relative_url }}" alt="Discord Server Setup: illustrated page 4 of 8, showing application screenshots and instructions" loading="lazy" decoding="async" width="1440">
+  <figcaption>Discord Server Setup — illustrated guide page 4 of 8</figcaption>
+</figure>
+
+<figure class="illustrated-page" id="illustration-05">
+  <img src="{{ '/assets/guides/server-setup/page-05.jpg' | relative_url }}" alt="Discord Server Setup: illustrated page 5 of 8, showing application screenshots and instructions" loading="lazy" decoding="async" width="1440">
+  <figcaption>Discord Server Setup — illustrated guide page 5 of 8</figcaption>
+</figure>
+
+<figure class="illustrated-page" id="illustration-06">
+  <img src="{{ '/assets/guides/server-setup/page-06.jpg' | relative_url }}" alt="Discord Server Setup: illustrated page 6 of 8, showing application screenshots and instructions" loading="lazy" decoding="async" width="1440">
+  <figcaption>Discord Server Setup — illustrated guide page 6 of 8</figcaption>
+</figure>
+
+<figure class="illustrated-page" id="illustration-07">
+  <img src="{{ '/assets/guides/server-setup/page-07.jpg' | relative_url }}" alt="Discord Server Setup: illustrated page 7 of 8, showing application screenshots and instructions" loading="lazy" decoding="async" width="1440">
+  <figcaption>Discord Server Setup — illustrated guide page 7 of 8</figcaption>
+</figure>
+
+<figure class="illustrated-page" id="illustration-08">
+  <img src="{{ '/assets/guides/server-setup/page-08.jpg' | relative_url }}" alt="Discord Server Setup: illustrated page 8 of 8, showing application screenshots and instructions" loading="lazy" decoding="async" width="1440">
+  <figcaption>Discord Server Setup — illustrated guide page 8 of 8</figcaption>
+</figure>
