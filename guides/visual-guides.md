@@ -5,54 +5,35 @@ permalink: /guides/visual-guides/
 ---
 # Illustrated user guides
 
-**See real application screenshots, follow numbered instructions, or download the PDF for any of these three workflows.** Each online guide displays every page of its companion illustrated document.
+Open the **original Bracket Control PDF guides** below. Each document includes its own screenshots and step-by-step instructions.
 
-## 1. Discord Server Setup
-
-Connect your Discord server, configure channels and registration, check permissions and complete setup.
-
-<div class="illustrated-guide-card">
-  <a href="{{ '/guides/server-setup/' | relative_url }}" aria-label="Open Discord Server Setup illustrated online guide">
-    <img src="{{ '/assets/guides/server-setup/page-01.jpg' | relative_url }}" loading="lazy" decoding="async" alt="Preview of the Discord Server Setup illustrated guide showing the real Bracket Control interface">
-  </a>
-  <div class="illustrated-guide-actions">
-    <a href="{{ '/guides/server-setup/' | relative_url }}">View screenshots and instructions →</a>
-    <a href="{{ '/assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf' | relative_url }}">Download PDF (8 pages)</a>
-  </div>
+<div class="pdf-guide-list">
+  <article class="pdf-guide-card">
+    <div>
+      <p class="pdf-guide-kicker">ADMINISTRATOR GUIDE · 8 PAGES</p>
+      <h2>Discord Server Setup</h2>
+      <p>Configure the Discord bot, channels, roles and registration destinations.</p>
+    </div>
+    <a class="pdf-guide-link" href="{{ '/assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open original Discord Server Setup PDF">Open PDF ↗</a>
+  </article>
+  <article class="pdf-guide-card">
+    <div>
+      <p class="pdf-guide-kicker">TOURNAMENT GUIDE · 23 PAGES</p>
+      <h2>Creating Tournaments</h2>
+      <p>Create tournaments, set schedules, divisions, rules and Discord publishing.</p>
+    </div>
+    <a class="pdf-guide-link" href="{{ '/assets/guides/tournament-creation/Bracket_Control_Tournament_Creation_User_Guide.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open original Creating Tournaments PDF">Open PDF ↗</a>
+  </article>
+  <article class="pdf-guide-card">
+    <div>
+      <p class="pdf-guide-kicker">CAPTAIN GUIDE · 8 PAGES</p>
+      <h2>Team Captain Registration</h2>
+      <p>Register a team, choose players and submit the roster for approval.</p>
+    </div>
+    <a class="pdf-guide-link" href="{{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer" aria-label="Open original Team Captain Registration PDF">Open PDF ↗</a>
+  </article>
 </div>
 
-## 2. Creating Tournaments
+## Additional documentation
 
-Create a tournament, set schedules and registration windows, configure divisions, rules and Discord destinations.
-
-<div class="illustrated-guide-card">
-  <a href="{{ '/guides/tournament-creation/' | relative_url }}" aria-label="Open Creating Tournaments illustrated online guide">
-    <img src="{{ '/assets/guides/tournament-creation/page-01.jpg' | relative_url }}" loading="lazy" decoding="async" alt="Preview of the Creating Tournaments illustrated guide showing the real Bracket Control interface">
-  </a>
-  <div class="illustrated-guide-actions">
-    <a href="{{ '/guides/tournament-creation/' | relative_url }}">View screenshots and instructions →</a>
-    <a href="{{ '/assets/guides/tournament-creation/Bracket_Control_Tournament_Creation_User_Guide.pdf' | relative_url }}">Download PDF (23 pages)</a>
-  </div>
-</div>
-
-## 3. Team Captain Registration
-
-Register a team from Discord, add starters and substitutes, review required declarations and submit for approval.
-
-<div class="illustrated-guide-card">
-  <a href="{{ '/guides/team-registration/' | relative_url }}" aria-label="Open Team Captain Registration illustrated online guide">
-    <img src="{{ '/assets/guides/team-registration/page-01.jpg' | relative_url }}" loading="lazy" decoding="async" alt="Preview of the Team Captain Registration illustrated guide showing the real Bracket Control interface">
-  </a>
-  <div class="illustrated-guide-actions">
-    <a href="{{ '/guides/team-registration/' | relative_url }}">View screenshots and instructions →</a>
-    <a href="{{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }}">Download PDF (8 pages)</a>
-  </div>
-</div>
-
-## Other documentation
-
-- [Complete User Guide]({{ '/guides/user-guide/' | relative_url }})
-- [Approving Team Registrations]({{ '/guides/team-approvals/' | relative_url }})
-- [Adding and Configuring Divisions]({{ '/guides/divisions/' | relative_url }})
-
-Only the current workflow is documented. If controls differ for your server, check your authorised configuration or ask your tournament administrator.
+For searchable instructions without screenshots, see the [Complete User Guide]({{ '/guides/user-guide/' | relative_url }}). You can also use the [Approving Team Registrations]({{ '/guides/team-approvals/' | relative_url }}) and [Divisions]({{ '/guides/divisions/' | relative_url }}) guides.
