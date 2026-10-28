@@ -53,4 +53,4 @@ When creating the tournament, select **Division (optional)** in **Basics**, as s
 - **Delete empty division:** Only unused, empty divisions can be deleted. Preserve associated membership/history rather than deleting to force a transfer.
 - **Channel delivery appears wrong:** Check tournament/series overrides before changing global or division defaults.
 
-See [Creating tournaments]({{ '/guides/tournament-creation/' | relative_url }}) and [Approving teams]({{ '/guides/team-approvals/' | relative_url }}).
+See [Creating tournaments]({{ '/assets/guides/tournament-creation/Bracket_Control_Tournament_Creation_User_Guide.pdf' | relative_url }}) and [Approving teams]({{ '/guides/team-approvals/' | relative_url }}).
