@@ -8,7 +8,15 @@ permalink: /guides/user-guide/
 
 > **Product branding:** The official public product name is **Bracket Control**. The source-code repository retains its technical name `dev-dyly/Bracket-App` for continuity. Navigation wording can vary between mobile and desktop. An administrator must be authorised in the relevant Discord server; signing in alone does not grant admin access.
 
-**Quick access to the five illustrated/operational workflows:** [Discord Setup Wizard]({{ '/guides/server-setup/' | relative_url }}) · [Creating Tournaments]({{ '/guides/tournament-creation/' | relative_url }}) · [Captain Team Registration]({{ '/guides/team-registration/' | relative_url }}) · [Approving Teams]({{ '/guides/team-approvals/' | relative_url }}) · [Divisions]({{ '/guides/divisions/' | relative_url }}).
+## Illustrated step-by-step guides
+
+The following three online walkthroughs follow the screenshots and steps in the companion **PDF guides**:
+
+1. **[Discord Server Setup — illustrated setup guide]({{ '/guides/server-setup/' | relative_url }})** — connecting the bot, automatic/manual setup, confirming permissions and completing configuration.
+2. **[Creating a Tournament — illustrated tournament guide]({{ '/guides/tournament-creation/' | relative_url }})** — tournament basics, schedules, rules, Discord delivery and final review.
+3. **[Team Captain Registration — illustrated captain guide]({{ '/guides/team-registration/' | relative_url }})** — creating a team, entering starters/substitutes, agreeing to terms and submitting for approval.
+
+Additional written instructions: [Approving Teams]({{ '/guides/team-approvals/' | relative_url }}) · [Adding and Configuring Divisions]({{ '/guides/divisions/' | relative_url }}).
 
 > For screenshots and detailed walkthroughs, use the relevant linked guide. Available setup options may depend on your server's configuration.
 
