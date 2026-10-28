@@ -4,7 +4,7 @@ title: Complete user guide
 permalink: /guides/user-guide/
 ---
 # Bracket Control — Complete user guide
-**Edition:** 2.0 / documentation review · **Updated:** 29 October 2026 · **Source baseline:** Bracket-App main `d9839b2`. Production revision was not independently confirmed. Expanded Discord setup/support tickets (PR #75) remain unmerged and staging-only.
+**Edition:** 2.1 / current fixture workflows · **Updated:** 29 October 2026 · **Source baseline:** Bracket-App main `d9839b2`. Production revision was not independently confirmed. Expanded Discord setup/support tickets (PR #75) remain unmerged and staging-only.
 
 > **Product branding:** The official public product name is **Bracket Control**. The source-code repository retains its technical name `dev-dyly/Bracket-App` for continuity. Navigation wording can vary between mobile and desktop. An administrator must be authorised in the relevant Discord server; signing in alone does not grant admin access.
 
@@ -35,7 +35,7 @@ You need a Discord account meeting Discord's applicable age rules, membership in
 | **Home** | Introduction, Browse Tournaments and Manage Your Tournaments |
 | **Dashboard** | Selected server's tournament cards, create/edit series, active events, schedules and history; organiser-only controls |
 | **Notifications** | Organiser queue of pending roster applications, disputed games and other deployed administrator actions; badge indicates outstanding items |
-| **My Matches** | Captain assignments across verified hosting servers, prioritising opponent confirmation and open games; each new game uses a one-file victory report. |
+| **My Matches** | Captain assignments across verified hosting servers, prioritising opponent confirmation and open games; each reported game victory uses one scoresheet. |
 | **My Teams** | Verified captains' continuing team memberships, invitations and captaincy requests; administrators have a separate **Team management** view |
 | **Server Management** | Expand to find **Server Settings**, **Team management**, **Announcements**, **Divisions** and **Discord Settings (Global)** |
 | **Top bar: Bracket / Ladder / Match Results** | Public views for the **currently selected tournament**; links are disabled until one is selected |
@@ -106,7 +106,7 @@ See the [eight-step screenshot guide]({{ '/guides/team-registration/' | relative
 
 1. In Discord, organisers configure a **Draft Waiting Room** voice channel and create a draft tournament. Anyone wishing to enter the free-agent pool joins that waiting room; selected captains are explicitly excluded from the free-agent pool.
 2. The organiser opens the event's **Captain Selection** tab, adds or verifies captains in the server-scoped registry, and selects the intended captains using **checkboxes**. The selected team names can be edited in **Teams**. The registry persists across draft events and keeps deactivated-captain history.
-3. For a **new-workflow** draft, selecting captains creates a private **Draft Captains** voice room. Selected captains are moved/allowed there; other players remain in the waiting room. Existing/legacy draft occurrences retain their original workflow rather than being silently converted.
+3. Selecting captains creates a private **Draft Captains** voice room. Selected captains are moved/allowed there; other players remain in the waiting room.
 4. The organiser opens **Live Draft** and starts the draft when registration, captains and free-agent pool are ready. Captains use their own authenticated **captain web portal** to choose an available player by clicking the button beside their name—**not** drag-and-drop and **no voice draft call is required**.
 5. Picks proceed in the existing **2 / 1 / 2 / 1** sequence. The system reserves enough free agents for other captains' required starters. Once the initial five are complete, captains can **PASS REMAINING OPTIONAL PICKS** if applicable. The UI shows whose turn it is.
 6. After all valid picks/passes, the app records/approves the finished rosters and creates private **Team {captain}** voice channels, moving *connected* assigned participants from managed rooms to their team's room. Disconnected players retain assignment and can be moved when they return to the waiting room. The organiser may supervise and use logged administrative overrides.
@@ -125,25 +125,19 @@ Voice presence is used for pool management; it is not an audio recording service
 
 ### Correcting, disputing or replaying a game
 
-For newly generated **game-based** fixtures, a winning captain reports each individual game's victory, attaching one scoresheet. The opposing captain **confirms** the winner or **disputes** with a reason. A dispute stops that game and requires an authorised organiser decision in **Matches → Game reports and disputes**. The opposing captain can supply one optional dispute document.
+For **game-based fixtures**, a winning captain reports each individual game's victory, attaching one scoresheet. The opposing captain **confirms** the winner or **disputes** with a reason. A dispute stops that game and requires an authorised organiser decision in **Matches → Game reports and disputes**. The opposing captain can supply one optional dispute document.
 
 If a confirmed game was recorded incorrectly, the organiser can use **Confirmed and corrected games** to preview a reasoned correction, attach optional evidence, review downstream impact and approve required consequential changes. Correction history is append-only; previously confirmed games and original scorecards are retained. A corrected BO3 may reopen 2–0 to 1–1, and voided downstream matches require new replay fixtures rather than silent score edits. The Bracket, standings and historical Discord result publications follow the effective confirmed game history. Restricted match evidence must never be posted publicly.
 
-**Legacy matches** retain the older match-level reporting form and correction contract. Follow the form displayed for the specific fixture; do not attempt to use old score-entry fields on a new game-based fixture.
-
 ## 9. Captain: report games, confirm results and upload evidence
 
-### Newer matches — individual game reporting (Phase 12)
+### Report and confirm individual games
 
 1. Sign in using the correct Discord captain account. Open **My Matches** in the sidebar (or `/app/my-matches`) to see assignments **across your eligible servers**; opponent confirmation requests appear first. Select the right tournament and open match. Registration does **not** need to be open for an authorised captain to report an active match.
 2. For each game your team **won**, select **Report Game Victory**, attach **exactly one** PNG/JPEG/WebP/PDF scoresheet (**up to 10 MB**), then submit. A losing captain must not report a game victory.
 3. The opposing captain reviews the displayed winner and secure evidence. Select **Confirm game result** (no second upload needed), or enter a reason and select **Dispute game result**. A dispute pauses progression; the opponent can optionally upload **one supporting scoresheet**.
 4. The winner/series progress updates only after confirmation or an authorised administrator resolution. Continue through the required BO1/BO3/BO5/BO7 game wins. Confirmed results drive bracket advancement, Discord scorecard publication and Grand Final/reset progression.
 5. If a game is wrong after confirmation, ask an organiser to use the protected correction/impact-preview workflow. Do not submit a fabricated victory to compensate for a mistake.
-
-### Existing legacy matches — two-file match reports
-
-Some older fixtures retain **SUBMIT MATCH REPORT** with series score fields. On those older fixtures **each reporting captain attaches two scoresheets**, each PNG/JPEG/WebP/PDF up to **10 MB**. Matching captain reports can confirm the series; disagreements require organiser review. This is a compatibility workflow **only**; it is not the upload procedure for newly generated game-based matches.
 
 **Evidence privacy:** game documents are available only through authorised captain/organiser controls. The app preserves original/corrected game evidence for audit and uses planned retention rules; evidence is not a public image gallery.
 
@@ -174,11 +168,11 @@ Use an organiser-shared **public tournament URL**. Open **Bracket** for match pr
 | --- | --- |
 | **Server missing** | Signed into correct Discord account? Is Bracket Control bot/server integration active? Do you actually belong to the hosting server? Use the server chooser, then retry. |
 | **Administrator access required** | An authorised server administrator/organiser must grant the relevant role. Discord sign-in by itself is insufficient. |
-| **Captain link denies access** | Use the account currently verified as captain, remain in the hosting server, and follow the latest event link. Rotated legacy links may be invalid. |
+| **Captain link denies access** | Use the account currently verified as captain, remain in the hosting server, and follow the current event link. Expired or replaced links may be invalid. |
 | **Cannot confirm this week** | Registration window may be closed, attendance already expired/withdrawn, or a division/rollover hold blocks the team. Ask an organiser; reopening alone does not confirm. |
 | **Roster approved but not in bracket** | Also check attendance, division, capacity, deadline, current revision and readiness. |
 | **Waiting-room member not moved** | Check that the bot has Discord voice permissions, the member is connected in a managed room, and the draft is at the relevant stage. Moves retry on voice/worker reconciliation. |
-| **Scoresheet upload rejected** | For a new game victory: **one** file; for a legacy match report: **two**. Check PNG/JPEG/WebP/PDF format, each up to 10 MB, match state, current captain permission and upload admission limits. Renaming an invalid file does not make it valid. |
+| **Scoresheet upload rejected** | For each game victory, upload **one** PNG/JPEG/WebP/PDF scoresheet up to **10 MB**. Check the match state, current captain permission and upload limits. Renaming an invalid file does not make it valid. |
 | **Game waiting for confirmation** | The reporting captain waits until the opposing captain uses **Confirm game result** or **Dispute game result** in **My Matches**. |
 | **Scores conflict / disputed game** | A game dispute pauses progression. An organiser reviews protected evidence and chooses a reasoned resolution. |
 | **Chrome warning after OAuth** | Do not bypass a browser security warning. Keep the exact host and warning category, omit tokens/codes from screenshots, and report it to the operator for Search Console/redirect/registered callback investigation. |
