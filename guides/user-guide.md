@@ -4,9 +4,13 @@ title: Complete user guide
 permalink: /guides/user-guide/
 ---
 # Bracket Control — Complete user guide
-**Edition:** 1.1 / release review · **Updated:** 20 October 2026 · **Baseline:** GitHub main `4406ee7` (PR #40 merged); deployed production SHA must be checked independently. PRs #27, #28 and #42 are not documented as live.
+**Edition:** 2.0 / documentation review · **Updated:** 29 October 2026 · **Source baseline:** Bracket-App main `d9839b2`. Production revision was not independently confirmed. Expanded Discord setup/support tickets (PR #75) remain unmerged and staging-only.
 
 > **Product branding:** The official public product name is **Bracket Control**. The source-code repository retains its technical name `dev-dyly/Bracket-App` for continuity. Navigation wording can vary between mobile and desktop. An administrator must be authorised in the relevant Discord server; signing in alone does not grant admin access.
+
+**Quick access to the five illustrated/operational workflows:** [Discord Setup Wizard]({{ '/guides/server-setup/' | relative_url }}) · [Creating Tournaments]({{ '/guides/tournament-creation/' | relative_url }}) · [Captain Team Registration]({{ '/guides/team-registration/' | relative_url }}) · [Approving Teams]({{ '/guides/team-approvals/' | relative_url }}) · [Divisions]({{ '/guides/divisions/' | relative_url }}).
+
+> **PDF status:** The supplied 14-step setup guide shows the expanded **PR #75 staging wizard**, not confirmed production behaviour. The 30-step tournament-creation and eight-step captain PDFs were used to prepare the focused guides. Follow the controls present in the running application.
 
 ## 1. What Bracket Control does
 
@@ -44,60 +48,59 @@ The public occurrence address follows `/app/g/{guildId}/o/{occurrenceId}/`; appe
 
 ## 3. Organiser: connect and configure a server
 
-1. Sign in with a server account that can manage tournaments. At **Your Discord servers**, select your server and open **Server settings**.
-2. Check the hosting server, organisers/roles and IANA timezone. Correct timezone and registration deadlines are vital for recurring events and daylight-saving transitions.
-3. In **Server Management → Discord Settings (Global)**, select bot channels for **Registration, Teams, Pending/Approval, Bracket, Standings, Results** and, if relevant, **Voice**. The bot must see and post to those channels; check Discord permissions and hierarchy in Discord itself.
-4. Understand precedence: an individual tournament may override its series/division settings, which can override a server default. Inspect the channel preview before saving. Publishing mode and its saved destination may also override a channel default.
-5. Go to **Announcements** to prepare general community announcements or result recaps. General announcements are server-wide; a tournament recap can use event placeholders. Preview content and channel before posting.
-6. Go to **Divisions** to establish ladder order and qualifying series. Set automatic promotions (top 1–3, if enabled), optional relegations (bottom 1–3, if enabled), and any explicit overrides. Only qualifying completed series count for movement.
+1. Sign in, open **Your Discord servers**, choose the correct community and check your current Discord administrator/organiser authority.
+2. Where enabled, open **Complete server setup** or **Open Server Setup**. The merged **Stage 2** wizard uses **Welcome, Channel Configuration, Registered Role, Review Configuration, Apply Configuration, Setup Complete**. It remains controlled by a release flag.
+3. The expanded **Automatic Setup / Manual Setup** flow with complete channel categories, private approvals and optional native support tickets is in **PR #75 (staging only)**. The attached screenshot PDF follows that newer **14-step** flow, not the older six-step version.
+4. Review proposed resources and effective private permissions before approval. Keep **Global Player Registration** (`#tournament-registration`) separate from **Team Registration** (`#team-registration`). A registered-player role is not consent or tournament eligibility.
+5. Apply only the exact approved changes. If interrupted or rate-limited, follow the displayed retry period and **Resume setup** using saved receipts rather than making duplicate channels.
+6. After **Setup Complete**, verify real Discord resources. Open **Server settings**, **Discord Settings (Global)** and division/tournament overrides. Setup itself does not create tournaments or approve players.
 
-**Discord permissions:** Core bot abilities include viewing and sending messages, reading channels, attaching images, managing its created voice channels and moving members when used. The newer private Draft Captains room also needs **Manage Roles** for permission overwrites; ensure View Channel, Connect, Move Members, Manage Channels and View Audit Log as documented for the server. The bot is not given privileged member Gateway intents simply to power the workflow.
+**Full screenshot-led procedure:** [Discord setup wizard]({{ '/guides/server-setup/' | relative_url }}).
 
 ## 4. Organiser: create and schedule a tournament
 
-1. In **Dashboard**, choose the correct **Server**, then use the create tournament/series action.
-2. Decide whether this is a **standalone** occurrence, a **weekly recurring series**, a **division/ladder competition**, or a **draft tournament**. Standalone and recurring series have independent history and scheduling; draft results do not automatically change normal division standings.
-3. Choose the series and event name, starts-at date/time, server timezone, registration open/close window and approved-team capacity (the event settings UI supports **2–16** teams).
-4. Choose a bracket type in the event editor: **Double elimination**, **Single elimination** or **Round robin**. New game-based matches can use BO1, BO3, BO5 or BO7 where the configuration supports that choice; review the exact format available in the event UI by bracket phase (winners, losers, grand final and round robin). If desired, enable additional placement-tiebreak matches (through 4th/8th/16th) for elimination events.
-5. Open the specific tournament card → **Manage Tournament**. Its tab bar is **Overview · Teams · Matches · Seed · Discord · Settings**; draft events also add **Captain Selection** and **Live Draft**.
-6. In **Settings**, inspect public visibility, schedule, registration status, capacity, formats and optional channel overrides. Save event-specific settings while editing is allowed. **Open registration** or **Close registration** explicitly; do not assume a planned schedule has executed if the background worker is paused.
-7. Check the **Overview** for readiness and next steps. A bracket is generated only after actual eligibility checks pass—creating an event does not generate a bracket automatically.
+1. Select your server → **Dashboard → + Create tournament**.
+2. **Basics:** Enter a **Tournament name**, choose a **Bracket format** (double elimination, single elimination or round robin), **Maximum approved teams** (**2–16**), an optional **Division**, whether this is a captain-draft event and whether it repeats weekly.
+3. Optionally select **Require Individual Player Acceptance**. It is off by default and separately feature-gated. Where enabled, **every listed captain, starter and substitute personally accepts**; a captain declaration and administrator approval do not replace that action.
+4. **Schedule:** Set the **Tournament timezone** before day/time entry, **Every** weekday for recurring events, **Start time**, **Registration opens**, **Close registration (minutes before start)** and **How teams return each week** (**New application every week** / **Prefilled roster; captain must check in**).
+5. **Tournament Rules:** Enter and preview rules (mandatory if requiring individual acceptance). **Rules and individual-acceptance policy are permanently locked at creation**; their later change requires an authorised cancellation/replacement, preserving old evidence.
+6. **Discord:** Verify destinations inherited from server/division and choose optional series overrides. Creating the tournament is not itself a public bracket/announcement send.
+7. **Review:** Confirm the permanent lock, check optional per-round game/placement formats, verify all settings and choose **Create tournament** once.
+8. Return to **Dashboard → Manage Tournament**, review registration and readiness, approve teams, set seeds and generate the bracket when eligible. Registration closing alone does not create a bracket.
 
-### Event-specific and series-wide changes
+**Full procedure:** [Creating tournaments]({{ '/guides/tournament-creation/' | relative_url }}) — based on the supplied **30-step, 23-page PDF**.
 
-A series schedule creates or coordinates future occurrences; event **Settings** change only the selected occurrence. Changes to an already completed series, historical rosters or locked event may be intentionally restricted. Use **Cancel occurrence** instead of deleting an event when you need to preserve its registration and result history; destructive actions may be blocked if dependent records exist. Use **Cancel Tournament** to cancel the selected occurrence (including permitted active/locked events); use **End Recurring Tournament Schedule** to stop future scheduling. Ending a schedule does not automatically cancel an already active occurrence. Protected **Delete / Archive** actions retain history and can be blocked by dependent records. A one-time cancellation is different from stopping all future weekly creation.
+### Series versus occurrence changes
+
+Schedule changes to the recurring series differ from changes to one occurrence. **Cancel Tournament** preserves the selected event's protected history; **End Recurring Tournament Schedule** stops future scheduling but does not automatically cancel an already-active occurrence. Tournament rules and individual participation policy cannot be edited after creation.
 
 ## 5. Organiser: fixed teams, approval, confirmation and rollover
 
-### First-time registration
+### First-time registration and approval
 
-1. Open the event **Teams** tab. Registrations can originate from a **Discord registration invitation** (captain signs in and applies) or from an administrator's manual team entry tools.
-2. Teams ordinarily have **five starters**, one of whom is captain, plus **up to two optional substitutes**. Names, Discord identity and relevant hosting-server membership are checked; unverified membership may prevent a submission.
-3. Use the **approval queue** with filters **Pending / Approved / Rejected / Withdrawn / All**. Compare this week with the previous roster. Approve or reject each required revision. View the roster's approval history for audit context.
-4. If a roster changes, a new revision can require approval. An unapproved replacement should **not** overwrite a previously approved roster in public posts. Do not publish roster PNGs until SEC-003 release checks are complete.
+1. Publish an authorised **team-registration invitation** in Discord or provide the secure registration link. The global player-registration message is separate.
+2. The captain submits a team name, five starters (including themselves), up to two substitutes and a required **captain declaration**. It is **not independent acceptance by teammates**.
+3. Open **Manage Tournament → Teams → Approval queue**. Filter **pending / approved / rejected / withdrawn / all**, compare the current revision and **Previous completed week**, and inspect verified captain/roster identities.
+4. Choose **Approve** or **Reject**, giving the reason where prompted. Check **Approval history**. A revised roster generally needs reapproval; a previous approved snapshot remains protected.
+5. Recheck event readiness. Attendance, division, capacity, personal global registration and optional tournament-specific player acceptance remain independent conditions. Valid completed draft rosters are approved by their draft workflow.
 
-### Returning recurring teams — canonical Option B (merged PR #40)
+Read [Team captain registration]({{ '/guides/team-registration/' | relative_url }}) and [Approving teams]({{ '/guides/team-approvals/' | relative_url }}).
 
-1. For a recurring fixed-team series, choose either **carry-over** or **manual** registration policy. A team with a **current, valid approved roster and verified captain** can establish membership in that specific recurring series; **two completed past weeks are no longer a requirement**. Team identity and membership are scoped to the series rather than automatically merged across every division ladder.
-2. Under **carry-over**, eligible approved roster evidence prepares future occurrences without requiring a previously completed source match. The next week's entry begins **pending captain attendance confirmation**; no automatic confirmation is carried forward. Under **manual**, the captain must make a fresh weekly application, although an unchanged prior approval may be reused where valid.
-3. A captain must still choose **CONFIRM PARTICIPATION** for each relevant occurrence before its deadline. An unchanged approved roster can inherit approval; a changed roster or changed captain may need new review. Confirming attendance never overrides a separate roster or Division hold.
-4. In **Teams → Review & Resolve**, investigate current requirements, restrictions, captain identity, ambiguous historical enrollment intent and destination Division/series placement. The former bulk **Review recurring enrollment** activation and cross-series merge workflow have been retired. They must **not** be used as current setup instructions.
-5. Promotions/relegations still use qualifying completed Championship results when configured. Genuine unsettled Championship placement can hold future Division placement; an ordinary unfinished tournament does not block membership solely for being unfinished. If a Division transfer leaves multiple possible recurring destination series, an organiser must explicitly choose one using the versioned authorised control.
-6. Captains can **WITHDRAW FROM THIS TOURNAMENT** without ending their permanent membership, or separately **LEAVE RECURRING COMPETITION** to stop future automatic entry. Administrator restrictions and explicit opt-outs are not cancelled by a later approval or background retry.
+### Returning teams and weekly confirmation
 
-**Do not infer a failed enrollment from an old error message.** The current review screen uses actionable reason codes and current restrictions. Check your selected series, captain identity, roster approval, weekly attendance and Division placement before bracket generation.
+For recurring fixed teams, choose **New application every week** or **Prefilled roster; captain must check in** at creation. An unchanged, safely carried approved roster may retain approval, but the captain must **CONFIRM PARTICIPATION** for each week. Changed rosters/captaincy may need fresh review. Check **Teams → Review & Resolve** for identity/division holds. **WITHDRAW FROM THIS TOURNAMENT** skips only that occurrence; **LEAVE RECURRING COMPETITION** stops future automatic entries. Historical rosters/results remain preserved.
 
 ## 6. Captain: registration, participation and rosters
 
-1. Follow the registration invitation or open your private team page. Sign in with **your own Discord account** and remain a member of the hosting server. A private link locates a team, but does **not** bypass captain identity or guild membership.
-2. For a new team, complete the registration form with your team name, Discord identity, five starters (captain first) and optionally two substitutes; submit before registration closes. The organiser may need to approve it.
-3. For a recurring team, open **My Teams** or the tournament's captain page. Review your upcoming **division, date, deadline**, **Attendance** and **Roster Approval** indicators. Select **CONFIRM PARTICIPATION** when you will compete. Merely opening the page **does not confirm you**.
-4. If you cannot attend a particular week, use **WITHDRAW FROM THIS TOURNAMENT** and confirm it. This preserves your recurring membership and historical records, but may require an organiser to reinstate you for that week.
-5. To stop automatic entry permanently, use **LEAVE RECURRING COMPETITION** (a distinct confirmation). Ask an organiser about joining again; never assume an expired confirmation is reactivated by reopening registration.
-6. Under **Your Registered Lineup**, choose **Edit team members** while roster editing is open. Keep five starters including yourself and up to two substitutes. Save; ordinary changed rosters become pending administrator review. You can view an existing approved roster separately.
-7. When changing captaincy, use the supported **My Teams** transfer workflow. The proposed captain must accept from their own Discord account; organisers review/approve as required. Only verified identity transfers are valid. Retirement is separate from losing a single match or declining one week.
+1. Open **#team-registration** in the correct Discord community, then choose **Create a new team** or **Update current team**. Sign in as the actual captain and check server/tournament.
+2. Enter **Team name**, your five-person starting lineup and up to two optional substitutes. Search for the correct Discord accounts or use **Enter Discord User ID** where necessary.
+3. Expand **Review proposed roster before submission**. Read **Terms**, **Privacy Policy**, **Player Information Notice** and tournament rules. Make the captain declaration only if its conditions are accurate.
+4. Select **Register Team**; submission is **pending administrator approval**, not acceptance into the bracket.
+5. For a recurring team, open **My Teams**, check the next event and **CONFIRM PARTICIPATION** for that occurrence before its deadline. Roster approval, attendance and enrollment are distinct.
+6. Use **Edit team members** where available; changes may require reapproval. Withdrawal from one tournament differs from leaving the recurring competition.
+7. Where **Individual Player Acceptance** is required, every listed player must personally satisfy global registration and this event's immutable rules. The captain cannot do it for them.
 
-**Important:** Confirmation, roster approval and enrollment are **three separate statuses**. Always check all three before the cutoff. Your team can stay in the database and still be excluded from this week's bracket.
+See the [eight-step screenshot guide]({{ '/guides/team-registration/' | relative_url }}) for each field and declaration.
 
 ## 7. Organiser and captains: draft-pool tournaments
 
@@ -146,19 +149,20 @@ Some older fixtures retain **SUBMIT MATCH REPORT** with series score fields. On 
 
 ## 10. Organiser: Discord Publisher and announcements
 
-Open a specific event → **Discord** or use the event's **Edit Discord** action. The publisher separates **Bracket**, **Teams** and **Announcement** content for that occurrence. For each, set a mode such as **Do not publish**, **Automatic PNG**, **Manual PNG**, **Custom Embed** or **Plain Message**, as offered by that content type. Confirm the target channel and preview and then publish/re-sync as appropriate. **Current production/main baseline:** Bracket/Teams automatic PNG publishing is configured per occurrence, and absent publishing settings can mean **off**. The restoration of **automatic-by-default publication for new eligible fixed-team/bracket occurrences**, along with series ladder PNGs and completion-to-recap admin reminders, is in **open PR #42** and is **not live until separately merged and deployed**. Explicit manual/off/custom settings continue to take priority. Do not tell organisers the PR #42 defaults are already running.
+Open the selected event's **Discord** tab or **Edit Discord**. Bracket, Teams and Announcement use event-specific modes such as **Do not publish, Automatic PNG, Manual PNG, Custom Embed** and **Plain Message**, where supported. **PR #42 was merged on 20 October 2026**, restoring default automatic bracket/team PNG publication for eligible new occurrences, ladder PNG and private recap actions, while respecting explicit saved off/manual/custom settings. Confirm the **deployed revision and actual saved publishing mode** rather than presuming defaults.
 
-- **Registration invitations:** Discord posts may link directly to the registration form. Staff and captains need correct membership permissions; a public invitation does not provide organiser access.
-- **Team images:** Include approved roster content only. The October 2026 production release still requires confirmation that image fonts render and SEC-003 snapshots are deployed.
-- **Bracket images and links:** Tournament posts provide the associated live public bracket link where publishing is permitted. If the preview is blank or Discord image text is missing, stop publication and ask staff to verify server fonts and the current deployment; a successful send acknowledgement does not prove visible text.
-- **Announcements and recaps:** The **post-tournament official winner recap remains an organiser-approved manual action**. Open **Server Management → Announcements → Post-tournament recap**, select the completed occurrence, check winners/rosters and send explicitly. PR #42 adds a persistent in-app **Create announcement** action and a **private staff-channel reminder**, not an automatic public champion post; treat that new action as pending release. Draft custom embed or plain text, select destination and preview mention behavior. Post-completion recap templates may use `{tournament}`, `{winner}`, `{runner_up}`, `{winner_roster}`, `{runner_up_roster}`, `{final_scores}`, `{placements}`, `{server}`, `{bracket_url}`, `{standings_url}`, `{results_url}`. Current queued legacy recaps may need review/requeue after approved-roster security changes.
-- **Delivery monitoring:** Game scorecards and corrections use durable, immutable-aware publication receipts. Ambiguous Discord sends require safe receipt reconciliation, not blind duplicate resends. Discord message IDs are retained for update rather than duplicate posts, with retries and **Force Re-sync** where provided. Discord outages and changed permissions can defer delivery.
+- **Team roster images:** Publish only approved snapshots; inspect actual PNG text and players before sharing.
+- **Registration messages:** Global legal registration/verification is distinct from tournament captain applications.
+- **Post-event recap:** Organiser reviews and approves the official public winner announcement. Reminders/actions do not automatically publish champions.
+- **Delivery:** Safe receipt reconciliation prevents blind duplicate sends; a Discord 429 or missing image text needs diagnosis, not repetitive sending.
 
-## 11. Organiser: promotion, standings, history and team management
+## 11. Organiser: divisions, promotion and team management
 
-In **Server Management → Divisions**, review each qualifying series and its promotion/relegation rules. After eligible completed weeks, standings calculate ladder movement and can notify affected captains privately. Teams missing recent competitions may be placed at the bottom or marked inactive according to the configured history rules. Use audited overrides only when you understand their effect on future rollover. Draft/side events do not automatically change the qualifying ladder.
+In **Server Management → Divisions**, choose **Create a division**, enter its name and optionally set Discord channel overrides. Under **Division rules**, use **Move up/Move down** to rank divisions, select an optional recurring non-draft **Division Championship series**, choose **Automatic promotion/relegation** (**1–3 teams** each) and decide whether to post updates to the effective results channel. **Save rules**; changing an established Championship requires explicit reason and confirmation.
 
-In **Team management / My Teams (admin)**, verify captain ownership, accept or manage transfer/retirement requests, investigate ambiguous historical identities and handle per-server team memberships. In **Dashboard**, inspect completed tournament history, results and past schedules. Historic results may persist even when a team skips the next occurrence. Do not confuse tournament deletion with team retirement or permanent enrollment withdrawal.
+Under **Team memberships**, first enter **Division override reason**, find the team and select its new Division. Transfers apply to **future** registrations; they do not rewrite historical rosters/brackets/results. Review **Recent team transfers** and unresolved holds before readiness. Draft and unrelated events do not automatically affect qualifying ladders.
+
+**Complete procedure:** [Adding and configuring divisions]({{ '/guides/divisions/' | relative_url }}). Separately use **Team management** to handle captain ownership, transfer/retirement and reusable memberships.
 
 ## 12. Spectators: viewing tournaments without an organiser account
 
@@ -191,11 +195,15 @@ Use an organiser-shared **public tournament URL**. Open **Bracket** for match pr
 - For help with tournament settings or score disputes, contact your Discord community organiser. The operator must confirm the published privacy/contact address and legal minimum-age rules before an unrestricted launch. The operator must publish a verified privacy, security and legal contact before unrestricted launch.
 - This guide describes the repository's current feature set. Features in security PRs still under release review should be treated as **not confirmed on production** until the team validates the deployed SHA and live behavior.
 
-## 15. What's not live yet / October release notes
+## 15. Release notes and verified documentation scope — 29 October 2026
 
-- **Discord PNG and recap release status:** Teams image behaviour changed after the documented baseline; other automatic publishing and administrative recap features may be staged. Check the current deployed release and per-occurrence settings rather than assuming review-only features are live.
-- **PR #27 / PR #28:** coordinated evidence validation/orphan recovery/operator-hold authority and approved-only public roster projection remain **under release review**. The user guide describes the intended security behavior, not a sign-off that every guard is deployed.
-- **Chrome OAuth unsafe-site warning:** separate unresolved investigation; application callback checks passed within tested scope but the Chrome warning was not explained or cleared. Users should not bypass a live interstitial.
-- **Security issues #16–18:** supported Node runtime, PostgreSQL backup remote checksum verification and browser CSP/frame protections require tracked verification.
-- **Production evidence:** prior live tests passed Discord captain sign-in, match access, scoresheet submissions, BO3 confirmation, Discord results, advancement and champion declaration; remaining live administrator cancellation, publication rendering and the above issues must still be checked.
-- **Future proposal only:** the tier balancing idea (maximum two A-tier players or one A-tier plus one S-tier) has not been built or activated.
+| Feature | Status when this page was updated |
+| --- | --- |
+| Global Player Registration | **PR #67 merged**; separate release flag/actual production state still matters. Separate from team registration. |
+| Base Discord Setup Wizard | **PR #68 merged**, feature-gated; follow the wizard shown in the running app. |
+| Expanded Discord wizard and native Support Tickets | **PR #75 open and staging-only**; 14-step screenshot PDF is *not* production confirmation. |
+| Individual tournament rules acceptance | **PR #69 merged**, separately gated; rules/policy cannot be changed after creation. |
+| Automatic Bracket/Teams PNG and recap actions | **PR #42 merged**; verify deployment and saved per-event overrides. |
+| Simplified wording and cleanup | **PR #72 merged**; screenshot labels may differ from later builds. |
+
+This wiki is maintained against reviewed repository source and the three operator-provided PDFs, **not** an independently verified production SHA. No change to a public guide is proof of live Discord acceptance, legal approval, age-eligibility enforcement or a deployed release. Tier-based skill balancing and automatic Valorant/Fortnite statistics remain future proposals, not current creation controls.

@@ -11,6 +11,13 @@ permalink: /troubleshooting/
 - **Admin access denied:** Discord login is not sufficient. Ask the server owner to check your role and configured organiser permissions.
 - **Captain link denied:** Use the account that owns that team, maintain server membership and use the current event link. Old private links may have been rotated.
 
+## Discord setup wizard
+
+- **No setup option or different screen from the PDF:** The base Stage 2 wizard is feature-gated. The 14-step full automatic/manual wizard with optional native support tickets comes from **PR #75 staging**, not confirmed production. Use the current screen shown for your server.
+- **Discord role-hierarchy warning:** Move the bot role *above* the zero-permission **Bracket Control Registered** role when prompted; do not move unrelated roles blindly. Review/resume the saved plan.
+- **Discord 429 / rate-limit waiting:** Observe the displayed wait and resume the saved plan afterwards. Avoid retry storms or creating replacement channels while receipts are pending.
+- **Registration sent to wrong channel:** **Global Player Registration** and **Team Registration** are separate destinations and procedures. Verify global/server/division/tournament channel overrides.
+
 ## Registration and bracket
 
 - **Cannot confirm:** Registration may be closed; your entry may have expired, been withdrawn or placed under a roster/division hold. Ask the organiser. Reopening doesn't automatically confirm an expired entry.

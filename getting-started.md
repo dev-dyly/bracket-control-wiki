@@ -14,6 +14,8 @@ permalink: /getting-started/
 
 **Important:** A Discord member is not necessarily a Bracket Control organiser. Ask your server administrator for an authorised organiser role. The app is **free at launch** and does not handle fees or prizes.
 
+Administrators needing first-time Discord configuration should start with the [Setup Wizard guide]({{ '/guides/server-setup/' | relative_url }}). Its 14-step illustrated workflow is currently a **staging-only PR #75** example; follow the setup method actually enabled for your server. Captains can go straight to the [team-registration guide]({{ '/guides/team-registration/' | relative_url }}). Player-wide registration is a separate process from registering a team.
+
 Continue with the [full guide]({{ '/guides/user-guide/' | relative_url }}) or jump to [captain instructions]({{ '/guides/captains/' | relative_url }}).
 
 ## Captain matches
