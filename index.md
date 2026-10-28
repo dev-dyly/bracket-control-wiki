@@ -11,7 +11,8 @@ permalink: /
 
 - **[Getting started]({{ '/getting-started/' | relative_url }})** — signing in, choosing your Discord server and the app's main navigation.
 - **[Complete user guide]({{ '/guides/user-guide/' | relative_url }})** — every main screen, role and tournament workflow.
-- **[Discord Setup Wizard]({{ '/guides/server-setup/' | relative_url }})** — automatic setup, safe permissions and recovery (expanded PDF workflow currently staging-only).
+- **[Illustrated guides]({{ '/guides/visual-guides/' | relative_url }})** — direct links to the three screenshot-based walkthroughs for setup, tournament creation and team registration.
+- **[Discord Setup Wizard]({{ '/guides/server-setup/' | relative_url }})** — automatic/manual setup, safe permissions and recovery.
 - **[Creating tournaments]({{ '/guides/tournament-creation/' | relative_url }})** — tournament basics, schedule, locked rules, Discord and final review.
 - **[Team captain registration]({{ '/guides/team-registration/' | relative_url }})** — the eight-step Discord-to-web registration and declaration.
 - **[Approving teams]({{ '/guides/team-approvals/' | relative_url }})** — the staff queue, roster revisions, decisions and readiness.
