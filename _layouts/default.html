@@ -10,23 +10,16 @@
 </head>
 <body>
 {% assign chapters = site.data.navigation %}
+{% assign current_chapter = nil %}
 {% assign reading_total = 0 %}
 {% assign reading_number = nil %}
-{% assign previous_reading_chapter = nil %}
-{% assign next_reading_chapter = nil %}
-{% assign last_reading_chapter = nil %}
-{% assign passed_current = false %}
 {% for chapter in chapters %}
   {% unless chapter.pdf %}
     {% assign reading_total = reading_total | plus: 1 %}
     {% if chapter.url == page.url %}
+      {% assign current_chapter = chapter %}
       {% assign reading_number = reading_total %}
-      {% assign previous_reading_chapter = last_reading_chapter %}
-      {% assign passed_current = true %}
-    {% elsif passed_current and next_reading_chapter == nil %}
-      {% assign next_reading_chapter = chapter %}
     {% endif %}
-    {% assign last_reading_chapter = chapter %}
   {% endunless %}
 {% endfor %}
 <a class="skip" href="#content">Skip to content</a>
@@ -66,15 +59,15 @@
 
     {{ content }}
 
-    {% if reading_number != nil %}
+    {% if current_chapter != nil %}
       <nav class="guide-pager" aria-label="Previous and next documentation pages">
-        {% if previous_reading_chapter != nil %}
-          <a class="pager-link pager-previous" rel="prev" href="{{ previous_reading_chapter.url | relative_url }}"><span class="pager-kicker">← Previous</span><strong>{{ previous_reading_chapter.title | escape }}</strong></a>
+        {% if current_chapter.previous_url %}
+          <a class="pager-link pager-previous" rel="prev" href="{{ current_chapter.previous_url | relative_url }}"><span class="pager-kicker">← Previous</span><strong>{{ current_chapter.previous_title | escape }}</strong></a>
         {% else %}
           <span class="pager-placeholder" aria-hidden="true"></span>
         {% endif %}
-        {% if next_reading_chapter != nil %}
-          <a class="pager-link pager-next" rel="next" href="{{ next_reading_chapter.url | relative_url }}"><span class="pager-kicker">Next →</span><strong>{{ next_reading_chapter.title | escape }}</strong></a>
+        {% if current_chapter.next_url %}
+          <a class="pager-link pager-next" rel="next" href="{{ current_chapter.next_url | relative_url }}"><span class="pager-kicker">Next →</span><strong>{{ current_chapter.next_title | escape }}</strong></a>
         {% else %}
           <a class="pager-link pager-next" href="{{ '/' | relative_url }}"><span class="pager-kicker">Finished ✓</span><strong>Back to Home</strong></a>
         {% endif %}
