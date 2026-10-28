@@ -11,15 +11,13 @@ Open your organiser's registration invite, sign in with the **correct Discord ac
 
 A change to a previously approved roster needs fresh approval. **WITHDRAW FROM THIS TOURNAMENT** skips only that event; **LEAVE RECURRING COMPETITION** stops future automatic entry. Retired teams and historical results are managed separately.
 
-## Report and confirm games (new matches)
+## Report and confirm games
 
 Open **My Matches** (across your captain-owned Discord servers) and choose the fixture. If **your team won a game**, click **Report Game Victory** and upload **one PNG/JPEG/WebP/PDF scoresheet, up to 10 MB**. The opposing captain checks the secure evidence and selects **Confirm game result**; confirmation needs **no new upload**. To challenge it, enter a reason and select **Dispute game result**; one supporting file is optional. Disputed games wait for an organiser, and confirmed games can be corrected through an audited administrator process.
 
-**Legacy match reports are different:** an older **SUBMIT MATCH REPORT** form can still ask **each captain for two scoresheets**. Follow the visible form; do not upload two files to the new per-game form.
-
 ## Draft event
 
-If selected as a draft captain, follow the web page when it is your turn to pick. Click the button beside an available player; the draft follows **2/1/2/1** and supports passing eligible optional picks. Players stay in the waiting room until selection completes; the bot moves connected assigned participants into temporary team rooms after draft completion in the new workflow.
+If selected as a draft captain, follow the web page when it is your turn to pick. Click the button beside an available player; the draft follows **2/1/2/1** and supports passing eligible optional picks. Players stay in the waiting room until selection completes; the bot moves connected assigned participants into temporary team rooms after draft completion.
 
 For the complete screenshot-led team-entry procedure, see [Team captain registration]({{ '/guides/team-registration/' | relative_url }}). **Captain declarations do not count as every teammate's individual acceptance**. If a tournament requires personal rules acceptance, each starter and substitute must complete their own current requirements. Submitted teams remain pending until an organiser approves their roster.
 
