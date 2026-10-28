@@ -1,33 +1,24 @@
 ---
-layout: default
-title: Team captain registration
+layout: null
+title: Team Captain Registration
 permalink: /guides/team-registration/
 ---
-# Team captain: register a team
-
-> **Original illustrated guide:** [Open the Team Captain Registration PDF (8 pages)]({{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }}) — includes the original screenshots and numbered instructions.
-
-**For:** Captains entering a fixed-team tournament · **Reviewed:** 29 October 2026.
-
-This procedure is based on the eight-page illustrated **Bracket Control Team Registration User Guide**. It follows the **Discord team-registration invitation → authenticated Bracket Control form → administrator review** workflow.
-
-1. **Open Discord** with the account you intend to use as captain. Enter the community hosting the event (**PDF p. 2**).
-2. Open the **#team-registration** text channel. This is **not** the separate global **#tournament-registration** / Player Registration channel (**p. 2**).
-3. In the event's invitation, choose **Create a new team**. Use **Update current team** instead if you are editing an already registered team; do not create a duplicate (**p. 3**).
-4. Sign in to Bracket Control with the correct Discord account, confirm the selected server/tournament and enter **Team name**. The signed-in captain account is shown in the form (**p. 4**).
-5. Fill the **starting lineup**: the captain and the remaining starters (normally **five starters total**). Search by Discord username/display name; when necessary select **Enter Discord User ID**. Verify that each selected result is the right person (**p. 5**).
-6. Add **optional substitutes** (up to two) using the same search/ID workflow, or leave optional fields blank. Expand **Review proposed roster before submission** to check every captain, starter and substitute (**p. 6**).
-7. Open the **Terms of Service, Privacy Policy, Player Information Notice and tournament rules**. Make the required captain declaration only after sharing applicable documents with teammates and confirming the stated conditions (**p. 7**). **This checkbox records the captain's statement; it is not an individual acceptance from each teammate.**
-8. Select **Register Team** when the form is valid (**p. 8**). The resulting application must be **reviewed and approved by administrators**; submission is **not** approval.
-
-### After you submit
-
-- Open the registration page or **My Teams** to check **Pending / Approved / Rejected / Withdrawn** and any recorded reason.
-- Edit or resubmit a roster only through the supported workflow while registration remains open. Changed team membership may need **fresh approval**.
-- For recurring events, confirm participation **for each week**; roster approval alone is insufficient.
-- If the tournament requires **Individual Player Acceptance**, each named player must separately complete their own global registration and the specific event's immutable rules acceptance. The captain declaration does **not** satisfy that requirement.
-- A registered/approved team may still be held out of the bracket by attendance, division, deadline or individual-clearance checks.
-
-### Problems?
-
-**Player not found:** Check the correct Discord account/ID and server membership. **Wrong server or tournament:** Go back before submitting. **Cannot submit:** Check required starters, consent/declaration, open registration and any displayed reason. **Already have a team:** Choose **Update current team** to avoid duplicates. For administrative review, see [Approving teams]({{ '/guides/team-approvals/' | relative_url }}).
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex">
+  <meta http-equiv="refresh" content="0;url={{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }}">
+  <title>Opening Team Captain Registration PDF</title>
+  <style>body{margin:0;min-height:100vh;display:grid;place-items:center;background:#0b0e1b;color:#e8efff;font:16px/1.5 system-ui,sans-serif}main{padding:24px;text-align:center;max-width:36rem}a{color:#54d8f7;font-weight:700}</style>
+  <script>window.location.replace("{{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }}");</script>
+</head>
+<body>
+  <main>
+    <h1>Team Captain Registration</h1>
+    <p>Open the original illustrated PDF with its screenshots and instructions.</p>
+    <p><a href="{{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }}">Open Team Captain Registration PDF &rarr;</a></p>
+  </main>
+</body>
+</html>
