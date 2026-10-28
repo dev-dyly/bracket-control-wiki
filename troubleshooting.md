@@ -9,11 +9,11 @@ permalink: /troubleshooting/
 
 - **Server is missing:** Make sure you are using the expected Discord account, belong to the hosting server and the bot is connected. Return to **Your Discord servers** and reselect it.
 - **Admin access denied:** Discord login is not sufficient. Ask the server owner to check your role and configured organiser permissions.
-- **Captain link denied:** Use the account that owns that team, maintain server membership and use the current event link. Old private links may have been rotated.
+- **Captain link denied:** Use the account that owns that team, maintain server membership and use the current event link. Use the latest link supplied by the organiser.
 
 ## Discord setup wizard
 
-- **No setup option or different screen from the PDF:** The base Stage 2 wizard is feature-gated. The 14-step full automatic/manual wizard with optional native support tickets comes from **PR #75 staging**, not confirmed production. Use the current screen shown for your server.
+- **No setup option or different screen from the guide:** The available wizard can vary between servers. Follow the options shown and ask the server administrator if you lack access.
 - **Discord role-hierarchy warning:** Move the bot role *above* the zero-permission **Bracket Control Registered** role when prompted; do not move unrelated roles blindly. Review/resume the saved plan.
 - **Discord 429 / rate-limit waiting:** Observe the displayed wait and resume the saved plan afterwards. Avoid retry storms or creating replacement channels while receipts are pending.
 - **Registration sent to wrong channel:** **Global Player Registration** and **Team Registration** are separate destinations and procedures. Verify global/server/division/tournament channel overrides.
@@ -26,7 +26,7 @@ permalink: /troubleshooting/
 
 ## Match evidence
 
-- **Upload fails:** For **new per-game victory reports**, upload **one** allowed file (10 MB max). For an older **legacy match report**, each captain supplies **two** files (10 MB max each). A file extension alone doesn't guarantee a safe file.
+- **Upload fails:** For each game victory report, upload **one** PNG/JPEG/WebP/PDF file (up to 10 MB). Check the game state and permissions. An extension change cannot make an invalid file safe.
 - **Result is disputed:** The opponent challenged a reported game winner. An authorised organiser must review evidence and resolve the game. The opponent can optionally upload supporting evidence.
 
 ## Discord

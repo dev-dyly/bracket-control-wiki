@@ -8,6 +8,9 @@
 - title: Complete user guide
   url: /guides/user-guide/
   top_nav: true
+- title: Illustrated guides
+  url: /guides/visual-guides/
+  top_nav: true
 - title: Discord Setup Wizard
   url: /guides/server-setup/
 - title: Creating tournaments
