@@ -7,7 +7,7 @@ permalink: /guides/divisions/
 
 Divisions let your community group teams by competitive level. For example, you might have **Division 1** and **Division 2**.
 
-You do **not** need to create a third division just because you want to run a Division 2 tournament. Your tournament organiser should choose the division that fits the event and follow any requirements shown in the app.
+Many communities use just **Division 1** and **Division 2**. Choose the divisions you need and follow any guidance shown in Bracket Control when setting up or entering a tournament.
 
 ## 1. Create a division
 
