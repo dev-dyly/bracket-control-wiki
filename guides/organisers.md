@@ -9,6 +9,14 @@ permalink: /guides/organisers/
 
 Select **Your Discord servers**, then open [Discord Server Setup]({{ '/assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf' | relative_url }}) or **Server Settings** as displayed. Keep global player registration separate from captain team registration. Check staff-only approval permissions, registered-role hierarchy, timezone and channel overrides before applying. If setup is interrupted, follow the saved-plan recovery controls rather than creating duplicate resources.
 
+### Recommended privacy configuration: one-time player registration
+
+**Before allowing anyone to participate in a Bracket Control-managed tournament, ask every player—including captains, starters, substitutes and draft players—to complete [Global Player Registration](https://app.devdylnz.com/app/register) through your server's `#tournament-registration` channel.** Players sign in with Discord, review the Terms of Service, Privacy Policy and Player Information Notice, and record their own acknowledgement or acceptance. Use your actual configured registration channel if it has a different name.
+
+**This registration is completed once across participating Bracket Control communities and tournaments.** Players do not need to register again for each tournament or server, unless the required documents change and renewed acceptance is requested. In a new server, an already registered player can use **Verify Registration** in that server's registration message to receive its **Bracket Control Registered** role, where configured.
+
+Global registration supports informed participation and privacy transparency, but does **not** automatically enter a player into a tournament, approve a team, determine eligibility or accept a host's tournament rules. Continue to manage those requirements separately. See [Complete user guide — recommended privacy configuration]({{ '/guides/user-guide/' | relative_url }}#recommended-privacy-configuration-one-time-player-registration).
+
 ## 2. Create an event
 
 Follow [Creating tournaments]({{ '/assets/guides/tournament-creation/Bracket_Control_Tournament_Creation_User_Guide.pdf' | relative_url }}): **Dashboard → + Create tournament → Basics → Schedule → Tournament Rules → Discord → Review**. Set format and approved-team cap (2–16), optional division and recurrence, registration dates/timezone, and applicable personal-acceptance policy. **Tournament rules and individual acceptance are permanently locked once created**, so review before confirming. After creation, use **Manage Tournament** for registration, teams, seeds and readiness.
