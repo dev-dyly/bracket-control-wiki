@@ -89,7 +89,7 @@ The opposing captain may still need to confirm it. Open **My Matches** to check 
 
 **Browser warns that a page is unsafe?** Do not bypass the warning. Tell the Bracket Control operator which page and warning you saw, but do not share passwords or sign-in details.
 
-For team entry, match decisions or tournament rules, contact **your Discord community organiser**.
+For team entry, match decisions or tournament rules, contact **your Discord community organiser**. If your server has a **Support Tickets** message, you can use it to ask for help privately. You can check any available past tickets through **My Support Tickets** in your profile.
 
 For privacy questions or requests about your data, read the [Privacy Policy]({{ '/legal/privacy/' | relative_url }}) for the contact information and next steps.
 
