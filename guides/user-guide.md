@@ -196,7 +196,7 @@ To show someone a tournament, use the **Share** or **Copy link** option provided
 - **Public information:** Team names, approved player lists and tournament results may be visible on the website or in Discord. Do not put personal contact information in public team names or messages.
 - **Scoresheets:** Upload only the match evidence needed for your tournament. Do not share another person's private information unnecessarily.
 - **Age requirements:** Bracket Control's current policy is for ages 13 and over; Discord and your local rules may also apply.
-- **Tournament questions:** Contact the organisers of your Discord community.
+- **Tournament questions:** Contact the organisers of your Discord community. If your server offers **Support Tickets**, use its Discord support message to open a private ticket. You can find your available ticket history under **My Support Tickets** in your Bracket Control profile. Tickets are only available where the organiser has enabled them.
 - **Privacy questions:** Read the [Privacy Policy]({{ '/legal/privacy/' | relative_url }}) and [Player Information Notice]({{ '/legal/player-notice/' | relative_url }}), including their contact details.
 
 If something is not working, open [Troubleshooting]({{ '/troubleshooting/' | relative_url }}).
