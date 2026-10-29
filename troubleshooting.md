@@ -5,38 +5,92 @@ permalink: /troubleshooting/
 ---
 # Troubleshooting
 
-## Login or permissions
+Having trouble with Bracket Control? Find the problem below and try the suggested steps.
 
-- **Server is missing:** Make sure you are using the expected Discord account, belong to the hosting server and the bot is connected. Return to **Your Discord servers** and reselect it.
-- **Admin access denied:** Discord login is not sufficient. Ask the server owner to check your role and configured organiser permissions.
-- **Captain link denied:** Use the account that owns that team, maintain server membership and use the current event link. Use the latest link supplied by the organiser.
+## Signing in and finding your server
 
-## Discord setup wizard
+### I can't see my Discord server
 
-- **No setup option or different screen from the guide:** The available wizard can vary between servers. Follow the options shown and ask the server administrator if you lack access.
-- **Discord role-hierarchy warning:** Move the bot role *above* the zero-permission **Bracket Control Registered** role when prompted; do not move unrelated roles blindly. Review/resume the saved plan.
-- **Discord 429 / rate-limit waiting:** Observe the displayed wait and resume the saved plan afterwards. Avoid retry storms or creating replacement channels while receipts are pending.
-- **Registration sent to wrong channel:** **Global Player Registration** and **Team Registration** are separate destinations and procedures. Verify global/server/division/tournament channel overrides.
+Make sure you signed in with the correct Discord account and that you belong to the server. Ask your server administrator to check that Bracket Control is connected.
 
-## Registration and bracket
+### I can't open the organiser dashboard
 
-- **Cannot confirm:** Registration may be closed; your entry may have expired, been withdrawn or placed under a roster/division hold. Ask the organiser. Reopening doesn't automatically confirm an expired entry.
-- **Not in the bracket:** Approved roster, confirmed weekly attendance, division/rollover eligibility, capacity and readiness must all pass.
-- **Cannot edit seeds:** The tournament might already be locked or entries may be ineligible. Review **Overview → readiness**.
+Signing in does not automatically make you an organiser. Ask the server owner to check your permissions.
 
-## Match evidence
+### My captain link doesn't work
 
-- **Upload fails:** For each game victory report, upload **one** PNG/JPEG/WebP/PDF file (up to 10 MB). Check the game state and permissions. An extension change cannot make an invalid file safe.
-- **Result is disputed:** The opponent challenged a reported game winner. An authorised organiser must review evidence and resolve the game. The opponent can optionally upload supporting evidence.
+Use the Discord account that belongs to the team's captain and open the latest link shared by the organiser. Make sure you are still a member of the hosting server.
 
-## Discord
+## Player and team registration
 
-- **PNG in Discord has blank text:** Pause publishing, check the image preview and report the event/channel. The release operator must verify the deployed font assets, runtime font availability, PNG cache and public approved-roster safeguards.
-- **Notices or voice moves delayed:** Check server and bot permissions, message delivery worker, voice-room occupancy and member connectivity. Discord API outages may defer actions; the web UI remains the place to verify status.
+### Do I need to register for every tournament?
 
-## Still need help?
+**No.** Global Player Registration is usually completed once for all participating Bracket Control communities. You may need to review updated privacy documents later.
 
-For tournament decisions and prize/fee disputes, contact your **Discord community organiser**. For privacy or legal requests, use the operator contact published in the approved policy once available. Do not send passwords or unnecessary private scoresheets.
+You **do** still need to enter a team for each tournament, and returning teams may need to check in each week.
 
-- **Chrome blocks the OAuth page as unsafe:** Do not bypass the Chrome warning. Record the host/category without sending tokens, state or callback codes; report to the operator. The browser reputation investigation is still unresolved.
-- **Automatic Discord PNG missing:** Check the tournament's saved Teams/Bracket publishing modes, Discord channel permissions and delivery status. Explicitly disabled or manual publishing does not send images automatically.
+### I can't see Global Player Registration
+
+Ask your organiser whether it is enabled. If it is available, open [Player Registration](https://app.devdylnz.com/app/register) and sign in with Discord.
+
+### Why aren't I in the bracket?
+
+Your team might still need approval, a weekly check-in or another registration step. Ask your organiser to check **Overview** and **Teams**.
+
+### My team is approved. Why must I confirm again?
+
+For weekly tournaments, captains must select **CONFIRM PARTICIPATION** for every event they want to play.
+
+### I can't accept tournament rules
+
+If the tournament requires players to accept its rules, sign in with your own Discord account and look for **My Participation** or the link shared by your captain. You may need to complete Global Player Registration first.
+
+## Discord setup and messages
+
+### Discord says the bot needs more permissions
+
+Ask the server owner to check the Bracket Control bot's permissions in the affected channel. Follow the message displayed during setup.
+
+### Setup stopped before it finished
+
+Return to server setup and choose the option to continue. Avoid creating the same channels again by hand.
+
+### Discord says to wait before trying again
+
+Wait for the time shown before retrying. Repeated clicks usually won't help.
+
+### A message appeared in the wrong channel
+
+Ask an organiser to check the tournament's **Discord** settings. Remember that player registration and team registration use different channels.
+
+### A Discord image is missing or blank
+
+Stop posting the image and tell your organiser which tournament and channel are affected. Share a screenshot of the problem without including private information.
+
+### A player wasn't moved to their team voice room
+
+Make sure the player is connected to the tournament's waiting room and that the draft is at the correct stage. Ask the organiser to check the bot's voice-channel permissions.
+
+## Reporting results
+
+### My scoresheet won't upload
+
+Use **one** PNG, JPEG, WebP or PDF file for each game you won. The file must be **10 MB or smaller**. If it still fails, ask your organiser to check your match.
+
+### The other captain disagrees with the result
+
+The other captain can select **Dispute game result** and give a reason. An organiser must review the result before the match continues.
+
+### I reported a result but the bracket hasn't changed
+
+The opposing captain may still need to confirm it. Open **My Matches** to check the result's status.
+
+## Safety and support
+
+**Browser warns that a page is unsafe?** Do not bypass the warning. Tell the Bracket Control operator which page and warning you saw, but do not share passwords or sign-in details.
+
+For team entry, match decisions or tournament rules, contact **your Discord community organiser**. If your server has a **Support Tickets** message, you can use it to ask for help privately. You can check any available past tickets through **My Support Tickets** in your profile.
+
+For privacy questions or requests about your data, read the [Privacy Policy]({{ '/legal/privacy/' | relative_url }}) for the contact information and next steps.
+
+Return to the [Complete user guide]({{ '/guides/user-guide/' | relative_url }}) or [Getting started]({{ '/getting-started/' | relative_url }}).

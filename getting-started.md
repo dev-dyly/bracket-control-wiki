@@ -5,19 +5,34 @@ permalink: /getting-started/
 ---
 # Getting started
 
-1. Open **[Bracket Control](https://app.devdylnz.com/app/)**. Anyone can see the public homepage.
-2. Choose **Manage Your Tournaments** or **Sign in with Discord**, and log in with the Discord account belonging to your community.
-3. At **Your Discord servers**, pick your server. Organisers use **Open dashboard** and **Server settings**; ordinary members can **View tournaments** where the server provides public access.
-4. The **Dashboard** is scoped to one server. The sidebar contains **Home**, **Dashboard**, **Notifications** for admins, **My Teams**, and **Server Management** with settings, team management, announcements, divisions and global Discord channels.
-5. Use the **Tournament** and **Server** dropdowns in the top bar to select your context. The top bar shows **Bracket**, **Ladder** and **Match Results** for a selected event. On phones, expand **Navigation**.
-6. If you have a direct link from an organiser, open it instead. A captain-specific link still requires sign-in and verified captain/server identity.
+Bracket Control works with Discord. You can use it to join tournaments, captain a team or organise events for your community.
 
-**Important:** A Discord member is not necessarily a Bracket Control organiser. Ask your server administrator for an authorised organiser role. The app is **free at launch** and does not handle fees or prizes.
+## Step 1 — Sign in
 
-Administrators can follow the [Discord Server Setup guide]({{ '/assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf' | relative_url }}). For screenshot-led instructions, open the [three illustrated guides]({{ '/guides/visual-guides/' | relative_url }}). Captains can go straight to [Team Captain Registration]({{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }}). Global player registration is a separate process from registering a team.
+1. Open [Bracket Control](https://app.devdylnz.com/app/).
+2. Select **Sign in with Discord**.
+3. Sign in using the Discord account you use in your gaming server.
 
-Continue with the [full guide]({{ '/guides/user-guide/' | relative_url }}) or jump to [captain instructions]({{ '/guides/captains/' | relative_url }}).
+## Step 2 — Choose your server
 
-## Captain matches
+Select **Your Discord servers**, then choose your community. If you manage tournaments, open **Dashboard**. If you're a player, open the tournament link your organiser gives you.
 
-After Discord sign-in, verified captains can open **My Matches** for active match assignments across their hosting servers. A game victory uses one verified scoresheet; the opposing captain confirms or disputes it.
+**Can't see your server?** Make sure you're using the right Discord account and that Bracket Control is connected to the server. Ask your server administrator for help.
+
+## Step 3 — Choose what you want to do
+
+- **Play in tournaments:** Ask your organiser about **Global Player Registration**. It is normally a one-time process for all participating Bracket Control servers. [Open player registration](https://app.devdylnz.com/app/register).
+- **Captain a team:** Use the team-registration link from your organiser, then go to **My Teams** to check your team.
+- **Report a result:** Open **My Matches**.
+- **Organise a tournament:** Open **Dashboard**, then **+ Create tournament**.
+- **Watch a tournament:** Open the link your organiser shares and choose **Bracket**, **Ladder** or **Match Results**.
+
+On a phone, open **Navigation** if the menu is hidden.
+
+**Remember:** Registering as a Bracket Control player does not automatically enter you into a tournament. Your captain or organiser still needs to complete that tournament's registration.
+
+## Need pictures?
+
+Open the original screenshot guides for [Discord Server Setup]({{ '/assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf' | relative_url }}), [Creating Tournaments]({{ '/assets/guides/tournament-creation/Bracket_Control_Tournament_Creation_User_Guide.pdf' | relative_url }}) or [Team Captain Registration]({{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }}).
+
+Continue to the [Complete user guide]({{ '/guides/user-guide/' | relative_url }}) or [Troubleshooting]({{ '/troubleshooting/' | relative_url }}).
