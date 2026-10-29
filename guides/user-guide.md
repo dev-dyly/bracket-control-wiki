@@ -59,6 +59,15 @@ The public occurrence address follows `/app/g/{guildId}/o/{occurrenceId}/`; appe
 1. Sign in with Discord and open **Your Discord servers**. Select the community you administer and verify that the Bracket Control bot is connected.
 2. If your server shows **Complete server setup** or **Open Server Setup**, open it. Choose the setup method offered on screen, review proposed channel destinations, categories and role settings, then continue to the summary.
 3. Keep **Global Player Registration** (`#tournament-registration`) separate from **Team Registration** (`#team-registration`). The first is for individuals; the second is for captain-led tournament team applications. The registered-player Discord role is not tournament admission.
+
+### Recommended privacy configuration: one-time player registration
+
+**Server administrators and tournament operators should require every participant to complete [Global Player Registration](https://app.devdylnz.com/app/register) before taking part in their community's Bracket Control tournaments.** Direct players to your server's `#tournament-registration` channel (or the registration channel you configured). This applies to captains, starters, substitutes and draft players. Each player signs in with their own Discord account and reviews Bracket Control's Terms of Service, Privacy Policy and Player Information Notice.
+
+**Registration is one-time across all participating Bracket Control communities and tournaments.** A player already registered with Bracket Control does not need to register again for another server or event. If the required documents are updated, they may be asked to renew their acceptance or acknowledgement. In each new server, registered players can use **Verify Registration** to receive that server's configured **Bracket Control Registered** role.
+
+Global player registration helps ensure participants receive the required privacy information. It is **separate from** team or tournament entry, organiser approval, eligibility checks and the hosting server's tournament rules. Completing it does not automatically register a team for an event or accept the event's rules.
+
 4. Verify that pending approvals remain private to authorised staff, that the bot can access the selected channels, and that its role hierarchy is correct. Approve only the configuration you intend to apply.
 5. If an application is interrupted, follow the wizard's saved-plan recovery instructions rather than repeating setup and creating duplicate Discord resources.
 6. After setup, verify your resources in Discord. Open **Server Settings**, **Discord Settings (Global)** and any division or tournament overrides. Completing Discord setup does not create a tournament or approve a team.
