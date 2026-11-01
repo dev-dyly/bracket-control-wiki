@@ -56,6 +56,8 @@ This is a registration marker, not a staff role. Do not give it administrator or
 
 Manual Setup saves your choices and publishes only the messages you selected. It does not create channels, change channel permissions or move channels in Discord.
 
+If you want a Teams List PNG, also assign **Registered Teams** to a suitable text channel, or choose its destination later under the tournament's **Discord → Team list**. You can use an existing channel such as **#bracket-updates**. This is optional and does not require ready-made team registration or a staff-approval channel.
+
 ## 5. Check the bot's Discord permissions
 
 Ask a server administrator to check the bot's role and the waiting room's category permissions.
@@ -112,6 +114,12 @@ When the draft finishes, Bracket Control creates temporary team voice rooms and 
 The **captain room is private**. **Team rooms copy the waiting room's channel permissions; they are not automatically restricted to each team's members.** If your community needs private team conversations, have a Discord administrator review and adjust each team room's access before play. Do not make the waiting room inaccessible to the players who need to join it.
 
 Temporary rooms are cleaned up after they are no longer needed. Cleanup may wait for occupants to leave or move safely. Do not create the captain or team rooms yourself as permanent setup channels.
+
+### Publish the completed draft's Teams List
+
+With a Teams List destination and **Image — automatic updates**, Bracket Control posts the PNG after the draft is complete, its rosters are approved and team voice-room allocation succeeds. It shows each team's name, captain, five starters and substitutes using the usual tournament layout.
+
+To publish or refresh it manually, open **Manage Tournament → Discord → Team list**, check the destination and image format, select **Save this tournament**, then **Publish Teams List**. Approved roster changes update the same post automatically; manual refresh also updates it. Turning publishing off or choosing manual-only delivery stops automatic updates. Changing destinations keeps the old channel's post as history.
 
 ## 9. Generate and publish the bracket
 

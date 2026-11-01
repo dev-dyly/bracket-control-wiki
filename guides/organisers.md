@@ -85,9 +85,11 @@ See [Match results]({{ '/guides/match-results/' | relative_url }}). Confirmed sc
 1. Open the tournament's **Discord** tab.
 2. Choose **Publish bracket**, **Team list** or **Custom announcement**.
 3. Choose the destination and format, then **Save this tournament**.
-4. Use **Send now to Discord** for a manual post, or choose **Image — automatic updates** for the bracket.
+4. Use **Publish Teams List** for a manual team-list post or refresh; other messages use **Send now to Discord**. Choose **Image — automatic updates** for automatic bracket or approved-roster updates.
 5. Use **Match results** for result-delivery actions. **Final standings** and **Weekly ladder** are available after completion.
 
 Publishing applies to the selected tournament. Check its destination rather than assuming server defaults always apply.
+
+Draft tournaments use the same Teams List PNG, showing team names, captains, five starters and substitutes. With automatic images enabled, the first post follows draft completion, roster approval and successful team voice-room allocation. Later approved roster changes update the existing message. See [Draft tournaments]({{ '/guides/drafts/' | relative_url }}) for setup and refresh steps.
 
 For optional skill groups, see [Divisions]({{ '/guides/divisions/' | relative_url }}). For cancellation, history and other tasks, see the [Complete user guide]({{ '/guides/user-guide/' | relative_url }}) or [Troubleshooting]({{ '/troubleshooting/' | relative_url }}).

@@ -50,7 +50,17 @@ At draft completion, it creates temporary team rooms and moves recognised, conne
 
 Rooms are cleaned up when no longer needed, with cleanup deferred where occupants cannot be moved safely. Voice errors do not undo draft picks; check the captain-selection status and bot permissions.
 
-## 5. Generate the bracket and play
+## 5. Publish the Teams List
+
+Choose a **Registered Teams** channel in the tournament's channel settings, or select a destination under **Discord → Team list**. This also works for draft-only communities; no team-registration or staff-approval channel is needed.
+
+With **Image — automatic updates** selected, Bracket Control publishes the Teams List after the draft is complete, its rosters are approved and team voice-room allocation succeeds. The PNG uses the same layout as other tournaments: team names, captains, five starters and any substitutes. Disconnected players do not prevent publishing once their team rooms are ready.
+
+To publish or refresh it yourself, open **Manage Tournament → Discord → Team list**, check the destination and image format, select **Save this tournament**, then **Publish Teams List**.
+
+Approved roster changes update the same Discord message when automatic updates are enabled. Refreshing manually also updates that message. Changing the destination publishes in the new channel and keeps the old post as history. **Do not publish** and manual-only settings are respected. Unpublished tournaments are not posted, and private drafts require a verified staff-only destination.
+
+## 6. Generate the bracket and play
 
 1. Check the completed lineups and **Participation readiness** under **Teams**. Clear remaining warnings in **Overview**.
 2. Check the starting order under **Seed**.
@@ -64,3 +74,5 @@ See [Match results]({{ '/guides/match-results/' | relative_url }}) for screensho
 ## Draft without Discord voice
 
 Discord voice is optional for general setup and drafting. Organisers can use **Live Draft → Player tags → IMPORT PLAYERS** to add a player pool and use another voice service. Imported gaming tags alone do not verify a player's Discord account or complete required individual acceptance. Resolve readiness warnings before starting the bracket.
+
+Without a configured Discord waiting room, automatic Teams List publishing follows draft completion and roster approval. You can still use **Publish Teams List** to refresh it manually.
