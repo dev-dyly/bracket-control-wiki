@@ -5,92 +5,112 @@ permalink: /troubleshooting/
 ---
 # Troubleshooting
 
-Having trouble with Bracket Control? Find the problem below and try the suggested steps.
+Find the problem below and follow the steps. Contact your community organiser for entry, rules and match decisions.
 
-## Signing in and finding your server
+## I cannot find my server or dashboard
 
-### I can't see my Discord server
+1. Check that you signed in with the correct Discord account and still belong to the server.
+2. Open **Your Discord servers**.
+3. Ask the server owner to check that the bot is connected and your organiser access is correct.
+4. If you are a player, use the tournament link supplied by the organiser.
 
-Make sure you signed in with the correct Discord account and that you belong to the server. Ask your server administrator to check that Bracket Control is connected.
+Signing in alone does not grant organiser access. If onboarding says your community needs approval, follow that message.
 
-### I can't open the organiser dashboard
+## Do I need to register again?
 
-Signing in does not automatically make you an organiser. Ask the server owner to check your permissions.
+**Global Player Registration** covers the current platform documents across participating communities. If the documents change, review them again. Use **Verify Registration** on another server's registration message to confirm your status there.
 
-### My captain link doesn't work
+Tournament entry is separate. Regular weekly teams must confirm attendance for each event. Where required, each player must accept that tournament's rules in **My Participation**.
 
-Use the Discord account that belongs to the team's captain and open the latest link shared by the organiser. Make sure you are still a member of the hosting server.
+## Global registration or the registered role is missing
 
-## Player and team registration
+1. Open [Player Registration](https://app.devdylnz.com/app/register) and use your own Discord account.
+2. Complete the current documents and select **Accept Registration**.
+3. Return to Discord and select **Verify Registration**.
+4. If the role is missing, ask the server administrator to check **Bracket Control Registered** has no permissions, sits below the bot's role and the bot has **Manage Roles**.
+5. If the page shows an unavailable message, contact the organiser or Bracket Control operator.
 
-### Do I need to register for every tournament?
+## My Participation shows no tournament
 
-**No.** Global Player Registration is usually completed once for all participating Bracket Control communities. You may need to review updated privacy documents later.
+1. Check you are using the correct Discord account and the organiser's participation link.
+2. Ask the captain or organiser to check the Discord account assigned to your player entry.
+3. For a voice-based draft, join the configured waiting room so your entry can be recognised.
+4. Check whether this tournament requires individual acceptance.
 
-You **do** still need to enter a team for each tournament, and returning teams may need to check in each week.
+A gaming name alone does not link a player entry to your account. Another person cannot accept rules for you.
 
-### I can't see Global Player Registration
+## My approved team is not ready
 
-Ask your organiser whether it is enabled. If it is available, open [Player Registration](https://app.devdylnz.com/app/register) and sign in with Discord.
+1. Open the correct event in **My Teams**.
+2. Check **CONFIRM PARTICIPATION** and the registration deadline.
+3. Ask the organiser to check **Teams → Participation readiness** and **Overview**.
+4. Resolve outstanding personal registration, rules acceptance or division warnings.
 
-### Why aren't I in the bracket?
+An approved lineup and confirmed attendance are separate. If attendance has expired, ask the organiser for help. A changed lineup may need approval again.
 
-Your team might still need approval, a weekly check-in or another registration step. Ask your organiser to check **Overview** and **Teams**.
+## Setup stopped
 
-### My team is approved. Why must I confirm again?
+1. Return to **Open Server Setup**.
+2. Choose **Resume interrupted setup**.
+3. Review the saved plan, check the resume confirmation and select **Resume setup**.
+4. Wait for any Discord retry time shown.
 
-For weekly tournaments, captains must select **CONFIRM PARTICIPATION** for every event they want to play.
+For new Manual Setup channels, use **Refresh Discord inventory** after creating them. Only Global Player Registration is mandatory; choose **Not Required** for unused destinations.
 
-### I can't accept tournament rules
+## A message went to the wrong channel or did not arrive
 
-If the tournament requires players to accept its rules, sign in with your own Discord account and look for **My Participation** or the link shared by your captain. You may need to complete Global Player Registration first.
+1. Check the selected tournament, not just the server name.
+2. Check the tournament's **Settings** and **Discord** tab for a different destination.
+3. Review server **Channel Preview — Effective Channels** and **Discord delivery status**.
+4. Check the bot can view the destination, send messages, show links and attach files.
+5. Save changed publishing settings before using **Send now to Discord**. Allow a short time for queued posts.
 
-## Discord setup and messages
+Global Player Registration and Team Registration use different destinations. **#claim-rank**, if used, maps to **Match Results**.
 
-### Discord says the bot needs more permissions
+Final standings and the weekly ladder are unavailable until the tournament is complete, including any scheduled placement games.
 
-Ask the server owner to check the Bracket Control bot's permissions in the affected channel. Follow the message displayed during setup.
+## Draft players or voice rooms are missing
 
-### Setup stopped before it finished
+1. Check the tournament's **Draft Voice Waiting Room** assignment.
+2. Ask players to join that room and remain connected. Unpicked voice entrants who leave are removed from the pool.
+3. Check **Captain Selection** and select **Confirm Selected Captains** before starting the draft.
+4. Check there are at least two captain teams and four available starting-player picks per captain.
+5. Review the voice status shown in **Captain Selection**.
+6. Ask the Discord administrator to check **Manage Channels**, **Manage Roles**, **View Audit Log**, **Connect** and **Move Members**, including category restrictions.
 
-Return to server setup and choose the option to continue. Avoid creating the same channels again by hand.
+The bot moves recognised players only from the configured waiting room or the tournament's captain room. It cannot move disconnected people or pull them from unrelated rooms.
 
-### Discord says to wait before trying again
+The captain room is private. Team rooms inherit waiting-room permissions and are not automatically private to each team. Have an administrator adjust access if needed. Temporary room cleanup can wait until occupants leave or can move safely.
 
-Wait for the time shown before retrying. Repeated clicks usually won't help.
+## A captain link does not work
 
-### A message appeared in the wrong channel
+1. Sign in with the account assigned as captain.
+2. Check you still belong to the hosting Discord server.
+3. Open **My Teams** or **My Matches** to find your verified assignment.
+4. Ask the organiser to check the captain assignment if it is missing.
 
-Ask an organiser to check the tournament's **Discord** settings. Remember that player registration and team registration use different channels.
+Keep private captain links within your team and organiser group.
 
-### A Discord image is missing or blank
+## My scoresheet will not upload
 
-Stop posting the image and tell your organiser which tournament and channel are affected. Share a screenshot of the problem without including private information.
+1. For **Report Game Victory**, choose one PNG, JPEG, WebP or PDF file, up to **10 MB**.
+2. Check that you are the winning captain for the selected game.
+3. Check that the previous game is confirmed and the tournament is live.
+4. If the upload still fails, give the organiser the tournament, match and error message.
 
-### A player wasn't moved to their team voice room
+## A result is disputed or the bracket has not changed
 
-Make sure the player is connected to the tournament's waiting room and that the draft is at the correct stage. Ask the organiser to check the bot's voice-channel permissions.
+1. Open **My Matches** and check whether the opponent still needs to confirm.
+2. The opponent can select **Confirm game result**, or enter a reason and select **Dispute game result**.
+3. A dispute pauses the series until an organiser reviews it in **Manage Tournament → Matches**.
+4. A match advances only when a team reaches the required confirmed game wins.
 
-## Reporting results
+See [Match results]({{ '/guides/match-results/' | relative_url }}) for corrections and Discord result delivery.
 
-### My scoresheet won't upload
+## I need private support
 
-Use **one** PNG, JPEG, WebP or PDF file for each game you won. The file must be **10 MB or smaller**. If it still fails, ask your organiser to check your match.
+Use your community's Discord support panel if **Support Tickets** is enabled. Open **Profile → My Support Tickets** for available ticket history. Communities do not have to enable tickets.
 
-### The other captain disagrees with the result
+For privacy requests, use the contact details in the [Privacy Policy]({{ '/legal/privacy/' | relative_url }}). For a browser security warning, stop and tell the operator which page and warning appeared.
 
-The other captain can select **Dispute game result** and give a reason. An organiser must review the result before the match continues.
-
-### I reported a result but the bracket hasn't changed
-
-The opposing captain may still need to confirm it. Open **My Matches** to check the result's status.
-
-## Safety and support
-
-**Browser warns that a page is unsafe?** Do not bypass the warning. Tell the Bracket Control operator which page and warning you saw, but do not share passwords or sign-in details.
-
-For team entry, match decisions or tournament rules, contact **your Discord community organiser**. If your server has a **Support Tickets** message, you can use it to ask for help privately. You can check any available past tickets through **My Support Tickets** in your profile.
-
-For privacy questions or requests about your data, read the [Privacy Policy]({{ '/legal/privacy/' | relative_url }}) for the contact information and next steps.
-
-Return to the [Complete user guide]({{ '/guides/user-guide/' | relative_url }}) or [Getting started]({{ '/getting-started/' | relative_url }}).
+Return to the [Complete user guide]({{ '/guides/user-guide/' | relative_url }}).

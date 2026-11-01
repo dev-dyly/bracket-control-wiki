@@ -5,72 +5,89 @@ permalink: /guides/organisers/
 ---
 # Organiser guide
 
-This guide is for people running tournaments in their Discord community.
+Use this checklist to prepare and run tournaments for your Discord community.
 
-## 1. Set up your server
+## 1. Set up the server
 
-1. Sign in to [Bracket Control](https://app.devdylnz.com/app/) and select **Your Discord servers**.
-2. Choose the server you manage.
-3. Open **Complete server setup**, **Open Server Setup** or **Server Settings**, whichever is shown.
-4. Follow the steps to choose your Discord channels and any roles used by Bracket Control.
-5. Check that only authorised staff can see team approvals. Review your choices before applying them.
-6. If setup is interrupted, use the option to continue where you left off instead of starting again.
+1. Sign in with Discord and open **Your Discord servers**.
+2. Connect the server if needed, then open **Complete server setup** or **Server settings → Open Server Setup**.
+3. Choose **Automatic Setup** or **Manual Setup**.
+4. Assign **Global Player Registration**, the only mandatory Discord channel for general setup.
+5. Select other destinations only for the features you want; use **Not Required** for the rest. Keep **Enable Support Tickets** off unless wanted.
+6. Select the **Bracket Control Registered** role, with no permissions and below the bot's role. Manual Setup requires you to create it in Discord.
+7. Enable **Publish or update the Global Player Registration message**.
+8. Select **Review Configuration**, check the plan, complete the approval checkbox and select **Apply Configuration**.
 
-Follow the [illustrated Discord Server Setup guide]({{ '/assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf' | relative_url }}) if you want screenshots.
+Follow [Discord Server Setup]({{ '/guides/server-setup/' | relative_url }}). Communities running only drafts can follow [Draft-only community setup]({{ '/guides/draft-only-setup/' | relative_url }}): **#tournament-registration** for Global Player Registration, **#bracket-updates** for Bracket Updates, **#claim-rank** for Match Results and **Draft Waiting Room** for Draft Voice Waiting Room.
 
-### Recommended privacy configuration: one-time player registration
+Claim Rank is a preferred Discord channel name, not another feature. A draft community does not need team-registration, standings or staff-approval channels unless it chooses those features.
 
-**Ask every participant to complete [Global Player Registration](https://app.devdylnz.com/app/register) before playing in your Bracket Control tournaments.** This includes captains, starting players, substitutes and people entering draft tournaments.
+## 2. Explain registration to players
 
-Direct players to your server's **#tournament-registration** channel, or the player-registration channel you chose during setup. Everyone signs in with their own Discord account and reviews the Bracket Control Terms of Service, Privacy Policy and Player Information Notice.
+1. Direct all players to the Global Player Registration message, commonly in **#tournament-registration**.
+2. Ask them to sign in individually, read the three platform documents and select **Accept Registration** after completing the choices.
+3. Ask them to use **Verify Registration** in your server.
+4. Explain how to enter your actual tournament: a captain's team entry or the draft player pool.
+5. If you require individual acceptance, share **Teams → Participation readiness → Copy Participation Link** and ask each captain, starter and substitute to complete **My Participation**.
 
-**Players register once for all participating Bracket Control communities and tournaments.** They may need to review updated documents later. When joining a different Discord server, they can use **Verify Registration** there if your registration message offers that button.
+Global registration covers the current platform documents across participating communities. It does not enter a tournament, confirm attendance, approve a lineup or accept tournament rules. Captains cannot personally accept rules for teammates.
 
-One-time player registration does **not** enter someone into a tournament, approve their team or replace your tournament's own rules. **#team-registration** is for captains to enter teams and is separate from player registration. If the registration feature is not available, check with the Bracket Control operator.
+## 3. Create the tournament
 
-## 2. Create a tournament
+1. Open **Dashboard → + Create tournament**.
+2. Set **Basics**, including the format, capacity, optional division or **Captain draft tournament**, and **Require Individual Player Acceptance**.
+3. Set **Schedule** and the registration period.
+4. Enter **Tournament Rules**.
+5. Check **Discord**, then **Review**.
+6. Complete the displayed confirmation and select **Create tournament**.
 
-1. Open your server's **Dashboard** and select **+ Create tournament**.
-2. Enter the name, number of teams and tournament format.
-3. Set the date, time and registration period. Choose weekly events if needed.
-4. Enter your **Tournament Rules**.
-5. Choose where Bracket Control should post announcements in Discord.
-6. Review all settings and select **Create tournament**.
+Rules and individual acceptance are fixed at creation. Cancel and create a replacement if they need to change. See [Tournament creation]({{ '/guides/tournament-creation/' | relative_url }}).
 
-Check the rules carefully before creating the tournament because some choices cannot be edited afterwards.
+## 4. Prepare teams or run a draft
 
-For every screen, see [Creating Tournaments (PDF)]({{ '/assets/guides/tournament-creation/Bracket_Control_Tournament_Creation_User_Guide.pdf' | relative_url }}).
-
-## 3. Approve teams
+For ready-made teams:
 
 1. Open **Manage Tournament → Teams → Approval queue**.
-2. Check each captain and the listed players.
-3. Choose **Approve** or **Reject**. Provide a reason if asked.
-4. If a team changes players, check the new list again.
-5. Return to **Overview** to see whether anything still needs attention.
+2. Review captains, players and lineup changes, then **Approve** or **Reject**.
+3. Check attendance and **Participation readiness** separately. Regular weekly entries still need **CONFIRM PARTICIPATION** even when an unchanged lineup retains approval.
 
-For weekly events, captains must **CONFIRM PARTICIPATION** each week, even when their team was approved before.
+For drafts:
 
-If your tournament asks players to accept its specific rules, remind them to sign in and check **My Participation**. This is separate from one-time player registration.
+1. Gather registered players in the configured waiting room, or import a player pool under **Live Draft**.
+2. Use **Captain Selection → Draft Captain Registry** to add and select captains, then **Confirm Selected Captains**.
+3. Open **Live Draft** and select **START CAPTAIN DRAFT** when the captains and player pool are ready.
+4. Captains pick through their own signed-in team dashboards. Completed valid lineups are approved automatically.
+5. Check remaining participation requirements before generating the bracket.
 
-See [Approving team registrations]({{ '/guides/team-approvals/' | relative_url }}).
+With Discord voice configured, the bot creates a private captain room and, after the draft, temporary team rooms. Team rooms inherit the waiting room's permissions; check their access if private team conversations are required. See [Draft tournaments]({{ '/guides/drafts/' | relative_url }}) for bot permissions, player moves and cleanup.
 
-## 4. Start matches and review results
+## 5. Manage ongoing teams
 
-When enough teams are ready, choose their starting order using **Seed**, then create the bracket.
+1. Open **Server Management → Team Management** to review ongoing teams and captain transfer requests.
+2. A replacement captain must first sign in and accept their invitation. Review the accepted request, give the required reason and select **Approve transfer** or **Reject transfer**.
+3. Review affected lineups again after an approved handover. Captain ownership and attendance are separate.
+4. For division membership, use **Server Management → Divisions**. Review any resulting warnings on upcoming entries.
 
-Captains report the games they win and upload a scoresheet. The other captain confirms the result or disputes it. If they disagree, review the result in **Matches** and use the organiser controls to resolve it. Only confirmed results move the bracket forward.
+Captains can use **Transfer Captaincy** or **Retire Team** in **My Teams**. Retirement preserves earlier results but stops future participation. See the [Captain guide]({{ '/guides/captains/' | relative_url }}).
 
-Check the final results before completing the tournament.
+## 6. Start matches and review results
 
-## 5. Discord posts and divisions
+1. Check **Overview**, **Teams** and **Participation readiness**.
+2. Use **Seed** to check the starting order.
+3. In **Overview**, expand **Ready to start? Bracket controls** and select **LOCK ROSTERS & GENERATE BRACKET**.
+4. Follow games under **Matches**. Winning captains submit one scoresheet per game; opponents confirm or dispute.
+5. Review disputes and use the organiser's correction controls if a confirmed result is wrong. Check the effect on later matches before confirming a correction.
 
-Use the tournament's **Discord** settings to choose whether announcements, teams and brackets are posted automatically or manually. Check the channel before posting and share only approved team lists. Review the winner announcement before publishing it.
+See [Match results]({{ '/guides/match-results/' | relative_url }}). Confirmed scoresheets published to a results channel are visible to everyone who can access that channel.
 
-If your community uses different skill divisions, open **Server Management → Divisions**. You can create divisions, assign teams and choose optional promotion or relegation rules.
+## 7. Publish updates
 
-Transfers affect future tournaments, not results already completed. See [Divisions]({{ '/guides/divisions/' | relative_url }}).
+1. Open the tournament's **Discord** tab.
+2. Choose **Publish bracket**, **Team list** or **Custom announcement**.
+3. Choose the destination and format, then **Save this tournament**.
+4. Use **Send now to Discord** for a manual post, or choose **Image — automatic updates** for the bracket.
+5. Use **Match results** for result-delivery actions. **Final standings** and **Weekly ladder** are available after completion.
 
-## 6. Need help?
+Publishing applies to the selected tournament. Check its destination rather than assuming server defaults always apply.
 
-If a team is missing or a Discord message will not send, open [Troubleshooting]({{ '/troubleshooting/' | relative_url }}). For a full walkthrough, read the [Complete user guide]({{ '/guides/user-guide/' | relative_url }}).
+For optional skill groups, see [Divisions]({{ '/guides/divisions/' | relative_url }}). For cancellation, history and other tasks, see the [Complete user guide]({{ '/guides/user-guide/' | relative_url }}) or [Troubleshooting]({{ '/troubleshooting/' | relative_url }}).

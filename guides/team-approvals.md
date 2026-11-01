@@ -5,37 +5,35 @@ permalink: /guides/team-approvals/
 ---
 # Approve or reject teams
 
-This guide is for tournament organisers reviewing team entries.
+Organisers review new or changed ready-made team lineups. You can do this on the website; a **Staff Approvals** Discord channel is optional.
 
-## Check a team registration
+Draft captains do not need manual approval. Valid draft lineups are approved automatically when the draft completes. Use [Draft tournaments]({{ '/guides/drafts/' | relative_url }}) for that process.
 
-1. Sign in with an organiser account and select your Discord server and tournament.
-2. Open **Dashboard → Manage Tournament → Teams**.
-3. Find **Approval queue**.
-4. Use **Filter applications** if you need to find a pending, approved, rejected or withdrawn team.
-5. Open the team and check the captain, **five starting players** and any substitutes.
-6. If the team played in a previous week, compare the old and new players.
-7. Make sure the team is entered in the right tournament and division.
+## 1. Check an entry
 
-## Approve or reject
+1. Sign in with organiser access and choose the correct server and tournament.
+2. Open **Manage Tournament → Teams → Approval queue**.
+3. Use **Filter applications** to find pending, approved, rejected, withdrawn or all entries.
+4. Check the captain, five starters and up to two substitutes.
+5. Compare previous players where shown and check any changed names.
+6. Check the tournament and division.
 
-If everything is correct, select **Approve**. If the team cannot be accepted, select **Reject** and enter a reason when asked.
+## 2. Record the decision
 
-You can open **Approval history** to see earlier decisions. A team that changes its players may need approval again.
+1. Select **Approve** if the lineup is correct.
+2. Otherwise select **Reject** and enter a reason when needed.
+3. Open **Approval history** to check previous decisions.
+4. Review a changed lineup again if it returns to pending.
 
-## Before the tournament starts
+A verified unchanged lineup carried forward to a regular weekly event can retain approval. The captain must still confirm attendance.
 
-Return to **Overview** and follow any messages about teams that are not ready.
+## 3. Check readiness separately
 
-**Approval alone does not always mean a team is ready to play.** For example:
+1. Check whether the captain has selected **CONFIRM PARTICIPATION** for this event.
+2. Review **Participation readiness**. If individual acceptance is required, each captain, starter and substitute needs current Global Player Registration and personal tournament-rules acceptance.
+3. Resolve any division or recurring-entry warnings.
+4. Return to **Overview** before generating the bracket.
 
-- A captain may still need to **CONFIRM PARTICIPATION** for this week.
-- A player may still need to complete Global Player Registration.
-- A tournament may ask players to accept its own rules.
-- A team may need to resolve a division or registration issue.
+Global registration, team approval, attendance and personal rules acceptance are separate checks. Approving a lineup does not complete the others.
 
-In draft tournaments, teams are normally approved through the draft process once player selection is complete.
-
-If you cannot find a team, check that you have selected the right tournament and application filter.
-
-For more help, see [Organiser guide]({{ '/guides/organisers/' | relative_url }}), [Divisions]({{ '/guides/divisions/' | relative_url }}) or [Team Captain Registration (PDF)]({{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }}).
+See [Organiser guide]({{ '/guides/organisers/' | relative_url }}) and [Tournament creation]({{ '/guides/tournament-creation/' | relative_url }}).

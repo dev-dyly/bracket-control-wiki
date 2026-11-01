@@ -5,47 +5,65 @@ permalink: /guides/captains/
 ---
 # Team captain guide
 
-A captain registers the team, checks in for tournaments and reports results.
+Use your own Discord account to manage your assigned team, draft players and report results.
 
-## 1. Register your team
+## 1. Complete your player registration
 
-1. Open the **#team-registration** channel or the tournament link shared by your organiser.
-2. Sign in with the Discord account you use as captain.
-3. Choose **Create a new team** or **Update current team**.
-4. Enter the team name, **five starting players** (including yourself) and up to **two substitutes**.
-5. Check the players carefully and complete the captain declaration.
-6. Select **Register Team**.
+1. Open your community's Global Player Registration message, commonly in **#tournament-registration**, or [Player Registration](https://app.devdylnz.com/app/register).
+2. Review the three platform documents, complete the choices and select **Accept Registration**.
+3. Use **Verify Registration** in your server.
 
-An organiser may need to approve the team before it can play. If you change the lineup, it may need approval again.
+This does not enter your team in a tournament. Each teammate completes their own global registration. Where a tournament requires individual acceptance, every player also uses **My Participation** to accept its rules.
 
-**Every player must complete their own [Global Player Registration](https://app.devdylnz.com/app/register) when the feature is available.** You cannot register or accept rules on behalf of someone else. Your organiser will tell you which Discord channel to use.
+## 2. Register a ready-made team
 
-For pictures, open [Team Captain Registration (PDF)]({{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }}).
+1. Open the team-registration invitation supplied by your organiser.
+2. Sign in as captain and choose **Create a new team** or **Update current team**.
+3. Enter your team name, five starters including yourself, and up to two substitutes.
+4. Select each teammate's correct Discord account and check the gaming names.
+5. Share the required documents with your teammates and review the captain declaration.
+6. Complete it truthfully and select **Register Team**.
+7. Check whether the organiser has approved your team.
 
-## 2. Confirm each weekly tournament
+New or changed lineups need approval. Your declaration does not personally accept rules or complete registration for anyone else. See [Team registration]({{ '/guides/team-registration/' | relative_url }}).
 
-For a recurring tournament, open **My Teams**, choose the upcoming event and select **CONFIRM PARTICIPATION**.
+## 3. Confirm each regular weekly event
 
-**You must check in each week you want to play.** Simply opening the page does not confirm your team.
+1. Open **My Teams** and choose the upcoming tournament.
+2. Review the lineup and any rules or registration requirements.
+3. Select **CONFIRM PARTICIPATION** for each event you intend to play.
+4. If players change, submit the new lineup for review and check attendance separately.
 
-- **WITHDRAW FROM THIS TOURNAMENT** means skip one event.
-- **LEAVE RECURRING COMPETITION** means stop future weekly entries.
+An unchanged lineup can retain approval, but that does not check you in. **WITHDRAW FROM THIS TOURNAMENT** skips one event. **LEAVE RECURRING COMPETITION** stops future entries.
 
-If the tournament asks individual players to accept its rules, remind each teammate to check **My Participation** when available.
+## 4. Transfer captaincy or retire a team
 
-## 3. Report a game win
+1. Open **My Teams** and select the server and team.
+2. To hand over, select **Transfer Captaincy**, choose an existing teammate under **Replacement captain** and select **Invite replacement captain**.
+3. The replacement signs in and selects **Accept captaincy**. An organiser must then **Approve transfer** before ownership changes. You lose management access after the handover; affected lineups need reapproval and attendance remains separate.
+4. To end the team instead, select **Retire Team**, read the effect, type the team name and select **Confirm retirement**.
 
-1. Open **My Matches** and choose your game.
-2. If **your team won**, select **Report Game Victory**.
-3. Upload one screenshot or scoresheet in PNG, JPEG, WebP or PDF format, up to **10 MB**.
-4. Submit your report.
+Retirement stops future participation and withdraws unstarted entries while preserving history. Running tournaments and staff restrictions may need resolution first. Contact your organiser if an action is blocked.
 
-The other captain selects **Confirm game result** or **Dispute game result**. They do not need a second scoresheet just to confirm.
+## 5. Captain a draft team
 
-If the game is disputed, an organiser reviews it. Do not report a win your team did not earn.
+1. Ask the organiser to select you under **Captain Selection**. Joining voice or being an administrator does not assign you as captain.
+2. Join **Draft Waiting Room** if the tournament uses Discord voice.
+3. Open your team in **My Teams**, or **My Matches → Team and draft dashboard**.
+4. Wait for **YOUR TURN TO PICK** and select the button beside an available player.
+5. Follow the displayed turns. Your first four picks join you in the starting five. Use **PASS REMAINING OPTIONAL PICKS** when offered if you do not need more substitutes.
 
-## 4. If you are a draft captain
+Completed valid draft lineups are automatically approved. With Discord voice configured, a private captain room is created before drafting and team rooms at completion. Team rooms inherit the waiting room's access; they are not automatically private to your team.
 
-When it is your turn in **Live Draft**, choose a player by clicking the button beside their name. Bracket Control shows the next turn and can move connected players into team voice rooms when the draft finishes.
+See [Draft tournaments]({{ '/guides/drafts/' | relative_url }}).
 
-See [Draft tournaments]({{ '/guides/drafts/' | relative_url }}) and [Troubleshooting]({{ '/troubleshooting/' | relative_url }}) if you need help.
+## 6. Report game results
+
+1. Open **My Matches** and check the tournament, opponent and game.
+2. If your team won, upload one screenshot or scoresheet: PNG, JPEG, WebP or PDF, up to **10 MB**.
+3. Select **Report Game Victory**.
+4. If the other captain reported a game, review the evidence and select **Confirm game result** or enter a reason and select **Dispute game result**.
+
+Confirmation needs no extra screenshot. A dispute pauses the series for organiser review. Confirmed scoresheets may be published to the community's **Match Results** channel, called **#claim-rank** in some communities. Claim Rank is a channel name, not a separate reporting feature.
+
+See [Match results]({{ '/guides/match-results/' | relative_url }}) and [Troubleshooting]({{ '/troubleshooting/' | relative_url }}).

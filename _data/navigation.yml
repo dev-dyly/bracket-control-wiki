@@ -1,30 +1,125 @@
-# Single source of truth for ordered documentation and legal links.
+# Ordered web chapters. PDF references never participate in Previous/Next navigation.
 - title: Home
   url: /
   next_url: /getting-started/
-  next_title: "Getting started"
+  next_title: Getting started
   top_nav: true
 - title: Getting started
   url: /getting-started/
-  next_url: /guides/user-guide/
-  next_title: "Complete user guide"
   previous_url: /
-  previous_title: "Home"
+  previous_title: Home
+  next_url: /guides/user-guide/
+  next_title: Complete user guide
   top_nav: true
 - title: Complete user guide
   url: /guides/user-guide/
-  next_url: /guides/visual-guides/
-  next_title: "Illustrated guides"
   previous_url: /getting-started/
-  previous_title: "Getting started"
+  previous_title: Getting started
+  next_url: /guides/server-setup/
+  next_title: Discord Server Setup
   top_nav: true
+- title: Discord Server Setup
+  url: /guides/server-setup/
+  previous_url: /guides/user-guide/
+  previous_title: Complete user guide
+  next_url: /guides/draft-only-setup/
+  next_title: Draft-only community setup
+- title: Draft-only community setup
+  url: /guides/draft-only-setup/
+  previous_url: /guides/server-setup/
+  previous_title: Discord Server Setup
+  next_url: /guides/tournament-creation/
+  next_title: Tournament creation
+  top_nav: true
+- title: Tournament creation
+  url: /guides/tournament-creation/
+  previous_url: /guides/draft-only-setup/
+  previous_title: Draft-only community setup
+  next_url: /guides/team-registration/
+  next_title: Team registration
+- title: Team registration
+  url: /guides/team-registration/
+  previous_url: /guides/tournament-creation/
+  previous_title: Tournament creation
+  next_url: /guides/team-approvals/
+  next_title: Approving team registrations
+- title: Approving team registrations
+  url: /guides/team-approvals/
+  previous_url: /guides/team-registration/
+  previous_title: Team registration
+  next_url: /guides/divisions/
+  next_title: Divisions
+- title: Divisions
+  url: /guides/divisions/
+  previous_url: /guides/team-approvals/
+  previous_title: Approving team registrations
+  next_url: /guides/organisers/
+  next_title: Organiser guide
+- title: Organiser guide
+  url: /guides/organisers/
+  previous_url: /guides/divisions/
+  previous_title: Divisions
+  next_url: /guides/captains/
+  next_title: Captain guide
+- title: Captain guide
+  url: /guides/captains/
+  previous_url: /guides/organisers/
+  previous_title: Organiser guide
+  next_url: /guides/drafts/
+  next_title: Draft tournaments
+- title: Draft tournaments
+  url: /guides/drafts/
+  previous_url: /guides/captains/
+  previous_title: Captain guide
+  next_url: /guides/match-results/
+  next_title: Match results
+- title: Match results
+  url: /guides/match-results/
+  previous_url: /guides/drafts/
+  previous_title: Draft tournaments
+  next_url: /guides/visual-guides/
+  next_title: Illustrated guides
 - title: Illustrated guides
   url: /guides/visual-guides/
-  next_url: /guides/team-approvals/
-  next_title: "Approving team registrations"
-  previous_url: /guides/user-guide/
-  previous_title: "Complete user guide"
+  previous_url: /guides/match-results/
+  previous_title: Match results
+  next_url: /troubleshooting/
+  next_title: Troubleshooting
+- title: Troubleshooting
+  url: /troubleshooting/
+  previous_url: /guides/visual-guides/
+  previous_title: Illustrated guides
+  next_url: /legal/privacy/
+  next_title: Privacy Policy
   top_nav: true
+- title: Privacy Policy
+  url: /legal/privacy/
+  previous_url: /troubleshooting/
+  previous_title: Troubleshooting
+  next_url: /legal/terms/
+  next_title: Terms of Service
+- title: Terms of Service
+  url: /legal/terms/
+  previous_url: /legal/privacy/
+  previous_title: Privacy Policy
+  next_url: /legal/cookies/
+  next_title: Cookie Notice
+- title: Cookie Notice
+  url: /legal/cookies/
+  previous_url: /legal/terms/
+  previous_title: Terms of Service
+  next_url: /legal/player-notice/
+  next_title: Player Information Notice
+- title: Player Information Notice
+  url: /legal/player-notice/
+  previous_url: /legal/cookies/
+  previous_title: Cookie Notice
+  next_url: /legal/support-tickets/
+  next_title: Support Ticket Privacy Disclosure
+- title: Support Ticket Privacy Disclosure
+  url: /legal/support-tickets/
+  previous_url: /legal/player-notice/
+  previous_title: Player Information Notice
 - title: Discord Setup Guide (PDF)
   url: /assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf
   pdf: true
@@ -34,69 +129,3 @@
 - title: Team Registration (PDF)
   url: /assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf
   pdf: true
-- title: Approving team registrations
-  url: /guides/team-approvals/
-  next_url: /guides/divisions/
-  next_title: "Divisions"
-  previous_url: /guides/visual-guides/
-  previous_title: "Illustrated guides"
-- title: Divisions
-  url: /guides/divisions/
-  next_url: /guides/organisers/
-  next_title: "Organiser guide"
-  previous_url: /guides/team-approvals/
-  previous_title: "Approving team registrations"
-- title: Organiser guide
-  url: /guides/organisers/
-  next_url: /guides/captains/
-  next_title: "Captain guide"
-  previous_url: /guides/divisions/
-  previous_title: "Divisions"
-- title: Captain guide
-  url: /guides/captains/
-  next_url: /guides/drafts/
-  next_title: "Draft tournaments"
-  previous_url: /guides/organisers/
-  previous_title: "Organiser guide"
-- title: Draft tournaments
-  url: /guides/drafts/
-  next_url: /troubleshooting/
-  next_title: "Troubleshooting"
-  previous_url: /guides/captains/
-  previous_title: "Captain guide"
-- title: Troubleshooting
-  url: /troubleshooting/
-  next_url: /legal/privacy/
-  next_title: "Privacy Policy"
-  previous_url: /guides/drafts/
-  previous_title: "Draft tournaments"
-  top_nav: true
-- title: Privacy Policy
-  url: /legal/privacy/
-  next_url: /legal/terms/
-  next_title: "Terms of Service"
-  previous_url: /troubleshooting/
-  previous_title: "Troubleshooting"
-  top_nav: true
-- title: Terms of Service
-  url: /legal/terms/
-  next_url: /legal/cookies/
-  next_title: "Cookie Notice"
-  previous_url: /legal/privacy/
-  previous_title: "Privacy Policy"
-- title: Cookie Notice
-  url: /legal/cookies/
-  next_url: /legal/player-notice/
-  next_title: "Player Information Notice"
-  previous_url: /legal/terms/
-  previous_title: "Terms of Service"
-- title: Player Information Notice
-  url: /legal/player-notice/
-  previous_url: /legal/cookies/
-  previous_title: "Cookie Notice"
-  next_url: /legal/support-tickets/
-  next_title: "Support Ticket Privacy Disclosure"
-- title: Support Ticket Privacy Disclosure
-  url: /legal/support-tickets/
-  previous_url: /legal/player-notice/
-  previous_title: "Player Information Notice"

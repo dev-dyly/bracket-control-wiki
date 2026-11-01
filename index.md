@@ -5,37 +5,41 @@ permalink: /
 ---
 # Welcome to Bracket Control
 
-Bracket Control helps Discord gaming communities organise tournaments. You can register teams, pick players for draft tournaments, manage matches, report results and follow brackets and standings.
+Bracket Control helps Discord communities register players and teams, run live drafts, manage brackets and confirm match results.
 
-**You don't need to know anything about coding to use Bracket Control.** Choose the guide that matches what you want to do.
+**Guides reviewed for the production app on 2 November 2026.** Choose a guide for the task you want to complete.
 
 ## Start here
 
-- **[Getting started]({{ '/getting-started/' | relative_url }})** — sign in and find your Discord community.
-- **[Complete user guide]({{ '/guides/user-guide/' | relative_url }})** — simple instructions for players, captains and organisers.
-- **[Illustrated guides]({{ '/guides/visual-guides/' | relative_url }})** — open the original guides with screenshots.
+- [Getting started]({{ '/getting-started/' | relative_url }}) — sign in and find your community.
+- [Complete user guide]({{ '/guides/user-guide/' | relative_url }}) — the main steps for players, captains and organisers.
+- [Draft-only community setup]({{ '/guides/draft-only-setup/' | relative_url }}) — Manual Setup and the four-channel draft workflow.
 
-## Guides for organisers
+## Set up and run tournaments
 
-- [Set up your Discord server (PDF)]({{ '/assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf' | relative_url }})
-- [Create a tournament (PDF)]({{ '/assets/guides/tournament-creation/Bracket_Control_Tournament_Creation_User_Guide.pdf' | relative_url }})
-- [Approve team registrations]({{ '/guides/team-approvals/' | relative_url }})
-- [Set up divisions]({{ '/guides/divisions/' | relative_url }})
+- [Discord Server Setup]({{ '/guides/server-setup/' | relative_url }})
+- [Tournament creation]({{ '/guides/tournament-creation/' | relative_url }})
 - [Organiser guide]({{ '/guides/organisers/' | relative_url }})
-
-## Guides for players and captains
-
-- [Register or update a team (PDF)]({{ '/assets/guides/team-registration/Bracket_Control_Team_Registration_User_Guide.pdf' | relative_url }})
-- [Captain guide]({{ '/guides/captains/' | relative_url }})
+- [Approving team registrations]({{ '/guides/team-approvals/' | relative_url }})
+- [Divisions]({{ '/guides/divisions/' | relative_url }})
 - [Draft tournaments]({{ '/guides/drafts/' | relative_url }})
 
-**Playing in a tournament?** Your organiser should direct you to your server's player-registration channel. You can also open [Global Player Registration](https://app.devdylnz.com/app/register) when it is available. You normally register just once for all participating Bracket Control communities. Entering a particular tournament is a separate step.
+**Global Player Registration is the only mandatory Discord channel for general setup.** Choose other channels only for the features your community uses. A draft community can use **#tournament-registration**, **#bracket-updates**, **#claim-rank** and **Draft Waiting Room**. Claim Rank is a preferred channel name for **Match Results**.
 
-## Viewing a tournament
+## Play and follow results
 
-Ask the organiser for the tournament link. From that page you can view the **Bracket**, **Ladder / Standings** and **Match Results** when they are shared publicly.
+- [Team registration]({{ '/guides/team-registration/' | relative_url }})
+- [Captain guide]({{ '/guides/captains/' | relative_url }})
+- [Match results]({{ '/guides/match-results/' | relative_url }})
+- [Troubleshooting]({{ '/troubleshooting/' | relative_url }})
 
-Need help? Open [Troubleshooting]({{ '/troubleshooting/' | relative_url }}).
+Each player completes [Global Player Registration](https://app.devdylnz.com/app/register) personally. That does not enter a tournament or accept its rules. Follow the entry and participation instructions supplied by your organiser.
+
+Spectators can open a shared tournament link to see **Bracket**, **Ladder / Standings** and **Match Results** where public viewing is enabled.
+
+## Illustrated references
+
+The [three original illustrated PDF guides]({{ '/guides/visual-guides/' | relative_url }}) and their direct download links are preserved. Screenshots may show earlier screens; use the web guides for current instructions. PDFs open only when you select a PDF link.
 
 ## Privacy and terms
 

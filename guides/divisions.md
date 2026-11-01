@@ -1,63 +1,47 @@
 ---
 layout: default
-title: Adding and configuring divisions
+title: Divisions
 permalink: /guides/divisions/
 ---
 # Set up divisions
 
-Divisions let your community group teams by competitive level. For example, you might have **Division 1** and **Division 2**.
-
-Many communities use just **Division 1** and **Division 2**. Choose the divisions you need and follow any guidance shown in Bracket Control when setting up or entering a tournament.
+Divisions group ready-made teams by competitive level, such as **Division 1** and **Division 2**. Use them only if your community needs skill groups. Each tournament supports up to 16 teams. Draft tournaments remain independent of divisions.
 
 ## 1. Create a division
 
-1. Sign in to Bracket Control and choose your Discord server.
+1. Sign in as an organiser and choose your server.
 2. Open **Server Management → Divisions**.
-3. Find **Create a division**.
-4. Enter a name, such as **Division 1**, and select **Add division**.
-5. Repeat for any other divisions your community uses.
+3. Under **Create a division**, enter a name and select **Add division**.
+4. Repeat for any other divisions you need.
 
-If you want division announcements in a different Discord channel, expand **Discord Channel Settings (Optional)**. Otherwise, leave the existing server settings.
+**Discord Channel Settings (Optional)** lets you choose division destinations. Leave them on **Use server default** if you want the server's choices. You do not need separate registration, standings or staff channels for every division.
 
-## 2. Choose the division order
+## 2. Order and rename divisions
 
-1. In **Division rules**, select the division you want to change.
-2. Use **Move up** or **Move down** to put higher divisions above lower ones.
-3. Select **Save rules**.
+1. Under **Division rules**, choose a division.
+2. Use **Move up ↑** or **Move down ↓** to put the highest division first.
+3. Edit **Division name** if needed.
+4. Choose whether to **Post promotion updates to the results channel**.
+5. Select **Save rules**.
 
-You can also change a division's name here.
+## 3. Understand promotion
 
-## 3. Optional: promotion and relegation
+When a tournament linked to a division is fully complete, its eligible winning team's ongoing division membership moves up one division if a higher division exists. The winner must still belong to the division it won from. The highest division has nowhere higher to move.
 
-If your community wants teams to move between divisions based on results, open **Division rules**.
+Optional placement matches must finish before the tournament completes. Drafts do not trigger division promotion.
 
-You may be able to choose a **Division Championship** and set how many teams move up (**promotion**) or down (**relegation**) when the qualifying tournament finishes.
+## 4. Assign or move a team
 
-This is **optional**. A Division Championship must be a suitable recurring tournament already assigned to that division. If you cannot see one in the list, check your existing tournaments.
+1. Under **Team memberships**, use **Find a team**.
+2. Choose the team's new division, or **Unassigned**, from its dropdown.
+3. Check **Recent team transfers**.
 
-**Do not assume every tournament win automatically promotes a team.** The organiser needs to choose and save the rules that apply to that division.
+The choice saves the assignment. Transfers affect future entries; they do not rewrite earlier lineups, brackets or results. If an upcoming entry shows a division conflict, review that event's readiness before starting it.
 
-## 4. Move an existing team
+## 5. Link a tournament
 
-1. Under **Team memberships**, find the team.
-2. Enter the **Division override reason**. For example, "Moved to Division 2 after organiser review."
-3. Choose the new division for that team.
-4. Check **Recent team transfers** to confirm the change.
+1. Open **Dashboard → + Create tournament**.
+2. Under **Basics**, choose **Division (optional)**.
+3. Finish the schedule, rules and review steps.
 
-A move affects future tournament entries. It does not change results already recorded.
-
-## 5. Choose a division for a tournament
-
-When creating a tournament, look for the optional **Division** choice under **Basics**. Choose the correct division before you finish creating the event.
-
-For tournament setup screenshots, see [Creating Tournaments (PDF)]({{ '/assets/guides/tournament-creation/Bracket_Control_Tournament_Creation_User_Guide.pdf' | relative_url }}).
-
-## Common questions
-
-**Do I need several divisions?** No. Use only the divisions your community needs.
-
-**Do I need a Division Championship?** No. Set one up only if your community wants that type of promotion or relegation.
-
-**Why can't I move a team?** Make sure you have organiser access and have entered a reason. If the app still prevents the change, follow the message shown or ask another administrator.
-
-See [Organiser guide]({{ '/guides/organisers/' | relative_url }}) for more help.
+For a full walkthrough, see [Tournament creation]({{ '/guides/tournament-creation/' | relative_url }}) and [Organiser guide]({{ '/guides/organisers/' | relative_url }}).

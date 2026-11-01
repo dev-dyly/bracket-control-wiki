@@ -5,7 +5,11 @@ permalink: /guides/visual-guides/
 ---
 # Illustrated user guides
 
-Open the **original Bracket Control PDF guides** below. Each document includes its own screenshots and step-by-step instructions.
+The **original Bracket Control PDF guides** are preserved below with their screenshots and direct links. Screenshots may show earlier screens. Use the current [Discord Server Setup]({{ '/guides/server-setup/' | relative_url }}), [Tournament creation]({{ '/guides/tournament-creation/' | relative_url }}) and [Team registration]({{ '/guides/team-registration/' | relative_url }}) web guides for current instructions.
+
+For the four-channel Manual Setup workflow, use [Draft-only community setup]({{ '/guides/draft-only-setup/' | relative_url }}). Only Global Player Registration is mandatory for general server setup; other channel choices depend on the features you use.
+
+PDFs open only when you select **Open PDF** or another explicit PDF link. **Next** and **Previous** stay on the website.
 
 <div class="pdf-guide-list">
   <article class="pdf-guide-card">
