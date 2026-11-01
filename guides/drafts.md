@@ -54,7 +54,7 @@ Rooms are cleaned up when no longer needed, with cleanup deferred where occupant
 
 Choose a **Registered Teams** channel in the tournament's channel settings, or select a destination under **Discord → Team list**. This also works for draft-only communities; no team-registration or staff-approval channel is needed.
 
-With **Image — automatic updates** selected, Bracket Control publishes the Teams List after the draft is complete, its rosters are approved and team voice-room allocation succeeds. The PNG uses the same layout as other tournaments: team names, captains, five starters and any substitutes. Disconnected players do not prevent publishing once their team rooms are ready.
+With **Image — automatic updates** selected, Bracket Control publishes the Teams List after the draft is complete, its rosters are approved and its team voice rooms are ready. The PNG uses the same layout as other tournaments: team names, captains, five starters and any substitutes. Disconnected players do not prevent publishing once their team rooms are ready.
 
 To publish or refresh it yourself, open **Manage Tournament → Discord → Team list**, check the destination and image format, select **Save this tournament**, then **Publish Teams List**.
 

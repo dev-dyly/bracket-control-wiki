@@ -117,7 +117,7 @@ Temporary rooms are cleaned up after they are no longer needed. Cleanup may wait
 
 ### Publish the completed draft's Teams List
 
-With a Teams List destination and **Image — automatic updates**, Bracket Control posts the PNG after the draft is complete, its rosters are approved and team voice-room allocation succeeds. It shows each team's name, captain, five starters and substitutes using the usual tournament layout.
+With a Teams List destination and **Image — automatic updates**, Bracket Control posts the PNG after the draft is complete, its rosters are approved and its team voice rooms are ready. It shows each team's name, captain, five starters and substitutes using the usual tournament layout.
 
 To publish or refresh it manually, open **Manage Tournament → Discord → Team list**, check the destination and image format, select **Save this tournament**, then **Publish Teams List**. Approved roster changes update the same post automatically; manual refresh also updates it. Turning publishing off or choosing manual-only delivery stops automatic updates. Changing destinations keeps the old channel's post as history.
 
