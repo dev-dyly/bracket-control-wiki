@@ -12,7 +12,7 @@ For a complete Discord walkthrough, use [Draft-only community setup]({{ '/guides
 ## 1. Prepare the tournament
 
 1. Create a tournament and check **Captain draft tournament** under **Basics**.
-2. Set the schedule and rules. Decide whether to **Require Individual Player Acceptance** before creating it; this choice and the rules are fixed at creation.
+2. Choose **Draft Style**: **Standard (1-for-1)** keeps the same captain order each round; **Snake Draft** reverses it each round. Set the schedule and rules. Decide whether to **Require Individual Player Acceptance** before creating it; this choice and the rules are fixed at creation.
 3. Ask every player to complete [Global Player Registration](https://app.devdylnz.com/app/register) using their own Discord account.
 4. If using Discord voice, assign **Draft Voice Waiting Room** to the correct voice channel and ask players to join it.
 5. Open **Manage Tournament → Live Draft** and check the player pool. Unpicked players gathered from voice are removed from the pool if they leave the waiting room.
@@ -34,11 +34,32 @@ The registry can be reused for later tournaments, but captains must be explicitl
 2. Select **START CAPTAIN DRAFT**.
 3. Captains sign in and open their **Team and draft dashboard** from **My Matches**, or their team in **My Teams**.
 4. When **YOUR TURN TO PICK** appears, the captain selects the button beside an available player.
-5. Follow the turns shown. Stages use two, one, two and one picks, reversing captain order between stages. The first four chosen players join the captain in the starting five.
+5. Follow the **Draft Style** and **Selection order** shown in Live Draft and the captain dashboard. Each captain chooses one player per turn. The first four chosen players join the captain in the starting five.
 6. Extra picks are optional substitutes. Players needed to complete other starting lineups are reserved. Use **PASS REMAINING OPTIONAL PICKS** when offered.
 7. When drafting finishes, check **Teams**. Valid completed lineups are approved automatically; captains do not need manual approval.
 
 Organisers can supervise and make a pick for a captain from **Live Draft** when necessary. Captains choose through the website.
+
+### Choose the draft style
+
+Only tournament administrators can choose or change **Draft Style**. Choose it under **Basics** when creating a captain draft tournament, or in **Manage Tournament → Live Draft** before selecting **START CAPTAIN DRAFT**. The choice locks as soon as drafting begins.
+
+- **Standard (1-for-1):** each captain picks one player, then the same order repeats. With captains A, B and C: **A → B → C → A → B → C**.
+- **Snake Draft:** each captain picks one player, then the order reverses for the next round. With captains A, B and C: **A → B → C → C → B → A**.
+
+Both options work with two or more captains. After everyone has four additional starters, there are up to two optional substitute rounds. The live selection order starts with the current captain and shows the rest of this round and the next. Optional turns may be skipped when no players are available.
+
+Existing tournaments keep their original order and display **Legacy (2 / 1 / 2 / 1)**. An administrator can switch an existing tournament before its draft starts. Ongoing drafts continue in their established order. Editing a recurring series changes future tournaments only.
+
+### Remove an unavailable player
+
+1. Open **Manage Tournament → Live Draft**.
+2. In **Live draft player pool**, find the available player and select **Remove**.
+3. Confirm the removal. The player disappears from the pool and captains can no longer pick them.
+
+Administrators can remove available players before or during drafting. Captains and players already assigned to teams cannot be removed this way. Removing someone does not change the current captain's turn. If a team still needs starters, add more available players before continuing.
+
+A removed player stays out of the pool even if they remain in the voice waiting room. They can return by leaving and rejoining the configured **Draft Waiting VC**, or an administrator can enter their player tag and select **IMPORT PLAYERS**. Normal voice management continues for everyone else: available voice entrants join automatically and unpicked voice entrants leave the pool when they leave the room.
 
 ## 4. Understand automatic voice rooms
 
