@@ -28,18 +28,26 @@ Claim Rank is a preferred Discord channel name, not another feature. A draft com
 2. Ask them to sign in individually, read the three platform documents and select **Accept Registration** after completing the choices.
 3. Ask them to use **Verify Registration** in your server.
 4. Explain how to enter your actual tournament: a captain's team entry or the draft player pool.
-5. If you require individual acceptance, share **Teams → Participation readiness → Copy Participation Link** and ask each captain, starter and substitute to complete **My Participation**.
+5. If you require individual acceptance, share **Teams & players → Participation readiness → Copy Participation Link** and ask each captain, starter and substitute to complete **My Participation**.
 
 Global registration covers the current platform documents across participating communities. It does not enter a tournament, confirm attendance, approve a lineup or accept tournament rules. Captains cannot personally accept rules for teammates.
+
+## Find what needs attention
+
+The dashboard shows **Active tournaments** and **Upcoming tournaments** for the selected Discord server. **Needs Attention** lists pending team registrations, match disputes and other outstanding actions. Select **Review registration**, **Review match** or **Review action** to open the existing screen for that item. If more than five actions are waiting, select the link to view all actions. A loading error does not mean the queue is empty; select **Try again**.
+
+![Example community dashboard with a pending registration and a direct review button.]({{ '/assets/guides/admin-experience/dashboard-1280.png' | relative_url }})
+
+[View the mobile dashboard example]({{ '/assets/guides/admin-experience/dashboard-390.png' | relative_url }}). The examples use fictional teams.
 
 ## 3. Create the tournament
 
 1. Open **Dashboard → + Create tournament**.
-2. Set **Basics**, including the format, capacity, optional division or **Captain draft tournament**, and **Require Individual Player Acceptance**.
-3. Set **Schedule** and the registration period.
-4. Enter **Tournament Rules**.
-5. Check **Discord**, then **Review**.
-6. Complete the displayed confirmation and select **Create tournament**.
+2. Choose **Tournament type**: **Standard Team** or **Draft**. Enter the name, bracket format, capacity and optional division or draft style.
+3. Set **Date and registration**, and decide whether the event repeats weekly.
+4. Enter **Tournament rules** and decide whether to **Require Individual Player Acceptance**, when available.
+5. Open optional Discord or match settings only if you need them.
+6. Check the form, complete the confirmation and select **Create tournament**.
 
 Rules and individual acceptance are fixed at creation. Cancel and create a replacement if they need to change. See [Tournament creation]({{ '/guides/tournament-creation/' | relative_url }}).
 
@@ -47,7 +55,7 @@ Rules and individual acceptance are fixed at creation. Cancel and create a repla
 
 For ready-made teams:
 
-1. Open **Manage Tournament → Teams → Approval queue**.
+1. Open **Manage Tournament → Teams & players → Approval queue**.
 2. Review captains, players and lineup changes, then **Approve** or **Reject**.
 3. Check attendance and **Participation readiness** separately. Regular weekly entries still need **CONFIRM PARTICIPATION** even when an unchanged lineup retains approval.
 
@@ -72,17 +80,17 @@ Captains can use **Transfer Captaincy** or **Retire Team** in **My Teams**. Reti
 
 ## 6. Start matches and review results
 
-1. Check **Overview**, **Teams** and **Participation readiness**.
-2. Use **Seed** to check the starting order.
+1. Check **Overview**, **Teams & players** and **Participation readiness**.
+2. Use **Team order** to check the starting order.
 3. In **Overview**, expand **Ready to start? Bracket controls** and select **LOCK ROSTERS & GENERATE BRACKET**.
-4. Follow games under **Matches**. Winning captains submit one scoresheet per game; opponents confirm or dispute.
+4. Follow games under **Matches & results**. Winning captains submit one scoresheet per game; opponents confirm or dispute.
 5. Review disputes and use the organiser's correction controls if a confirmed result is wrong. Check the effect on later matches before confirming a correction.
 
 See [Match results]({{ '/guides/match-results/' | relative_url }}). Confirmed scoresheets published to a results channel are visible to everyone who can access that channel.
 
 ## 7. Publish updates
 
-1. Open the tournament's **Discord** tab.
+1. Open the tournament's **Discord & publishing** tab.
 2. Choose **Publish bracket**, **Team list** or **Custom announcement**.
 3. Choose the destination and format, then **Save this tournament**.
 4. Use **Publish Teams List** for a manual team-list post or refresh; other messages use **Send now to Discord**. Choose **Image — automatic updates** for automatic bracket or approved-roster updates.

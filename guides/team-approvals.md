@@ -12,7 +12,7 @@ Draft captains do not need manual approval. Valid draft lineups are approved aut
 ## 1. Check an entry
 
 1. Sign in with organiser access and choose the correct server and tournament.
-2. Open **Manage Tournament → Teams → Approval queue**.
+2. In the dashboard, select **Review registration** under **Needs Attention** to open a pending entry directly. You can also open **Manage Tournament → Teams & players → Approval queue**.
 3. Use **Filter applications** to find pending, approved, rejected, withdrawn or all entries.
 4. Check the captain, five starters and up to two substitutes.
 5. Compare previous players where shown and check any changed names.

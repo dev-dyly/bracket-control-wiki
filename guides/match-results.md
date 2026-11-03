@@ -44,7 +44,7 @@ A disputed game pauses the series until an organiser resolves it. Ask the organi
 3. Allow a short time for Discord delivery. A delay does not undo a result confirmed on the website.
 4. For manual delivery options, open **Manage Tournament → Discord → Match results** and follow the available send action. Check **Discord delivery status** in the server's Discord settings if delivery fails.
 
-The bracket image is configured separately under **Discord → Publish bracket**. **Final standings** becomes available after the tournament is complete; it is not the same as the Match Results destination.
+The bracket image is configured separately under **Discord & publishing → Publish bracket**. **Final standings** becomes available after the tournament is complete; it is not the same as the Match Results destination.
 
 Website evidence access is restricted to authorised accounts, but **confirmed scoresheets posted to Discord are visible to people who can access the results channel**. Upload only relevant match evidence and check channel access before publishing.
 

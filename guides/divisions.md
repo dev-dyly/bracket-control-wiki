@@ -41,7 +41,7 @@ The choice saves the assignment. Transfers affect future entries; they do not re
 ## 5. Link a tournament
 
 1. Open **Dashboard → + Create tournament**.
-2. Under **Basics**, choose **Division (optional)**.
-3. Finish the schedule, rules and review steps.
+2. Under **Tournament details**, choose **Division (optional)**.
+3. Check the schedule and rules, complete the confirmation and select **Create tournament**.
 
 For a full walkthrough, see [Tournament creation]({{ '/guides/tournament-creation/' | relative_url }}) and [Organiser guide]({{ '/guides/organisers/' | relative_url }}).

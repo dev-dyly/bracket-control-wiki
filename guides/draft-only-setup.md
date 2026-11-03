@@ -56,7 +56,7 @@ This is a registration marker, not a staff role. Do not give it administrator or
 
 Manual Setup saves your choices and publishes only the messages you selected. It does not create channels, change channel permissions or move channels in Discord.
 
-If you want a Teams List PNG, also assign **Registered Teams** to a suitable text channel, or choose its destination later under the tournament's **Discord → Team list**. You can use an existing channel such as **#bracket-updates**. This is optional and does not require ready-made team registration or a staff-approval channel.
+If you want a Teams List PNG, also assign **Registered Teams** to a suitable text channel, or choose its destination later under the tournament's **Discord & publishing → Team list**. You can use an existing channel such as **#bracket-updates**. This is optional and does not require ready-made team registration or a staff-approval channel.
 
 ## 5. Check the bot's Discord permissions
 
@@ -75,11 +75,11 @@ Channel and category restrictions can override a role's permissions. Check the a
 ## 6. Create the draft tournament
 
 1. On **Dashboard**, select **+ Create tournament**.
-2. Under **Basics**, enter the name, bracket format and maximum teams. Check **Captain draft tournament**. Draft tournaments are independent of divisions.
-3. Choose whether to **Repeat this tournament weekly**. Set the date, time zone and registration period under **Schedule**.
+2. Under **Tournament details**, enter the name, bracket format and maximum teams. Check **Captain draft tournament**. Draft tournaments are independent of divisions.
+3. Choose whether to **Repeat this tournament weekly**. Set the date, time zone and registration period under **Date and registration**.
 4. Decide whether to **Require Individual Player Acceptance**. If enabled, every captain, starter and substitute must personally complete the required registration and tournament-rules acceptance.
 5. Add your **Tournament Rules**. Rules and the individual-acceptance choice are fixed at creation, so check them carefully.
-6. Under **Discord**, use your server's channels unless this event needs different ones. Check that **Match Results** uses **#claim-rank** and the draft waiting room is correct.
+6. Open **Custom Discord channels (optional)** only if this tournament needs different channels. Check that **Match Results** uses **#claim-rank** and the draft waiting room is correct.
 7. Review the settings, complete the confirmation shown and select **Create tournament**.
 
 See [Tournament creation]({{ '/guides/tournament-creation/' | relative_url }}) for the full creation steps.
@@ -90,8 +90,8 @@ See [Tournament creation]({{ '/guides/tournament-creation/' | relative_url }}) f
 2. Players review the Terms of Service, Privacy Policy and Player Information Notice, complete the three choices and select **Accept Registration**.
 3. Players use **Verify Registration** on the server's registration message to receive the registered-player role when their registration is current.
 4. Ask players to join **Draft Waiting Room** and remain connected. Bracket Control uses the configured room to gather available draft players.
-5. Open **Manage Tournament → Live Draft** and check the player pool. If necessary, use **More Discord actions → Draft voice players** in the tournament's **Discord** tab to refresh waiting players.
-6. If individual acceptance is required, share the tournament's participation link from **Teams → Participation readiness → Copy Participation Link**. Players open **My Participation** and select **ACCEPT TOURNAMENT RULES** after reading and checking the displayed statement.
+5. Open **Manage Tournament → Live Draft** and check the player pool. If necessary, use **More Discord actions → Draft voice players** in the tournament's **Discord & publishing** tab to refresh waiting players.
+6. If individual acceptance is required, share the tournament's participation link from **Teams & players → Participation readiness → Copy Participation Link**. Players open **My Participation** and select **ACCEPT TOURNAMENT RULES** after reading and checking the displayed statement.
 
 **Global Player Registration is separate from entering a tournament.** It records the current Bracket Control registration across participating communities. It does not put a player in a draft, assign a team, confirm attendance or accept a community's tournament rules. Joining voice supplies a draft player; it does not accept rules. Each player must make their own required decisions.
 
@@ -125,9 +125,9 @@ To publish or refresh it manually, open **Manage Tournament → Discord → Team
 
 1. Open **Manage Tournament → Teams** and check every completed team and **Participation readiness**.
 2. Clear any remaining readiness warnings. Automatic roster approval does not replace required player acceptance.
-3. Use **Seed** to check the teams' starting order.
+3. Use **Team order** to check the teams' starting order.
 4. In **Overview**, expand **Ready to start? Bracket controls** and select **LOCK ROSTERS & GENERATE BRACKET**. Confirm the prompt. This locks the lineups and starts the competition.
-5. Open **Discord → Publish bracket**, select **#bracket-updates** as the destination and choose **Image — automatic updates** or **Image — send manually**.
+5. Open **Discord & publishing → Publish bracket**, select **#bracket-updates** as the destination and choose **Image — automatic updates** or **Image — send manually**.
 6. Select **Save this tournament**. For a manual post, select **Send now to Discord**. Check the message in Discord.
 
 Creating the tournament alone does not publish every bracket. Publishing settings apply to the tournament you are managing.
