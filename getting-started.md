@@ -26,7 +26,7 @@ If the server is missing, check your account and ask its administrator whether B
 - **Register as a player:** Open your server's Global Player Registration message or [Player Registration](https://app.devdylnz.com/app/register). Review the documents, complete the three choices and select **Accept Registration**. Use **Verify Registration** in your Discord server afterwards.
 - **Enter a ready-made team:** Use the organiser's team-registration invitation and follow [Team registration]({{ '/guides/team-registration/' | relative_url }}).
 - **Join a draft:** Complete player registration, then follow the organiser's waiting-room and participation instructions. See [Draft tournaments]({{ '/guides/drafts/' | relative_url }}).
-- **Report a game:** Open **My Matches** and follow [Match results]({{ '/guides/match-results/' | relative_url }}).
+- **Report a game:** Open **Captain Dashboard** and follow [Match results]({{ '/guides/match-results/' | relative_url }}).
 - **Organise a community:** Start with [Discord Server Setup]({{ '/guides/server-setup/' | relative_url }}) or [Draft-only community setup]({{ '/guides/draft-only-setup/' | relative_url }}).
 - **Watch:** Open a public link shared by your organiser and choose **Bracket**, **Ladder / Standings** or **Match Results**.
 

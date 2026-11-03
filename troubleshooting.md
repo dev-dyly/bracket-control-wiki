@@ -42,7 +42,7 @@ A gaming name alone does not link a player entry to your account. Another person
 ## My approved team is not ready
 
 1. Open the correct event in **My Teams**.
-2. Check **CONFIRM PARTICIPATION** and the registration deadline.
+2. Check **Confirm participation** and the registration deadline.
 3. Ask the organiser to check **Teams → Participation readiness** and **Overview**.
 4. Resolve outstanding personal registration, rules acceptance or division warnings.
 

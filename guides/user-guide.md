@@ -93,7 +93,7 @@ For details, see [Tournament creation]({{ '/guides/tournament-creation/' | relat
 
 The captain's declaration does not register teammates globally or personally accept their tournament rules. Draft teams use the draft process instead.
 
-For regular weekly competitions, **Prefilled roster; captain must check in** can carry a lineup forward. Captains must still select **CONFIRM PARTICIPATION** for each event they intend to play. An unchanged approved lineup can retain approval; changing players requires a review. **WITHDRAW FROM THIS TOURNAMENT** skips one event. **LEAVE RECURRING COMPETITION** stops future entries.
+For regular weekly competitions, **Prefilled roster; captain must check in** can carry a lineup forward. Captains must still select **Confirm participation** for each event they intend to play. An unchanged approved lineup can retain approval; changing players requires a review. **Withdraw from this tournament** skips one event. **LEAVE RECURRING COMPETITION** stops future entries.
 
 See [Team registration]({{ '/guides/team-registration/' | relative_url }}) and [Captain guide]({{ '/guides/captains/' | relative_url }}).
 
@@ -125,8 +125,8 @@ See [Approving team registrations]({{ '/guides/team-approvals/' | relative_url }
 3. Open **Captain Selection → Draft Captain Registry**, add captains as needed and select **Confirm Selected Captains**.
 4. With Discord voice configured, Bracket Control creates a private **Draft Captains** room and moves selected captains who are in the waiting room.
 5. Check the player pool under **Live Draft**, then select **START CAPTAIN DRAFT** when enough players are ready.
-6. Captains use their **Team and draft dashboard**. At **Your turn to pick**, they select a player on the website.
-7. Follow the two, one, two and one pick stages. The first four picks complete each captain's starting five. Optional picks can supply up to two substitutes; captains can pass when offered.
+6. Captains use their **Captain Dashboard**. At **Your turn to pick**, they select a player on the website.
+7. Follow the displayed Standard or Snake turns. Older tournaments keep their original 2/1/2/1 stages. The first four picks complete each captain's starting five. Optional picks can supply up to two substitutes; captains can pass when offered.
 8. At completion, valid lineups are automatically approved. Check any remaining individual-acceptance requirements before generating the bracket.
 
 Temporary team rooms are created at completion. Connected, recognised players can move from the waiting room and captains from the captain room. **Team rooms copy the waiting room's permissions; they are not automatically private to each team.** Ask a Discord administrator to review team-room access if privacy is required.
