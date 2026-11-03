@@ -70,12 +70,11 @@ Follow [Discord Server Setup]({{ '/guides/server-setup/' | relative_url }}) or t
 ## 4. Organisers: create a tournament
 
 1. Open **Dashboard → + Create tournament**.
-2. Under **Basics**, enter the name, bracket format and maximum teams, from 2 to 16. Choose an optional division or check **Captain draft tournament**.
+2. Choose **Tournament type**: **Standard Team** or **Draft**. Enter the name, bracket format and maximum teams, from 2 to 16. Choose an optional division or the draft style shown for drafts.
 3. Decide whether to **Require Individual Player Acceptance** and **Repeat this tournament weekly**.
-4. Under **Schedule**, set the date, time zone and registration period.
-5. Enter **Tournament Rules**.
-6. Under **Discord**, use server defaults or choose different destinations.
-7. Under **Review**, check all choices, complete the displayed confirmation and select **Create tournament**.
+4. Set **Date and registration**, then enter **Tournament rules**.
+5. Open **Custom Discord channels (optional)** or **Advanced match settings (optional)** only when needed.
+6. Check the form, complete the displayed confirmation and select **Create tournament**. There are no separate creation steps.
 
 Rules and individual acceptance are fixed at creation. To change them, cancel and create a replacement tournament or recurring competition.
 
@@ -108,7 +107,7 @@ See [Captain guide]({{ '/guides/captains/' | relative_url }}) for details.
 
 ## 6. Organisers: review ready-made teams
 
-1. Open **Manage Tournament → Teams → Approval queue**.
+1. Select **Review registration** in the dashboard's **Needs Attention** section, or open **Manage Tournament → Teams & players → Approval queue**.
 2. Check the captain, starters, substitutes and any lineup changes.
 3. Select **Approve** or **Reject**, giving a reason where needed.
 4. Check attendance, division issues and **Participation readiness** separately.
@@ -120,7 +119,7 @@ See [Approving team registrations]({{ '/guides/team-approvals/' | relative_url }
 
 ## 7. Run a draft
 
-1. Create a tournament with **Captain draft tournament** selected.
+1. Create a tournament with **Draft** selected under **Tournament type**.
 2. Ask players to complete Global Player Registration. Gather them in the configured **Draft Waiting Room** if using Discord voice.
 3. Open **Captain Selection → Draft Captain Registry**, add captains as needed and select **Confirm Selected Captains**.
 4. With Discord voice configured, Bracket Control creates a private **Draft Captains** room and moves selected captains who are in the waiting room.
@@ -139,12 +138,12 @@ See [Draft tournaments]({{ '/guides/drafts/' | relative_url }}) and [Draft-only 
 
 ## 8. Generate the bracket
 
-1. Check **Teams**, **Participation readiness** and **Overview**.
-2. Use **Seed** to check the starting order.
+1. Check **Teams & players**, **Participation readiness** and **Overview**.
+2. Use **Team order** to check the starting order.
 3. In **Overview**, expand **Ready to start? Bracket controls**.
 4. Select **LOCK ROSTERS & GENERATE BRACKET** and confirm after checking the lineups.
 
-This locks the lineups and starts the competition. Follow matches under **Matches**.
+This locks the lineups and starts the competition. Follow matches under **Matches & results**.
 
 ## 9. Report games and follow results
 
@@ -162,7 +161,7 @@ See [Match results]({{ '/guides/match-results/' | relative_url }}) for disputes,
 
 ## 10. Publish to Discord
 
-1. Open the selected tournament's **Discord** tab.
+1. Open the selected tournament's **Discord & publishing** tab.
 2. Choose **Publish bracket**, **Team list** or **Custom announcement**.
 3. Select the destination and delivery format.
 4. Select **Save this tournament**.

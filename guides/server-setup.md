@@ -75,7 +75,21 @@ If setup is interrupted, open **Resume interrupted setup**, confirm the saved pl
 
 The bot needs **View Channels**, **Send Messages**, **Embed Links**, **Attach Files** and **Read Message History** in the selected text channels. It needs **Manage Roles** to assign the registered-player role. For draft voice, also check **Manage Channels**, **View Audit Log**, **Connect** and **Move Members**; see [draft-only setup]({{ '/guides/draft-only-setup/' | relative_url }}).
 
-Use **Open Server Setup** to review global registration settings. Use **Manage Discord Settings** after setup to change tournament channel defaults and check **Channel Preview — Effective Channels**. A tournament can choose different channels, so check its own **Settings** and **Discord** tab if posts go somewhere unexpected.
+Use **Open Server Setup** to review global registration settings. Use **Manage Discord Settings** after setup to change tournament channel defaults and check **Channel Preview — Effective Channels**. A tournament can choose different channels, so check its own **Settings** and **Discord & publishing** tab if posts go somewhere unexpected.
+
+## Optional tournament channels
+
+In **Discord Settings (Global)**, **Manage Global Player Registration** opens the required registration settings. The other channels are optional:
+
+- **Team Registration & Management** invites captains to register a team.
+- **Registered Teams** posts approved team lists.
+- **Pending Approvals (Staff Only)** sends approval requests to a private staff channel.
+- **Bracket Updates** posts bracket progress.
+- **Ladder / Standings Updates** posts rankings.
+- **Match Results** posts results.
+- **Draft Voice Waiting Room** is a voice room for draft players.
+
+Choose **Not configured** for an unused server default, or **Use server default** for a division that needs no separate channel. Select **Save channels** to apply changes. Your existing choices and Discord permission checks still apply.
 
 ## Player registration and tournament entry are separate
 
