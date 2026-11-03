@@ -57,7 +57,7 @@ For ready-made teams:
 
 1. Open **Manage Tournament → Teams & players → Approval queue**.
 2. Review captains, players and lineup changes, then **Approve** or **Reject**.
-3. Check attendance and **Participation readiness** separately. Regular weekly entries still need **CONFIRM PARTICIPATION** even when an unchanged lineup retains approval.
+3. Check attendance and **Participation readiness** separately. Regular weekly entries still need **Confirm participation** even when an unchanged lineup retains approval.
 
 For drafts:
 

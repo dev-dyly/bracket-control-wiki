@@ -42,7 +42,7 @@ A gaming name alone does not link a player entry to your account. Another person
 ## My approved team is not ready
 
 1. Open the correct event in **My Teams**.
-2. Check **CONFIRM PARTICIPATION** and the registration deadline.
+2. Check **Confirm participation** and the registration deadline.
 3. Ask the organiser to check **Teams → Participation readiness** and **Overview**.
 4. Resolve outstanding personal registration, rules acceptance or division warnings.
 
@@ -86,22 +86,22 @@ The captain room is private. Team rooms inherit waiting-room permissions and are
 
 1. Sign in with the account assigned as captain.
 2. Check you still belong to the hosting Discord server.
-3. Open **My Teams** or **My Matches** to find your verified assignment.
+3. Open **My Teams** or **Captain Dashboard** to find your verified assignment.
 4. Ask the organiser to check the captain assignment if it is missing.
 
 Keep private captain links within your team and organiser group.
 
 ## My scoresheet will not upload
 
-1. For **Report Game Victory**, choose one PNG, JPEG, WebP or PDF file, up to **10 MB**.
+1. For **Report Win**, choose one PNG, JPEG, WebP or PDF file, up to **10 MB**.
 2. Check that you are the winning captain for the selected game.
 3. Check that the previous game is confirmed and the tournament is live.
 4. If the upload still fails, give the organiser the tournament, match and error message.
 
 ## A result is disputed or the bracket has not changed
 
-1. Open **My Matches** and check whether the opponent still needs to confirm.
-2. The opponent can select **Confirm game result**, or enter a reason and select **Dispute game result**.
+1. Open **Captain Dashboard** and check whether the opponent still needs to confirm.
+2. The opponent can select **Confirm Result**, or enter a reason and select **Dispute Result**.
 3. A dispute pauses the series until an organiser reviews it in **Manage Tournament → Matches**.
 4. A match advances only when a team reaches the required confirmed game wins.
 

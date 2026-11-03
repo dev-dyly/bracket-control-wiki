@@ -29,7 +29,7 @@ A verified unchanged lineup carried forward to a regular weekly event can retain
 
 ## 3. Check readiness separately
 
-1. Check whether the captain has selected **CONFIRM PARTICIPATION** for this event.
+1. Check whether the captain has selected **Confirm participation** for this event.
 2. Review **Participation readiness**. If individual acceptance is required, each captain, starter and substitute needs current Global Player Registration and personal tournament-rules acceptance.
 3. Resolve any division or recurring-entry warnings.
 4. Return to **Overview** before generating the bracket.

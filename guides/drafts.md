@@ -32,11 +32,12 @@ The registry can be reused for later tournaments, but captains must be explicitl
 
 1. Open **Live Draft** and check there are at least two captain teams and four available starting-player picks per captain.
 2. Select **START CAPTAIN DRAFT**.
-3. Captains sign in and open their **Team and draft dashboard** from **My Matches**, or their team in **My Teams**.
-4. When **YOUR TURN TO PICK** appears, the captain selects the button beside an available player.
+3. Captains sign in, open **Captain Dashboard** and choose their tournament.
+4. When **Your turn to pick** appears, the captain selects the button beside an available player.
 5. Follow the **Draft Style** and **Selection order** shown in Live Draft and the captain dashboard. Each captain chooses one player per turn. The first four chosen players join the captain in the starting five.
-6. Extra picks are optional substitutes. Players needed to complete other starting lineups are reserved. Use **PASS REMAINING OPTIONAL PICKS** when offered.
+6. Extra picks are optional substitutes. Players needed to complete other starting lineups are reserved. Use **Pass optional picks** when offered.
 7. When drafting finishes, check **Teams & players**. Valid completed lineups are approved automatically; captains do not need manual approval.
+
 
 Organisers can supervise and make a pick for a captain from **Live Draft** when necessary. Captains choose through the website.
 
@@ -87,7 +88,8 @@ Approved roster changes update the same Discord message when automatic updates a
 2. Check the starting order under **Team order**.
 3. In **Overview**, expand **Ready to start? Bracket controls** and select **LOCK ROSTERS & GENERATE BRACKET**. Confirm after checking the teams.
 4. Use **Discord & publishing → Publish bracket** to post to **#bracket-updates** if wanted.
-5. Captains use **My Matches** to **Report Game Victory** with one screenshot or scoresheet per game. The opponent confirms or disputes it.
+5. Captains use **Captain Dashboard** to **Report Win** with one screenshot or scoresheet per game. The opponent confirms or disputes it.
+
 6. Confirmed results and scoresheets publish to the configured **Match Results** channel, such as **#claim-rank**. Claim Rank is the community's channel name, not another feature.
 
 See [Match results]({{ '/guides/match-results/' | relative_url }}) for screenshots, confirmation and corrections.

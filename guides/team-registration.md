@@ -36,19 +36,19 @@ Do not select a similar-looking account just to finish the form.
 2. Share the required platform documents, player notice and rules with your teammates.
 3. Complete the declaration only if it is accurate.
 4. Select **Register Team**.
-5. Check the team's status in **My Teams**.
+5. Check the team's status in **Captain Dashboard**.
 
 An organiser must approve new or changed lineups. Your declaration does not complete a teammate's Global Player Registration or accept tournament rules personally for them. If the tournament requires individual acceptance, share the participation invitation and ask every captain, starter and substitute to complete **My Participation**.
 
 ## 4. Returning teams and changes
 
-1. Open **My Teams** and select the upcoming event.
+1. Open **Captain Dashboard** and choose the upcoming event.
 2. Check its lineup, deadline and attendance.
-3. Select **CONFIRM PARTICIPATION** for the event you intend to play.
-4. For a player change, review and submit the new lineup using **Submit roster for approval**.
+3. Select **Confirm participation** for the event you intend to play.
+4. For a player change, select **Edit team members**, review the lineup and select **Submit roster for approval**.
 5. Check approval and attendance separately after any change.
 
-A carried-forward, unchanged lineup can retain approval. It still needs attendance confirmation. **WITHDRAW FROM THIS TOURNAMENT** skips one event; **LEAVE RECURRING COMPETITION** stops future entries.
+A carried-forward, unchanged lineup can retain approval. It still needs attendance confirmation. **Withdraw from this tournament** skips one event; **LEAVE RECURRING COMPETITION** stops future entries.
 
 ## Illustrated reference
 
