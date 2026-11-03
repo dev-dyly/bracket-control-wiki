@@ -34,7 +34,7 @@ Global registration covers the current platform documents across participating c
 
 ## Find what needs attention
 
-The dashboard shows **Active tournaments** and **Upcoming tournaments** for the selected Discord server. **Needs Attention** lists pending team registrations, match disputes and other outstanding actions. Select **Review registration**, **Review match** or **Review action** to open the existing screen for that item. If more than five actions are waiting, select the link to view all actions. A loading error does not mean the queue is empty; select **Try again**.
+The dashboard shows **Active tournaments** and **Upcoming tournaments** for the selected Discord server. **Needs Attention** lists pending team registrations, substitute requests, match disputes and other outstanding actions. Select **Review registration**, **Review match** or **Review action** to open the existing screen for that item. If more than five actions are waiting, select the link to view all actions. A loading error does not mean the queue is empty; select **Try again**.
 
 ![Example community dashboard with a pending registration and a direct review button.]({{ '/assets/guides/admin-experience/dashboard-1280.png' | relative_url }})
 
@@ -68,6 +68,8 @@ For drafts:
 5. Check remaining participation requirements before generating the bracket.
 
 With Discord voice configured, the bot creates a private captain room and, after the draft, temporary team rooms. Team rooms inherit the waiting room's permissions; check their access if private team conversations are required. See [Draft tournaments]({{ '/guides/drafts/' | relative_url }}) for bot permissions, player moves and cleanup.
+
+After a draft, **Teams & players → Reserve Player Pool** shows undrafted players and captain-selected substitute requests. Review requests from **Needs Attention** or this panel. Approve or reject the selected player; the reserve must personally confirm and complete any applicable registration and rules. Changes complete only after safety checks pass between matches. See [Reserve Player Pool and substitute requests]({{ '/guides/drafts/#reserve-player-pool-and-substitute-requests' | relative_url }}) for the full steps.
 
 ## 5. Manage ongoing teams
 
