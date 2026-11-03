@@ -11,7 +11,7 @@ For a complete Discord walkthrough, use [Draft-only community setup]({{ '/guides
 
 ## 1. Prepare the tournament
 
-1. Create a tournament and choose **Draft** under **Tournament type** under **Tournament details**.
+1. Create a tournament and choose **Draft** under **Tournament type**.
 2. Choose **Draft Style**: **Standard (1-for-1)** keeps the same captain order each round; **Snake Draft** reverses it each round. Set the schedule and rules. Decide whether to **Require Individual Player Acceptance** before creating it; this choice and the rules are fixed at creation.
 3. Ask every player to complete [Global Player Registration](https://app.devdylnz.com/app/register) using their own Discord account.
 4. If using Discord voice, assign **Draft Voice Waiting Room** to the correct voice channel and ask players to join it.
@@ -37,7 +37,6 @@ The registry can be reused for later tournaments, but captains must be explicitl
 5. Follow the **Draft Style** and **Selection order** shown in Live Draft and the captain dashboard. Each captain chooses one player per turn. The first four chosen players join the captain in the starting five.
 6. Extra picks are optional substitutes. Players needed to complete other starting lineups are reserved. Use **Pass optional picks** when offered.
 7. When drafting finishes, check **Teams & players**. Valid completed lineups are approved automatically; captains do not need manual approval.
-
 
 Organisers can supervise and make a pick for a captain from **Live Draft** when necessary. Captains choose through the website.
 
@@ -89,7 +88,6 @@ Approved roster changes update the same Discord message when automatic updates a
 3. In **Overview**, expand **Ready to start? Bracket controls** and select **LOCK ROSTERS & GENERATE BRACKET**. Confirm after checking the teams.
 4. Use **Discord & publishing → Publish bracket** to post to **#bracket-updates** if wanted.
 5. Captains use **Captain Dashboard** to **Report Win** with one screenshot or scoresheet per game. The opponent confirms or disputes it.
-
 6. Confirmed results and scoresheets publish to the configured **Match Results** channel, such as **#claim-rank**. Claim Rank is the community's channel name, not another feature.
 
 See [Match results]({{ '/guides/match-results/' | relative_url }}) for screenshots, confirmation and corrections.
