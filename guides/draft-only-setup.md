@@ -103,8 +103,8 @@ See [Tournament creation]({{ '/guides/tournament-creation/' | relative_url }}) f
 4. Bracket Control creates a private **Draft Captains** voice room for selected captains and authorised staff, and moves selected captains who are connected to the waiting room. Check the voice status shown on **Captain Selection**.
 5. Open **Live Draft**. Check that there are at least two captain teams and enough players for four starting-player picks per captain.
 6. Select **START CAPTAIN DRAFT**. Captain selections lock when drafting starts.
-7. Captains open **My Teams** or **My Matches → Team and draft dashboard**, using their own Discord account. When the portal shows **Your turn to pick**, they select the button beside an available player.
-8. Follow the on-screen turns. The draft uses stages of two, one, two and one picks, reversing the captain order between stages. Each captain's first four picks complete the starting five; extra picks are optional substitutes. Players needed to finish other teams' starting lineups are reserved.
+7. Captains open **Captain Dashboard** and choose their tournament, using their own Discord account. When the portal shows **Your turn to pick**, they select the button beside an available player.
+8. Follow the on-screen turns. Standard keeps the same captain order each round; Snake reverses it. Older drafts keep their displayed 2/1/2/1 order. Each captain's first four picks complete the starting five; extra picks are optional substitutes. Players needed to finish other teams' starting lineups are reserved.
 9. Captains can use **Pass optional picks** when offered. At completion, valid teams are approved automatically; no staff approval channel or manual team approval is needed.
 
 ### What happens to voice rooms?
