@@ -47,3 +47,6 @@
 .pdf-guide-link{display:inline-flex;justify-content:center;align-items:center;flex:0 0 auto;min-height:46px;padding:10px 17px;background:#12687f;border:1px solid #5bd7ec;border-radius:8px;color:white;font-weight:750;text-decoration:none;white-space:nowrap}
 .pdf-guide-link:hover{background:#1c869f;color:#fff}
 @media(max-width:620px){.pdf-guide-card{flex-direction:column;align-items:stretch;padding:19px}.pdf-guide-link{width:100%}}
+
+/* Keep current guide screenshots inside the reading column on phones. */
+.content img{display:block;max-width:100%;height:auto}

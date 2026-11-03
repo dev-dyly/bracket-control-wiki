@@ -75,7 +75,7 @@ Channel and category restrictions can override a role's permissions. Check the a
 ## 6. Create the draft tournament
 
 1. On **Dashboard**, select **+ Create tournament**.
-2. Under **Tournament details**, enter the name, bracket format and maximum teams. Check **Captain draft tournament**. Draft tournaments are independent of divisions.
+2. Under **Tournament details**, enter the name, bracket format and maximum teams. Choose **Draft** under **Tournament type**. Draft tournaments are independent of divisions.
 3. Choose whether to **Repeat this tournament weekly**. Set the date, time zone and registration period under **Date and registration**.
 4. Decide whether to **Require Individual Player Acceptance**. If enabled, every captain, starter and substitute must personally complete the required registration and tournament-rules acceptance.
 5. Add your **Tournament Rules**. Rules and the individual-acceptance choice are fixed at creation, so check them carefully.
