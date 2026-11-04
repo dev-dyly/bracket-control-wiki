@@ -36,10 +36,15 @@ For drafts, see [Draft tournaments]({{ '/guides/drafts/' | relative_url }}) and 
 
 1. Choose **Tournament timezone**.
 2. For a one-time event, set the tournament start. For a weekly competition, choose the day and **Start time**.
-3. Choose when registration opens and set **Close registration (minutes before start)**.
-4. For weekly Standard Team tournaments, choose **How teams return each week**: **New application every week** or **Prefilled roster; captain must check in**.
+3. For normal **Standard Team** tournaments, continue using **Registration Opens** and **Registration Closes** (shown as **Registration opens** and **Close registration (minutes before start)**).
+4. For **Draft** tournaments, set **Draft Call Opens**, **Draft Call Locks** and **Tournament Start Time**. Draft Call Opens is when players can start joining the Draft Voice Channel. Draft Call Locks is when the channel closes to new participants so drafting can begin. Opening must be before locking, and locking must be at or before the tournament starts.
+5. For weekly Standard Team tournaments, choose **How teams return each week**: **New application every week** or **Prefilled roster; captain must check in**.
 
 Prefilling a lineup does not confirm attendance. Captains still confirm each event they intend to play. New or changed lineups need organiser approval; an unchanged approved lineup can keep approval. Valid draft lineups are approved automatically when the draft completes.
+
+Draft calls use the existing configured Draft Voice Channel. The bot locks it before opening, opens it at the scheduled time, and locks it to new arrivals at the locking time. Connected participants remain in the room. It locks again after tournament completion or cancellation. Weekly calls repeat automatically. Overlapping calls for the same channel are rejected; choose different times. If an earlier tournament is still running, the room stays locked. Existing private-channel restrictions continue to apply.
+
+Organisers can edit an individual call under the tournament settings. Editing recurring defaults applies to future tournaments; check already-created weeks separately. Website-only drafts can still use imported player tags without a voice channel.
 
 ## Check the rules and optional settings
 

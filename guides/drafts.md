@@ -15,9 +15,24 @@ A draft starts with individual players. Selected captains choose players on the 
 Create a Draft tournament, choose Standard or Snake draft and set the schedule. Rules are optional information. Configure a waiting room only if you use Discord voice; otherwise import Player tags and use your chosen voice service.
 
 1. Create a tournament and choose **Draft** under **Tournament type**.
-2. If using Discord voice, assign **Draft Voice Waiting Room** to the correct voice channel and ask players to join it.
+2. Set **Draft Call Opens**, **Draft Call Locks** and **Tournament Start Time**. Opening must be before locking, and locking must be at or before the tournament starts.
+3. If using Discord voice, use your existing configured **Draft Voice Waiting Room**. Players join between the opening and locking times; there is no need to create another channel.
 3. Open **Manage Tournament → Live Draft** and check the player pool. Unpicked players gathered from voice are removed from the pool if they leave the waiting room.
 
+
+### Automatic call access
+
+**Draft Call Opens:** When players can start joining the Draft Voice Channel.
+
+**Draft Call Locks:** When the channel closes to new participants so drafting can begin.
+
+The bot keeps the configured room locked before the call, opens it at the scheduled time and locks it at the scheduled locking time. People already connected remain connected. Existing private-channel restrictions still apply; opening does not invite unrelated server members. Administrators retain their Discord access.
+
+The room locks again when the tournament finishes or is cancelled, and remains locked until the next valid call. Weekly drafts repeat automatically. Choose different call times for drafts sharing a channel. If an earlier tournament is still running, the room stays locked. After a bot restart, access catches up to the current schedule.
+
+An organiser can update a call in the tournament settings before drafting starts. Missing channels or missing bot permissions need administrator attention; check the configured room and the bot’s permission to manage channel permissions.
+
+Normal tournaments keep **Registration Opens**, **Registration Closes** and their existing team-registration process.
 
 ## 2. Confirm captain selection
 

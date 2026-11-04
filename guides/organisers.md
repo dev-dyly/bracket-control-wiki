@@ -22,6 +22,14 @@ Connect your server and choose Automatic or Manual Setup. Leave unused channels 
 
 Claim Rank is a preferred Discord channel name, not another feature. A draft community does not need team-registration, standings or staff-approval channels unless it chooses those features.
 
+## Schedule tournament entry
+
+Normal **Standard Team** tournaments continue using **Registration Opens** and **Registration Closes**. Team registration, captain access and approvals work as before.
+
+**Draft** tournaments use **Draft Call Opens**, **Draft Call Locks** and **Tournament Start Time**. The bot manages access to the existing configured Draft Voice Channel. Existing private-channel restrictions remain in place. Connected players stay when the call locks. The channel locks again after completion or cancellation. Weekly calls repeat automatically; drafts sharing a room must use different call times.
+
+Keep the bot’s permission to manage channel permissions enabled in that room. If it cannot update access, correct the channel or permissions so it can retry. See [Draft tournaments]({{ "/guides/drafts/" | relative_url }}) for the full flow.
+
 ## 2. Explain registration to players
 
 Share the tournament entry link and your community rules. Captains register standard teams; draft organisers select captains and gather a player pool. Players do not need to complete separate registration or tournament acceptance.
