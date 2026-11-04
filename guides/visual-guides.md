@@ -5,9 +5,10 @@ permalink: /guides/visual-guides/
 ---
 # Illustrated user guides
 
+Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
+
 The **original Bracket Control PDF guides** are preserved below with their screenshots and direct links. Screenshots may show earlier screens. Use the current [Discord Server Setup]({{ '/guides/server-setup/' | relative_url }}), [Tournament creation]({{ '/guides/tournament-creation/' | relative_url }}) and [Team registration]({{ '/guides/team-registration/' | relative_url }}) web guides for current instructions.
 
-For the four-channel Manual Setup workflow, use [Draft-only community setup]({{ '/guides/draft-only-setup/' | relative_url }}). Only Global Player Registration is mandatory for general server setup; other channel choices depend on the features you use.
 
 PDFs open only when you select **Open PDF** or another explicit PDF link. **Next** and **Previous** stay on the website.
 

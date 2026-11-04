@@ -5,6 +5,8 @@ permalink: /guides/divisions/
 ---
 # Set up divisions
 
+Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
+
 Divisions group ready-made teams by competitive level, such as **Division 1** and **Division 2**. Use them only if your community needs skill groups. Each tournament supports up to 16 teams. Draft tournaments remain independent of divisions.
 
 ## 1. Create a division

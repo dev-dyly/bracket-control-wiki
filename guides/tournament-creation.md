@@ -5,7 +5,8 @@ permalink: /guides/tournament-creation/
 ---
 # Create a tournament
 
-You need organiser access to the connected Discord server. Complete [Discord Server Setup]({{ '/guides/server-setup/' | relative_url }}) first. Global Player Registration is the only required channel. All other Discord channels are optional.
+Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
+
 
 ## Open the tournament form
 
@@ -22,7 +23,6 @@ Choose **Tournament type** first:
 - **Standard Team**: captains register an existing team.
 - **Draft**: captains choose players from a shared pool. Choose the **Draft Style**. Standard keeps the same captain order each round; Snake reverses it each round. Existing competitions using the older draft order keep that choice.
 
-**Require Individual Player Acceptance** is a separate choice, available when enabled for your community. It requires every captain, starter and substitute to complete current Global Player Registration and personally accept the tournament rules. It does not change a team tournament into a solo competition. Captains cannot accept for teammates.
 
 1. Enter **Tournament name**.
 2. Choose **Bracket format**: single elimination (out after one loss), double elimination (out after two losses) or round robin (every team plays every other team).
@@ -43,30 +43,29 @@ Prefilling a lineup does not confirm attendance. Captains still confirm each eve
 
 ## Check the rules and optional settings
 
-1. Enter the complete **Tournament rules**, including every participation requirement. A supporting link cannot add or change those requirements.
+1. Optionally enter **Tournament rules**. Organisers communicate and enforce these; individual acceptance is not required.
 2. Open **Preview tournament rules** to check the text.
 3. If needed, open **Custom Discord channels (optional)**. Empty choices use the division's channels, then server defaults. Pending approvals must use a private staff channel.
 4. If needed, open **Advanced match settings (optional)** to choose best-of formats or extra placement games. Only settings for your chosen bracket format are shown.
 
 A best-of-three match needs two game wins; best-of-five needs three. In double elimination, the lower-bracket finalist must win the Grand Final and the reset to become champion. Optional placement games must finish before the tournament is complete.
 
-**Tournament rules and the individual-acceptance choice are permanently fixed at creation**, including for weekly tournaments. To change them, cancel and create a replacement. Global Player Registration does not accept tournament rules, confirm attendance or grant a competition place.
 
 ## Create and prepare the tournament
 
-1. Check the name, type, bracket format, schedule, rules and individual-acceptance choice.
-2. Complete the confirmation that rules and individual acceptance are locked after creation.
-3. Select **Create tournament**.
-4. Open **Manage Tournament** on the event's card.
-5. For Standard Team, open **Teams & players** to review the **Approval queue**. For Draft, use **Captain Selection**, then **Live Draft**.
-6. Check readiness in **Overview**. Use **Team order** to check the starting order.
-7. In **Overview**, expand **Ready to start? Bracket controls** and select **LOCK ROSTERS & GENERATE BRACKET**. Read and confirm the prompt.
+1. Confirm the tournament configuration.
+2. Select **Create tournament**.
+3. Open **Manage Tournament** on the event's card.
+4. For Standard Team, open **Teams & players** to review the **Approval queue**. For Draft, use **Captain Selection**, then **Live Draft**.
+5. Check readiness in **Overview**. Use **Team order** to check the starting order.
+6. In **Overview**, expand **Ready to start? Bracket controls** and select **LOCK ROSTERS & GENERATE BRACKET**. Read and confirm the prompt.
 
 Use **Matches & results** to record results or review disputes. Use **Discord & publishing** for bracket images, team lists and announcements. Creating a tournament does not publish every tournament's messages. See [Match results]({{ '/guides/match-results/' | relative_url }}).
 
 ## Example screens
 
-These examples use fictional teams and show optional draft and individual-acceptance settings. Your choices may differ.
+These earlier illustrations may show removed acceptance fields. Follow the current instructions above.
+
 
 ![Tournament creation on desktop, with type, schedule, rules and optional settings on one form.]({{ '/assets/guides/admin-experience/creation-1280.png' | relative_url }})
 

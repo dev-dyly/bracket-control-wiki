@@ -5,9 +5,10 @@ permalink: /guides/team-registration/
 ---
 # Register or update a team
 
+Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
+
 Use this guide for a ready-made team. For captains choosing individual players, use [Draft tournaments]({{ '/guides/drafts/' | relative_url }}).
 
-**Team registration is separate from Global Player Registration.** Each player registers for the platform with their own account. The captain enters the team in the selected tournament. A team-registration Discord channel is optional; use the invitation your organiser provides.
 
 ## 1. Open the correct invitation
 
@@ -32,13 +33,12 @@ Do not select a similar-looking account just to finish the form.
 
 ## 3. Review and submit
 
-1. Read the published tournament rules and captain declaration.
+1. Review any tournament rules the organiser provides.
 2. Share the required platform documents, player notice and rules with your teammates.
-3. Complete the declaration only if it is accurate.
+3. Check the proposed roster.
 4. Select **Register Team**.
 5. Check the team's status in **Captain Dashboard**.
 
-An organiser must approve new or changed lineups. Your declaration does not complete a teammate's Global Player Registration or accept tournament rules personally for them. If the tournament requires individual acceptance, share the participation invitation and ask every captain, starter and substitute to complete **My Participation**.
 
 ## 4. Returning teams and changes
 

@@ -5,6 +5,8 @@ permalink: /troubleshooting/
 ---
 # Troubleshooting
 
+Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
+
 Find the problem below and follow the steps. Contact your community organiser for entry, rules and match decisions.
 
 ## I cannot find my server or dashboard
@@ -16,35 +18,24 @@ Find the problem below and follow the steps. Contact your community organiser fo
 
 Signing in alone does not grant organiser access. If onboarding says your community needs approval, follow that message.
 
-## Do I need to register again?
+## Why did the legal popup return?
 
-**Global Player Registration** covers the current platform documents across participating communities. If the documents change, review them again. Use **Verify Registration** on another server's registration message to confirm your status there.
+The website asks again when the applicable legal documents change. Anonymous acknowledgement is remembered only in the current browser, so clearing browser storage or using another browser can show it again. Signed-in users keep their current acknowledgements with their Discord account. You can dismiss the popup and browse public tournaments.
 
-Tournament entry is separate. Regular weekly teams must confirm attendance for each event. Where required, each player must accept that tournament's rules in **My Participation**.
+## Is a registration role or personal tournament acceptance missing?
 
-## Global registration or the registered role is missing
+Neither is required. There is no separate player registration, registered-player role or Verify Registration step. Organisers communicate and enforce their own rules. Existing unused Discord resources can remain in place.
 
-1. Open [Player Registration](https://app.devdylnz.com/app/register) and use your own Discord account.
-2. Complete the current documents and select **Accept Registration**.
-3. Return to Discord and select **Verify Registration**.
-4. If the role is missing, ask the server administrator to check **Bracket Control Registered** has no permissions, sits below the bot's role and the bot has **Manage Roles**.
-5. If the page shows an unavailable message, contact the organiser or Bracket Control operator.
+## A substitute invitation is missing
 
-## My Participation shows no tournament
-
-1. Check you are using the correct Discord account and the organiser's participation link.
-2. Ask the captain or organiser to check the Discord account assigned to your player entry.
-3. For a voice-based draft, join the configured waiting room so your entry can be recognised.
-4. Check whether this tournament requires individual acceptance.
-
-A gaming name alone does not link a player entry to your account. Another person cannot accept rules for you.
+Open **Profile → Substitute invitations** using the Discord account selected by the captain. Ask the captain to check the reserve account and request status. Imported gaming names alone do not verify identity. A substitute request still needs organiser approval and the selected player's confirmation to join the team.
 
 ## My approved team is not ready
 
 1. Open the correct event in **My Teams**.
 2. Check **Confirm participation** and the registration deadline.
-3. Ask the organiser to check **Teams → Participation readiness** and **Overview**.
-4. Resolve outstanding personal registration, rules acceptance or division warnings.
+3. Ask the organiser to check **Teams & players** and **Overview**.
+4. Resolve roster approval, attendance or division warnings with the organiser.
 
 An approved lineup and confirmed attendance are separate. If attendance has expired, ask the organiser for help. A changed lineup may need approval again.
 
@@ -55,7 +46,6 @@ An approved lineup and confirmed attendance are separate. If attendance has expi
 3. Review the saved plan, check the resume confirmation and select **Resume setup**.
 4. Wait for any Discord retry time shown.
 
-For new Manual Setup channels, use **Refresh Discord inventory** after creating them. Only Global Player Registration is mandatory; choose **Not Required** for unused destinations.
 
 ## A message went to the wrong channel or did not arrive
 
@@ -65,7 +55,6 @@ For new Manual Setup channels, use **Refresh Discord inventory** after creating 
 4. Check the bot can view the destination, send messages, show links and attach files.
 5. Save changed publishing settings before using **Send now to Discord**. Allow a short time for queued posts.
 
-Global Player Registration and Team Registration use different destinations. **#claim-rank**, if used, maps to **Match Results**.
 
 Final standings and the weekly ladder are unavailable until the tournament is complete, including any scheduled placement games.
 

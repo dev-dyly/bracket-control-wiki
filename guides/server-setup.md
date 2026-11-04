@@ -5,98 +5,55 @@ permalink: /guides/server-setup/
 ---
 # Discord Server Setup
 
-Connect Bracket Control to your Discord community, then choose only the channels your community will use.
+Connect your server, then configure only the features your community uses. **Every Discord channel is optional.** No registration role, player-registration channel or verification message is needed.
 
-**Global Player Registration is the only mandatory Discord channel for general server setup.** Team registration, team lists, standings, staff approvals, announcements, support tickets and draft voice are optional. You can manage tournaments on the website and use another voice service.
+## Connect and choose a method
 
-For a community running only drafts with Discord voice, follow [Draft-only community setup]({{ '/guides/draft-only-setup/' | relative_url }}).
+1. Sign in with Discord and open **Your Discord servers**.
+2. Connect the server you manage and invite the bot if needed. Server owner or administrator access is required.
+3. Open **Complete server setup**, or **Server settings → Open Server Setup**.
+4. Choose **Automatic Setup** to create selected resources after review, or **Manual Setup** to select resources you have already created in Discord.
 
-## 1. Connect the server
+Manual Setup keeps existing channel names, locations and permissions. Use **Refresh Discord inventory** after making changes in Discord.
 
-1. Open [Bracket Control](https://app.devdylnz.com/app/) and **Sign in with Discord**.
-2. Open **Your Discord servers**. Find the server you manage.
-3. If it is not connected, select **Connect server → Invite bot** and add the bot through Discord. If it is already installed, select **Connect installed bot**.
-4. Return to Bracket Control. Open **Complete server setup**, or **Server settings → Open Server Setup** for an existing server.
+## Choose optional channels
 
-If you cannot connect the bot or manage the server, ask the server owner to check your access. Being a player does not grant organiser permissions.
-
-## 2. Choose your setup method
-
-1. Choose **Automatic Setup** to let Bracket Control prepare missing resources that you select. You review the changes before applying them.
-2. Choose **Manual Setup** if you want to create the channels and role yourself in Discord and assign them in the app.
-
-Manual Setup does not create, rename, move or delete channels or categories, create roles, or change existing channel permissions. Use **Refresh Discord inventory** after making changes in Discord.
-
-## 3. Choose channels
-
-| Setting | Use it for |
+| Setting | Purpose |
 | --- | --- |
-| **Global Player Registration** — required | A one-time registration message, **Verify Registration** and the registered-player role. A common name is **#tournament-registration**. |
-| **Team Registration and Management** — optional | Invitations for captains entering ready-made teams. Use a separate channel from Global Player Registration. |
-| **Tournament Announcements** — optional | General community tournament announcements. |
-| **Registered Teams** — optional | Approved team lists. |
-| **Bracket Updates** — optional | Tournament brackets and updates. |
-| **Standings** — optional | Tournament standings and the weekly ladder. |
-| **Match Results** — optional | Confirmed match results and game scoresheets. Your community may call this **#claim-rank**. |
-| **Staff Approvals** — optional | Private staff notifications for team registrations. |
-| **Support Ticket Panel** — optional | A message members use to ask for private support, when tickets are enabled. |
-| **Draft Voice Waiting Room** — optional | A voice room used to gather draft players and support temporary tournament rooms. |
+| Team Registration and Management | Captains enter ready-made teams and manage their teams. |
+| Tournament Announcements | General tournament announcements. |
+| Registered Teams | Approved team lists. |
+| Bracket Updates | Bracket images and updates. |
+| Standings | Rankings and weekly ladders. |
+| Match Results | Results and scoresheets. A channel named #claim-rank can be used here. |
+| Staff Approvals | Private staff notifications for team applications. |
+| Support Ticket Panel | Entry point for private support tickets. |
+| Draft Voice Waiting Room | Optional waiting room for draft voice automation. |
 
-1. Select an existing channel for **Global Player Registration**, or choose to create one in Automatic Setup.
-2. Select any other channels you want to use. Choose **Not Required** for the rest.
-3. Keep **Staff Approvals** private if you use it. Existing channels keep their permissions, so check access in Discord yourself.
-4. Leave **Enable Support Tickets** unchecked unless wanted. Enabling it requires the panel channel, a private ticket category and support staff settings.
-5. Choose categories only where needed. Manual Setup can leave them on **No category assignment**.
-6. Select **Continue**.
+Choose **Not Required** for unused features. Website-only organisers can leave every channel unused. Draft-only communities can configure a waiting room without team-registration or staff-approval channels. Standard tournament communities can choose team registration, announcements and results as needed.
 
-**Claim Rank is a channel name, not a separate feature.** Assign **#claim-rank** to **Match Results** if that is the name your community prefers.
+Keep Staff Approvals private. If you enable support tickets, select its panel channel, private category and support staff settings. Choose categories only where needed. Existing configured channels and support settings remain available.
 
-## 4. Choose the role and registration message
+## Review and finish
 
-1. For Manual Setup, create **Bracket Control Registered** in Discord with no permissions and put it below the bot's highest role.
-2. Select it under **Registered-player role**. Automatic Setup can reuse a safe role or create one if missing.
-3. Enable **Publish or update the Global Player Registration message** so members can register and verify in your server.
-4. Publish the team-registration message only if you chose to use team registration.
-5. Continue through **Support Ticket Configuration**. Leave tickets disabled if you do not want them.
+1. Continue to **Optional messages** and choose whether to publish the team-registration message.
+2. Review **Support Ticket Configuration**; leave tickets disabled if unused.
+3. Select **Review Configuration** and check the proposed actions.
+4. Check the confirmation, then select **Apply Configuration**.
+5. Select **Go to Dashboard** when setup completes.
 
-Setup does not assign the registered role to every member. A player uses **Verify Registration** after completing the current Global Player Registration.
+If setup was interrupted before simplification, review a new plan. Existing roles, channels and messages are not automatically deleted. For a current interrupted plan, confirm **Resume setup** after any displayed Discord wait.
 
-## 5. Review and apply
+The bot needs permissions only for features you use: text publishing needs channel access, sending messages, embeds, attachments and message history. Creating channels needs Manage Channels and View Audit Log. Draft voice also needs Connect and Move Members. Support ticket privacy checks remain in place.
 
-1. Select **Review Configuration**.
-2. Under **Review & Confirm**, check the channels, role and selected messages.
-3. Check **I approve these exact assignments, resource actions and selected message publications**.
-4. Select **Apply Configuration**.
-5. Check the selected messages in Discord, then select **Go to Dashboard**.
+## Players and rules
 
-If setup is interrupted, open **Resume interrupted setup**, confirm the saved plan and select **Resume setup**. Wait for any Discord retry time shown before trying again.
+Bracket Control displays a compact [website legal acknowledgement]({{ '/guides/legal-acknowledgement/' | relative_url }}). Discord Global Player Registration roles and channels are no longer required. Individual Player Acceptance is no longer required. Organisers communicate and enforce their own community and tournament rules.
 
-## 6. Check permissions and later changes
+Team registration, approvals, captain dashboards, drafting, substitutes, brackets, reporting, publishing and support continue normally.
 
-The bot needs **View Channels**, **Send Messages**, **Embed Links**, **Attach Files** and **Read Message History** in the selected text channels. It needs **Manage Roles** to assign the registered-player role. For draft voice, also check **Manage Channels**, **View Audit Log**, **Connect** and **Move Members**; see [draft-only setup]({{ '/guides/draft-only-setup/' | relative_url }}).
+## Illustrated references and downloads
 
-Use **Open Server Setup** to review global registration settings. Use **Manage Discord Settings** after setup to change tournament channel defaults and check **Channel Preview — Effective Channels**. A tournament can choose different channels, so check its own **Settings** and **Discord & publishing** tab if posts go somewhere unexpected.
-
-## Optional tournament channels
-
-In **Discord Settings (Global)**, **Manage Global Player Registration** opens the required registration settings. The other channels are optional:
-
-- **Team Registration & Management** invites captains to register a team.
-- **Registered Teams** posts approved team lists.
-- **Pending Approvals (Staff Only)** sends approval requests to a private staff channel.
-- **Bracket Updates** posts bracket progress.
-- **Ladder / Standings Updates** posts rankings.
-- **Match Results** posts results.
-- **Draft Voice Waiting Room** is a voice room for draft players.
-
-Choose **Not configured** for an unused server default, or **Use server default** for a division that needs no separate channel. Select **Save channels** to apply changes. Your existing choices and Discord permission checks still apply.
-
-## Player registration and tournament entry are separate
-
-Each person registers with their own account through [Global Player Registration](https://app.devdylnz.com/app/register). That registration covers the current platform documents across participating communities; updated documents may require another review. It does not enter a tournament or accept that tournament's rules.
-
-Ready-made teams still need a captain's entry. Drafts still need player selection. If **Require Individual Player Acceptance** is selected when creating a tournament, every captain, starter and substitute completes their own tournament-rules decision through **My Participation**.
-
-## Illustrated reference
+These earlier illustrations remain available. Some show retired registration or acceptance screens; follow the current guidance above.
 
 The [original Discord Server Setup PDF]({{ '/assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf' | relative_url }}) is still available. Its screenshots may show an earlier setup screen. Use this page for current channel requirements and button instructions.

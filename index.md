@@ -5,6 +5,8 @@ permalink: /
 ---
 # Welcome to Bracket Control
 
+Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
+
 Bracket Control helps Discord communities register players and teams, run live drafts, manage brackets and confirm match results.
 
 **Guides reviewed for the production app on 2 November 2026.** Choose a guide for the task you want to complete.
@@ -24,7 +26,6 @@ Bracket Control helps Discord communities register players and teams, run live d
 - [Divisions]({{ '/guides/divisions/' | relative_url }})
 - [Draft tournaments]({{ '/guides/drafts/' | relative_url }})
 
-**Global Player Registration is the only mandatory Discord channel for general setup.** Choose other channels only for the features your community uses. A draft community can use **#tournament-registration**, **#bracket-updates**, **#claim-rank** and **Draft Waiting Room**. Claim Rank is a preferred channel name for **Match Results**.
 
 ## Play and follow results
 
@@ -33,7 +34,6 @@ Bracket Control helps Discord communities register players and teams, run live d
 - [Match results]({{ '/guides/match-results/' | relative_url }})
 - [Troubleshooting]({{ '/troubleshooting/' | relative_url }})
 
-Each player completes [Global Player Registration](https://app.devdylnz.com/app/register) personally. That does not enter a tournament or accept its rules. Follow the entry and participation instructions supplied by your organiser.
 
 Spectators can open a shared tournament link to see **Bracket**, **Ladder / Standings** and **Match Results** where public viewing is enabled.
 

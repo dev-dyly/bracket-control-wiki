@@ -120,6 +120,10 @@
   url: /legal/support-tickets/
   previous_url: /legal/player-notice/
   previous_title: Player Information Notice
+- title: Player participation
+  url: /guides/player-participation/
+- title: Website legal acknowledgement
+  url: /guides/legal-acknowledgement/
 - title: Discord Setup Guide (PDF)
   url: /assets/guides/server-setup/Bracket_Control_Discord_Server_Setup_Guide.pdf
   pdf: true

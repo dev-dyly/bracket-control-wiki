@@ -5,6 +5,8 @@ permalink: /guides/captains/
 ---
 # Captain Dashboard
 
+Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
+
 Sign in with the Discord account assigned as your team’s captain, then open [Captain Dashboard](https://app.devdylnz.com/app/my-matches). Your team, tournament and next task appear together.
 
 Use **Your tournament** to switch between your teams and events. The dashboard first opens an event needing attention and keeps your choice while you work. Existing captain links still work.
@@ -13,13 +15,13 @@ Use **Your tournament** to switch between your teams and events. The dashboard f
 
 Check **What’s next** at the top. It tells you when to pick a player, confirm participation, report a result or review an opponent’s report. When you are waiting, it says so.
 
-Your roster and participation status are separate. An approved lineup does not confirm attendance. Each teammate must also complete their own registration and tournament acceptance when required; your captain declaration does not do this for them.
+Your roster and participation status are separate. An approved lineup does not confirm attendance. Organisers communicate and enforce tournament rules; individual acceptance is not required.
 
 ## Confirm participation
 
 1. Choose the tournament you intend to play.
 2. Select **Confirm participation**.
-3. If the team editor opens, review your lineup and complete any required declarations, then confirm participation there.
+3. If the team editor opens, review your lineup and confirm participation there.
 4. Check that attendance says **Confirmed**.
 
 An unchanged lineup can retain approval. Changed lineups still need organiser approval. Opening a captain link does not check your team in.
@@ -40,12 +42,12 @@ Completed valid draft rosters are approved automatically. See [Draft tournaments
 1. Open your completed draft tournament in **Captain Dashboard** and select **Request Substitute**.
 2. Choose the **Team member to replace**. You cannot replace the designated captain here.
 3. Choose your **Preferred reserve player**, then select **Submit Request**.
-4. Share the **My Participation** link shown beside the request with the selected player. They must sign in with their own Discord account, confirm the invitation and complete any required Player Registration and tournament rules.
+4. Share the **Substitute invitations** link shown beside the request with the selected player. They must sign in with their own Discord account, confirm the specific team invitation.
 5. Check the request status here. An administrator approves or rejects it. Your current lineup stays in place until the replacement completes.
 
 The chosen player is reserved for your request, so another team cannot request them at the same time. Your team can have one open request. Select **Cancel request** before choosing someone else. Rejection, cancellation or the player's decline makes the reserve available again.
 
-Approval and confirmation complete the replacement when all checks pass. A team cannot change players during an active match, score review or dispute. If the request is still waiting after rules acceptance or a match, ask the organiser to select **Finish replacement**. Completed changes update your team and preserve earlier results.
+Approval and confirmation complete the replacement when all checks pass. A team cannot change players during an active match, score review or dispute. If the request is still waiting after a match, ask the organiser to select **Finish replacement**. Completed changes update your team and preserve earlier results.
 
 The Reserve Player Pool contains undrafted players from this tournament. It is created automatically when drafting ends; players are never assigned from it automatically. Only players already linked to a Discord account can be selected. Imported names alone do not verify identity.
 

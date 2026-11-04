@@ -5,19 +5,19 @@ permalink: /guides/drafts/
 ---
 # Draft tournaments
 
+Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
+
 A draft starts with individual players. Selected captains choose players on the website to form teams, then the organiser generates the bracket.
 
-For a complete Discord walkthrough, use [Draft-only community setup]({{ '/guides/draft-only-setup/' | relative_url }}). It covers **#tournament-registration**, **#bracket-updates**, **#claim-rank** and **Draft Waiting Room**, Manual Setup, the registered-player role and bot permissions.
 
 ## 1. Prepare the tournament
 
-1. Create a tournament and choose **Draft** under **Tournament type**.
-2. Choose **Draft Style**: **Standard (1-for-1)** keeps the same captain order each round; **Snake Draft** reverses it each round. Set the schedule and rules. Decide whether to **Require Individual Player Acceptance** before creating it; this choice and the rules are fixed at creation.
-3. Ask every player to complete [Global Player Registration](https://app.devdylnz.com/app/register) using their own Discord account.
-4. If using Discord voice, assign **Draft Voice Waiting Room** to the correct voice channel and ask players to join it.
-5. Open **Manage Tournament → Live Draft** and check the player pool. Unpicked players gathered from voice are removed from the pool if they leave the waiting room.
+Create a Draft tournament, choose Standard or Snake draft and set the schedule. Rules are optional information. Configure a waiting room only if you use Discord voice; otherwise import Player tags and use your chosen voice service.
 
-Global Player Registration does not enter a draft or accept tournament rules. If individual acceptance is required, share the participation link from **Teams & players → Participation readiness** and have each player complete **My Participation**. Joining a voice room does not accept rules.
+1. Create a tournament and choose **Draft** under **Tournament type**.
+2. If using Discord voice, assign **Draft Voice Waiting Room** to the correct voice channel and ask players to join it.
+3. Open **Manage Tournament → Live Draft** and check the player pool. Unpicked players gathered from voice are removed from the pool if they leave the waiting room.
+
 
 ## 2. Confirm captain selection
 
@@ -83,7 +83,7 @@ Approved roster changes update the same Discord message when automatic updates a
 
 ## 6. Generate the bracket and play
 
-1. Check the completed lineups and **Participation readiness** under **Teams & players**. Clear remaining warnings in **Overview**.
+1. Check the completed lineups under **Teams & players**. Clear remaining warnings in **Overview**.
 2. Check the starting order under **Team order**.
 3. In **Overview**, expand **Ready to start? Bracket controls** and select **LOCK ROSTERS & GENERATE BRACKET**. Confirm after checking the teams.
 4. Use **Discord & publishing → Publish bracket** to post to **#bracket-updates** if wanted.
@@ -94,7 +94,7 @@ See [Match results]({{ '/guides/match-results/' | relative_url }}) for screensho
 
 ## Draft without Discord voice
 
-Discord voice is optional for general setup and drafting. Organisers can use **Live Draft → Player tags → IMPORT PLAYERS** to add a player pool and use another voice service. Imported gaming tags alone do not verify a player's Discord account or complete required individual acceptance. Resolve readiness warnings before starting the bracket.
+Discord voice is optional for general setup and drafting. Organisers can use **Live Draft → Player tags → IMPORT PLAYERS** to add a player pool and use another voice service. Imported gaming tags alone do not verify a player's Discord account. Resolve readiness warnings before starting the bracket.
 
 Without a configured Discord waiting room, automatic Teams List publishing follows draft completion and roster approval. You can still use **Publish Teams List** to refresh it manually.
 
@@ -106,8 +106,8 @@ Open **Manage Tournament → Teams & players → Reserve Player Pool** to see av
 
 1. Open a substitute request from **Needs Attention**, or find it under **Teams & players**.
 2. Review the outgoing player and the captain's chosen reserve. Select **Approve request** or **Reject request**.
-3. Ask the reserve player to open **My Participation** using their own Discord account and confirm the invitation. They must also complete any required Player Registration and tournament rules themselves.
-4. Approval and confirmation complete the change when all checks pass. If the request is still waiting after acceptance or a match ends, select **Finish replacement** to check again.
+3. Ask the reserve player to open **Substitute invitations** using their own Discord account and confirm the invitation. No separate legal or tournament-rules acceptance is required.
+4. Approval and confirmation complete the change when all checks pass. If the request is still waiting after a match ends, select **Finish replacement** to check again.
 5. Check the updated team roster. The existing Teams List publication refreshes according to its publishing settings, and configured team voice management uses the updated roster. Manual publishing stays manual; no extra Discord channel is needed.
 
 The designated captain cannot be replaced through this process. Finish the team's active match, scoresheet upload, reported result or dispute first. Roster limits, server membership and player eligibility are checked again before the lineup changes. Previous rosters, matches, results and acceptance records are kept.
