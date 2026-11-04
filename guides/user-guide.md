@@ -195,6 +195,16 @@ See [Divisions]({{ '/guides/divisions/' | relative_url }}). Server **Announcemen
 
 Contact your community organiser for tournament decisions. **Support Tickets** is available only in communities that enable it; use their Discord panel to open a private ticket and **Profile → My Support Tickets** for available ticket history.
 
+### Support ticket notifications
+
+Server administrators and members with the configured **Support Staff** role can use the notification bell in the top bar, just before **Tournament**. Select the relevant server to see its notifications. The bell is also available on a phone and stays visible when there is nothing to review.
+
+An open ticket appears as **New Support Ticket**, with the server name and ticket number. Choose **Manage ticket** to open that ticket, or **View all notifications** to see the full list. Notification previews do not show private ticket messages.
+
+The badge counts the outstanding items you are allowed to see. Support staff can receive ticket notifications without being tournament administrators. Tournament actions appear only for people who also have tournament management permission. Ordinary members cannot see staff notifications.
+
+Claiming a ticket keeps its notification visible. Closing the ticket removes it, and reopening it brings the notification back. Existing open tickets are included automatically. There is no separate read, dismiss or notification-history step. The list refreshes automatically, including after ticket actions.
+
 Read [Troubleshooting]({{ '/troubleshooting/' | relative_url }}) for common problems and the [Privacy Policy]({{ '/legal/privacy/' | relative_url }}) for privacy contacts.
 
 The [original illustrated PDF guides]({{ '/guides/visual-guides/' | relative_url }}) remain available. Their screenshots may differ from the current app; use these web guides for current requirements.
