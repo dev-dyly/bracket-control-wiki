@@ -5,6 +5,8 @@ permalink: /guides/team-approvals/
 ---
 # Approve or reject teams
 
+Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
+
 Organisers review new or changed ready-made team lineups. You can do this on the website; a **Staff Approvals** Discord channel is optional.
 
 Draft captains do not need manual approval. Valid draft lineups are approved automatically when the draft completes. Use [Draft tournaments]({{ '/guides/drafts/' | relative_url }}) for that process.
@@ -30,9 +32,8 @@ A verified unchanged lineup carried forward to a regular weekly event can retain
 ## 3. Check readiness separately
 
 1. Check whether the captain has selected **Confirm participation** for this event.
-2. Review **Participation readiness**. If individual acceptance is required, each captain, starter and substitute needs current Global Player Registration and personal tournament-rules acceptance.
-3. Resolve any division or recurring-entry warnings.
-4. Return to **Overview** before generating the bracket.
+2. Resolve any division or recurring-entry warnings.
+3. Return to **Overview** before generating the bracket.
 
 Global registration, team approval, attendance and personal rules acceptance are separate checks. Approving a lineup does not complete the others.
 

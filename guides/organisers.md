@@ -5,32 +5,29 @@ permalink: /guides/organisers/
 ---
 # Organiser guide
 
+Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
+
 Use this checklist to prepare and run tournaments for your Discord community.
 
 ## 1. Set up the server
 
+Connect your server and choose Automatic or Manual Setup. Leave unused channels on Not Required; website-only management needs no Discord channels or registration role. Review and apply your chosen configuration.
+
 1. Sign in with Discord and open **Your Discord servers**.
 2. Connect the server if needed, then open **Complete server setup** or **Server settings → Open Server Setup**.
 3. Choose **Automatic Setup** or **Manual Setup**.
-4. Assign **Global Player Registration**, the only mandatory Discord channel for general setup.
-5. Select other destinations only for the features you want; use **Not Required** for the rest. Keep **Enable Support Tickets** off unless wanted.
-6. Select the **Bracket Control Registered** role, with no permissions and below the bot's role. Manual Setup requires you to create it in Discord.
-7. Enable **Publish or update the Global Player Registration message**.
-8. Select **Review Configuration**, check the plan, complete the approval checkbox and select **Apply Configuration**.
+4. Select other destinations only for the features you want; use **Not Required** for the rest. Keep **Enable Support Tickets** off unless wanted.
+6. Select **Review Configuration**, check the plan, complete the approval checkbox and select **Apply Configuration**.
 
-Follow [Discord Server Setup]({{ '/guides/server-setup/' | relative_url }}). Communities running only drafts can follow [Draft-only community setup]({{ '/guides/draft-only-setup/' | relative_url }}): **#tournament-registration** for Global Player Registration, **#bracket-updates** for Bracket Updates, **#claim-rank** for Match Results and **Draft Waiting Room** for Draft Voice Waiting Room.
 
 Claim Rank is a preferred Discord channel name, not another feature. A draft community does not need team-registration, standings or staff-approval channels unless it chooses those features.
 
 ## 2. Explain registration to players
 
-1. Direct all players to the Global Player Registration message, commonly in **#tournament-registration**.
-2. Ask them to sign in individually, read the three platform documents and select **Accept Registration** after completing the choices.
-3. Ask them to use **Verify Registration** in your server.
-4. Explain how to enter your actual tournament: a captain's team entry or the draft player pool.
-5. If you require individual acceptance, share **Teams & players → Participation readiness → Copy Participation Link** and ask each captain, starter and substitute to complete **My Participation**.
+Share the tournament entry link and your community rules. Captains register standard teams; draft organisers select captains and gather a player pool. Players do not need to complete separate registration or tournament acceptance.
 
-Global registration covers the current platform documents across participating communities. It does not enter a tournament, confirm attendance, approve a lineup or accept tournament rules. Captains cannot personally accept rules for teammates.
+2. Explain how to enter your actual tournament: a captain's team entry or the draft player pool.
+
 
 ## Find what needs attention
 
@@ -45,11 +42,10 @@ The dashboard shows **Active tournaments** and **Upcoming tournaments** for the 
 1. Open **Dashboard → + Create tournament**.
 2. Choose **Tournament type**: **Standard Team** or **Draft**. Enter the name, bracket format, capacity and optional division or draft style.
 3. Set **Date and registration**, and decide whether the event repeats weekly.
-4. Enter **Tournament rules** and decide whether to **Require Individual Player Acceptance**, when available.
-5. Open optional Discord or match settings only if you need them.
-6. Check the form, complete the confirmation and select **Create tournament**.
+4. Open optional Discord or match settings only if you need them.
+5. Check the form, complete the confirmation and select **Create tournament**.
 
-Rules and individual acceptance are fixed at creation. Cancel and create a replacement if they need to change. See [Tournament creation]({{ '/guides/tournament-creation/' | relative_url }}).
+Published rules are saved at creation. Individual acceptance is not required. See [Tournament creation]({{ '/guides/tournament-creation/' | relative_url }}).
 
 ## 4. Prepare teams or run a draft
 
@@ -57,7 +53,7 @@ For ready-made teams:
 
 1. Open **Manage Tournament → Teams & players → Approval queue**.
 2. Review captains, players and lineup changes, then **Approve** or **Reject**.
-3. Check attendance and **Participation readiness** separately. Regular weekly entries still need **Confirm participation** even when an unchanged lineup retains approval.
+3. Check attendance separately. Regular weekly entries still need **Confirm participation** even when an unchanged lineup retains approval.
 
 For drafts:
 
@@ -82,7 +78,7 @@ Captains can use **Transfer Captaincy** or **Retire Team** in **My Teams**. Reti
 
 ## 6. Start matches and review results
 
-1. Check **Overview**, **Teams & players** and **Participation readiness**.
+1. Check **Overview**, **Teams & players**.
 2. Use **Team order** to check the starting order.
 3. In **Overview**, expand **Ready to start? Bracket controls** and select **LOCK ROSTERS & GENERATE BRACKET**.
 4. Follow games under **Matches & results**. Winning captains submit one scoresheet per game; opponents confirm or dispute.

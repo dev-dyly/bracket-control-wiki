@@ -5,6 +5,8 @@ permalink: /guides/match-results/
 ---
 # Report and confirm match results
 
+Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
+
 For current tournaments, captains report each game they win. The opposing captain reviews the evidence before the game counts towards the match.
 
 ## 1. Report a game victory
