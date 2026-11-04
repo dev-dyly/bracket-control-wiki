@@ -22,7 +22,7 @@ Use Bracket Control to organise tournaments for your Discord community, captain 
 | **Dashboard** | Choose, create and manage your server's tournaments. |
 | **My Teams** | Review captain-owned teams, lineups and upcoming participation. |
 | **Captain Dashboard** | Report victories and confirm or dispute opponents' game reports. |
-| **My Participation** | Personally accept required tournament rules. |
+| **My Participation** | Review your tournament rules and substitute invitations. |
 | **Server Management** | Manage server settings, optional divisions and Discord destinations. |
 | **Bracket** | Follow matches and advancement. |
 | **Ladder / Standings** | View tournament rankings. |
@@ -39,6 +39,18 @@ Use Bracket Control to organise tournaments for your Discord community, captain 
 Registration covers the current platform documents across participating Bracket Control communities. Updated documents can require renewed review.
 
 **Registration does not enter a tournament, register a team, confirm attendance or accept a tournament's rules.** A captain cannot make another player's personal decisions. If **Require Individual Player Acceptance** is enabled for a tournament, every captain, starter and substitute opens **My Participation**, reviews the displayed rules, checks the statement and selects **ACCEPT TOURNAMENT RULES**.
+
+### Players: respond to a substitute invitation
+
+If a captain selects you from a finished draft's Reserve Player Pool:
+
+1. Open the **My Participation** link the captain shares and sign in with your own Discord account.
+2. Under **Substitute invitations**, check the tournament, team and player you would replace.
+3. Check **I want to join this team as the selected substitute**, then select **Confirm substitution**. Select **Decline invitation** if you cannot play.
+4. Complete any required **Player Registration** and tournament rules yourself. Confirming the invitation does not accept rules for you.
+5. Wait for administrator approval and the remaining checks. Your place changes only when the replacement completes between matches; ask the organiser if it is still waiting.
+
+See [Request a substitute after a draft]({{ '/guides/captains/#request-a-substitute-after-a-draft' | relative_url }}) for the captain's steps.
 
 ## 3. Organisers: set up Discord
 

@@ -35,6 +35,22 @@ An unchanged lineup can retain approval. Changed lineups still need organiser ap
 
 Completed valid draft rosters are approved automatically. See [Draft tournaments]({{ '/guides/drafts/' | relative_url }}) for voice rooms and organiser setup.
 
+## Request a substitute after a draft
+
+1. Open your completed draft tournament in **Captain Dashboard** and select **Request Substitute**.
+2. Choose the **Team member to replace**. You cannot replace the designated captain here.
+3. Choose your **Preferred reserve player**, then select **Submit Request**.
+4. Share the **My Participation** link shown beside the request with the selected player. They must sign in with their own Discord account, confirm the invitation and complete any required Player Registration and tournament rules.
+5. Check the request status here. An administrator approves or rejects it. Your current lineup stays in place until the replacement completes.
+
+The chosen player is reserved for your request, so another team cannot request them at the same time. Your team can have one open request. Select **Cancel request** before choosing someone else. Rejection, cancellation or the player's decline makes the reserve available again.
+
+Approval and confirmation complete the replacement when all checks pass. A team cannot change players during an active match, score review or dispute. If the request is still waiting after rules acceptance or a match, ask the organiser to select **Finish replacement**. Completed changes update your team and preserve earlier results.
+
+The Reserve Player Pool contains undrafted players from this tournament. It is created automatically when drafting ends; players are never assigned from it automatically. Only players already linked to a Discord account can be selected. Imported names alone do not verify identity.
+
+![Captain choosing a teammate and preferred reserve on a mobile screen]({{ '/assets/images/captain-substitute-request.png' | relative_url }})
+
 ## Report or confirm a result
 
 1. Find your opponent under **Active matches**.

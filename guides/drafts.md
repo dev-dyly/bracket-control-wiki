@@ -97,3 +97,21 @@ See [Match results]({{ '/guides/match-results/' | relative_url }}) for screensho
 Discord voice is optional for general setup and drafting. Organisers can use **Live Draft → Player tags → IMPORT PLAYERS** to add a player pool and use another voice service. Imported gaming tags alone do not verify a player's Discord account or complete required individual acceptance. Resolve readiness warnings before starting the bracket.
 
 Without a configured Discord waiting room, automatic Teams List publishing follows draft completion and roster approval. You can still use **Publish Teams List** to refresh it manually.
+
+## Reserve Player Pool and substitute requests
+
+When drafting finishes, undrafted players automatically form that tournament's **Reserve Player Pool**. This works with Standard, Snake and existing Legacy drafts. Players are not automatically assigned to teams. Optional substitutes already drafted onto a team stay on that team.
+
+Open **Manage Tournament → Teams & players → Reserve Player Pool** to see available reserves and requests. Captains choose the player they want through **Request Substitute** in their existing dashboard. A selected reserve is held for that request; one team cannot take a player reserved by another team.
+
+1. Open a substitute request from **Needs Attention**, or find it under **Teams & players**.
+2. Review the outgoing player and the captain's chosen reserve. Select **Approve request** or **Reject request**.
+3. Ask the reserve player to open **My Participation** using their own Discord account and confirm the invitation. They must also complete any required Player Registration and tournament rules themselves.
+4. Approval and confirmation complete the change when all checks pass. If the request is still waiting after acceptance or a match ends, select **Finish replacement** to check again.
+5. Check the updated team roster. The existing Teams List publication refreshes according to its publishing settings, and configured team voice management uses the updated roster. Manual publishing stays manual; no extra Discord channel is needed.
+
+The designated captain cannot be replaced through this process. Finish the team's active match, scoresheet upload, reported result or dispute first. Roster limits, server membership and player eligibility are checked again before the lineup changes. Previous rosters, matches, results and acceptance records are kept.
+
+Rejection, captain cancellation or the reserve player's decline releases the reservation. The team keeps its current lineup. A player who completes a replacement leaves the available reserve pool; the outgoing player is not automatically added to it. Cancelling the tournament cancels unfinished requests.
+
+Requests also appear in the existing private staff approval message when a staff notification channel is configured. No new channel or setup step is required.
