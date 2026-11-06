@@ -107,3 +107,5 @@ Publishing applies to the selected tournament. Check its destination rather than
 Draft tournaments use the same Teams List PNG, showing team names, captains, five starters and substitutes. With automatic images enabled, the first post follows draft completion, roster approval and its team voice rooms being ready. Later approved roster changes update the existing message. See [Draft tournaments]({{ '/guides/drafts/' | relative_url }}) for setup and refresh steps.
 
 For optional skill groups, see [Divisions]({{ '/guides/divisions/' | relative_url }}). For cancellation, history and other tasks, see the [Complete user guide]({{ '/guides/user-guide/' | relative_url }}) or [Troubleshooting]({{ '/troubleshooting/' | relative_url }}).
+
+For a read-only history of important changes made in your server (available only to the Discord Server Owner and Discord Administrators), see [Server Audit Log]({{ '/guides/audit-log/' | relative_url }}).
