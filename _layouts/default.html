@@ -4,9 +4,14 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
-  <meta name="description" content="{{ page.description | default: site.description | escape }}">
-  <title>{% if page.title %}{{ page.title | escape }} · {% endif %}{{ site.title | escape }}</title>
+  {% seo %}
+  {% if page.sitemap == false %}
+  <meta name="robots" content="noindex, follow">
+  {% else %}
+  <meta name="robots" content="index, follow">
+  {% endif %}
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% include structured-data.html %}
 </head>
 <body>
 {% assign chapters = site.data.navigation %}
@@ -92,7 +97,7 @@
     <a class="open-app" href="https://app.devdylnz.com/app/">Open Bracket Control ↗</a>
   </aside>
 </div>
-<footer><div class="wrap">© {{ site.time | date: '%Y' }} Bracket Control · New Zealand
+<footer><div class="wrap">© {{ site.time | date: '%Y' }} <a href="https://devdylnz.com/bracket-control">Bracket Control by Dev Dyl NZ</a> · <a href="https://app.devdylnz.com/app/">Open Bracket Control</a> · New Zealand
 <p><a href="{{ '/legal/privacy/' | relative_url }}">Privacy Policy</a> · <a href="{{ '/legal/terms/' | relative_url }}">Terms</a> · <a href="{{ '/legal/cookies/' | relative_url }}">Cookies</a> · <a href="{{ '/legal/player-notice/' | relative_url }}">Player notice</a></p>
 <p>Bracket Control is independent of Discord. Discord is a trademark of its respective owner.</p>
 </div></footer>

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Terms of Service
+description: "Terms of Service for Bracket Control by Dev Dyl NZ covering Discord accounts, tournament rules, captain declarations, match score evidence and acceptable use."
 permalink: /legal/terms/
 ---
 # Terms of Service

@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Player Information Notice
+title: Player Information Notice (22 October 2026 Archive)
+description: "Archived 22 October 2026 Player Information Notice for Bracket Control by Dev Dyl NZ covering gaming tags, Discord IDs, public rosters and privacy requests."
 permalink: /legal/versions/2026-10-22/player-notice/
+sitemap: false
 ---
 # Player Information Notice
 

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Divisions
+description: "Create and order competitive divisions in Bracket Control, assign tournament teams, set optional Discord channels and manage automatic winner promotions."
 permalink: /guides/divisions/
 ---
 # Set up divisions

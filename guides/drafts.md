@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Draft tournaments
+description: "Run Standard or Snake live captain draft tournaments in Bracket Control with scheduled Discord voice waiting rooms, automatic team channels and reserve pools."
 permalink: /guides/drafts/
 ---
 # Draft tournaments

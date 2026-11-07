@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Organiser guide
+description: "Step-by-step checklist for Bracket Control tournament organisers: server setup, team approvals, live captain drafts, bracket generation and Discord publishing."
 permalink: /guides/organisers/
 ---
 # Organiser guide

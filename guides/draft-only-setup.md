@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Draft-only community setup
+description: "Set up a draft-only Discord community in Bracket Control using Manual or Automatic Setup, optional draft voice waiting rooms, bracket updates and match results."
 permalink: /guides/draft-only-setup/
 ---
 # Draft-only community setup

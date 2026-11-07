@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Privacy Policy
+description: "Privacy Policy for Bracket Control by Dev Dyl NZ covering Discord tournament data collection, roster verification, public results, retention and privacy rights."
 permalink: /legal/privacy/
 ---
 # Privacy Policy

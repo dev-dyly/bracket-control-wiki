@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Website legal acknowledgement
+description: "How the Bracket Control website legal acknowledgement works for Terms of Service, Privacy Policy and Player Information Notice when browsing or signed in."
 permalink: /guides/legal-acknowledgement/
 ---
 # Website legal acknowledgement

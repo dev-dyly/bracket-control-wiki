@@ -1,11 +1,32 @@
 title: Bracket Control Documentation
-description: Official guides, tournament workflows and policies for Bracket Control
+tagline: Official documentation, tournament guides and policies for Bracket Control by Dev Dyl NZ
+description: Official documentation for Bracket Control by Dev Dyl NZ — Discord tournament software for team registration, live captain drafts, brackets and match results.
 url: "https://docs.devdylnz.com"
 baseurl: ""
+lang: en_NZ
 markdown: kramdown
 permalink: pretty
+author:
+  name: Dev Dyl NZ
+  email: contact@devdylnz.com
+  url: https://devdylnz.com
+social:
+  name: Dev Dyl NZ
+  links:
+    - https://devdylnz.com
+    - https://devdylnz.com/bracket-control
+    - https://app.devdylnz.com/app/
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+defaults:
+  - scope:
+      path: "legal/versions"
+    values:
+      sitemap: false
 exclude:
   - _internal
   - README.md
+  - AGENTS.md
   - Gemfile
   - Gemfile.lock

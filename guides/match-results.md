@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Match results
+description: "Report game victories with scoresheet evidence in Bracket Control, confirm or dispute opponent match reports, publish results to Discord and apply corrections."
 permalink: /guides/match-results/
 ---
 # Report and confirm match results

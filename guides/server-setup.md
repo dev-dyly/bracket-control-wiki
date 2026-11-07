@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Discord Server Setup
+description: "Connect your Discord server to Bracket Control and use Automatic or Manual Setup to configure optional channels for teams, brackets, drafts and match results."
 permalink: /guides/server-setup/
 ---
 # Discord Server Setup

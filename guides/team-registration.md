@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Team registration
+description: "Register or update a tournament team in Bracket Control as captain, select five Discord starters and up to two substitutes, and confirm weekly attendance."
 permalink: /guides/team-registration/
 ---
 # Register or update a team

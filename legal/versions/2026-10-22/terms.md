@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Terms of Service
+title: Terms of Service (22 October 2026 Archive)
+description: "Archived 22 October 2026 Terms of Service for Bracket Control by Dev Dyl NZ covering Discord tournament tools, organiser rules, captain duties and match scores."
 permalink: /legal/versions/2026-10-22/terms/
+sitemap: false
 ---
 # Terms of Service
 

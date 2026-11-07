@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Troubleshooting
+description: "Resolve common Bracket Control issues: missing Discord servers, interrupted setup, substitute invitations, draft voice waiting rooms and match result disputes."
 permalink: /troubleshooting/
 ---
 # Troubleshooting

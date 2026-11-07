@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Support Ticket Privacy Disclosure
+title: Support Ticket Privacy Disclosure (29 October 2026 Archive)
+description: "Archived 29 October 2026 Support Ticket Privacy Disclosure for Bracket Control covering encrypted support ticket transcripts and Discord closure notifications."
 permalink: /legal/versions/2026-10-29/support-tickets/
+sitemap: false
 ---
 # Support Ticket Privacy Disclosure
 

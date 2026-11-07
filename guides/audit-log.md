@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Server Audit Log
+description: "How Discord Server Owners and Administrators access and filter the read-only Bracket Control Server Audit Log for tournaments, teams, drafts and match changes."
 permalink: /guides/audit-log/
 ---
 # Server Audit Log

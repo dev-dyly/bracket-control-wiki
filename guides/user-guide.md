@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Complete user guide
+description: "Complete Bracket Control user guide for Discord tournament administrators, captains and players covering setup, registration, live drafts and match results."
 permalink: /guides/user-guide/
 ---
 # Bracket Control user guide

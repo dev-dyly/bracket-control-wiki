@@ -1,7 +1,9 @@
 ---
 layout: default
-title: Privacy Policy
+title: Privacy Policy (22 October 2026 Archive)
+description: "Archived 22 October 2026 Privacy Policy for Bracket Control by Dev Dyl NZ covering Discord tournament data, public rosters, hosting providers and user rights."
 permalink: /legal/versions/2026-10-22/privacy/
+sitemap: false
 ---
 # Privacy Policy
 

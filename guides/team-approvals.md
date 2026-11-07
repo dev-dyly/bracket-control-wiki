@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Approving team registrations
+description: "Review, filter, approve or reject pending tournament team registrations and lineup changes in Bracket Control, and check captain attendance before starting."
 permalink: /guides/team-approvals/
 ---
 # Approve or reject teams

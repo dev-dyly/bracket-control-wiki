@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Getting started
+description: "Sign in to Bracket Control with Discord, find your gaming community server, register a team, join a live draft, report match results or watch live brackets."
 permalink: /getting-started/
 ---
 # Getting started
