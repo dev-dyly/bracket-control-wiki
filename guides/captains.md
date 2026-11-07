@@ -8,7 +8,7 @@ permalink: /guides/captains/
 
 Bracket Control displays a simple [website legal acknowledgement]({{ "/guides/legal-acknowledgement/" | relative_url }}). Global Player Registration and Individual Player Acceptance are no longer required. All Discord setup channels are optional. Tournament organisers communicate and enforce their own rules.
 
-Sign in with the Discord account assigned as your team’s captain, then open [Captain Dashboard](https://app.devdylnz.com/app/my-matches). Your team, tournament and next task appear together.
+Sign in with the Discord account assigned as your team’s captain, then open [Captain Dashboard](https://bracketcontrol.runs-on.dev/app/my-matches). Your team, tournament and next task appear together.
 
 Use **Your tournament** to switch between your teams and events. The dashboard first opens an event needing attention and keeps your choice while you work. Existing captain links still work.
 

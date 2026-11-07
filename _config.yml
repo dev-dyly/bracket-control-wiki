@@ -15,7 +15,7 @@ social:
   links:
     - https://devdylnz.com
     - https://devdylnz.com/bracket-control
-    - https://app.devdylnz.com/app/
+    - https://bracketcontrol.runs-on.dev/app/
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap

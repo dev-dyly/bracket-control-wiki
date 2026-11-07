@@ -11,7 +11,7 @@
    - Keep internal/repository-only files (`_internal`, `README.md`, `AGENTS.md`, `Gemfile`, `Gemfile.lock`) in `_config.yml`'s `exclude` list so they are never published or added to `sitemap.xml`.
 3. **Structured Data Integrity (`_includes/structured-data.html`)**:
    - Keep `Organization` / `ProfessionalService` / `LocalBusiness` JSON-LD accurate to verified business facts (`name: "Dev Dyl NZ"`, `@id: "https://devdylnz.com/#organization"`, `url: "https://devdylnz.com"`, NZBN `9429054041851`, `email: "contact@devdylnz.com"`, locality `Tauranga, Bay of Plenty, NZ`, slogan `"BUILD • AUTOMATE • COMMUNITIES"`). Never invent or add a street address, phone number, founder name, or `"Limited"`.
-   - Keep `SoftwareApplication` / `WebApplication` JSON-LD on the homepage accurate to Bracket Control (`softwareVersion: "2.0"`, marketing URL `https://devdylnz.com/bracket-control`, app URL `https://app.devdylnz.com/app/`, `featureList` strictly matching documented production features).
+   - Keep `SoftwareApplication` / `WebApplication` JSON-LD on the homepage accurate to Bracket Control (`softwareVersion: "2.0"`, marketing URL `https://devdylnz.com/bracket-control`, app URL `https://bracketcontrol.runs-on.dev/app/`, `featureList` strictly matching documented production features).
    - Keep `TechArticle` JSON-LD on documentation pages and `FAQPage` JSON-LD only on pages with genuine question-and-answer content (`/troubleshooting/`). Always escape dynamic strings with `| jsonify`.
 4. **Cross-Property Attribution Links**:
-   - Preserve visible, crawlable links in `_layouts/default.html` to `https://devdylnz.com/bracket-control` ("Bracket Control by Dev Dyl NZ") and `https://app.devdylnz.com/app/` ("Open Bracket Control").
+   - Preserve visible, crawlable links in `_layouts/default.html` to `https://devdylnz.com/bracket-control` ("Bracket Control by Dev Dyl NZ") and `https://bracketcontrol.runs-on.dev/app/` ("Open Bracket Control").
