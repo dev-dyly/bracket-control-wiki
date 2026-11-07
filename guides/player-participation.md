@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Player participation
+description: "How players participate in Bracket Control tournaments and live drafts, browse public brackets without sign-in, and confirm captain substitute invitations."
 permalink: /guides/player-participation/
 ---
 # Player participation

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Illustrated user guides
+description: "Access the preserved original illustrated PDF guides for Bracket Control covering Discord Server Setup, Creating Tournaments and Team Captain Registration."
 permalink: /guides/visual-guides/
 ---
 # Illustrated user guides

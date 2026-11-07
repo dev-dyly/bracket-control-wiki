@@ -1,6 +1,7 @@
 ---
 layout: default
-title: Home
+title: Discord Tournament Management, Drafts & User Guides
+description: "Official Bracket Control guides for Discord communities: set up servers, register teams, run live captain drafts, manage brackets and confirm match results."
 permalink: /
 ---
 # Welcome to Bracket Control

@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Tournament creation
+description: "Create Standard Team or Captain Draft tournaments in Bracket Control with single elimination, double elimination or round robin formats for 2 to 16 teams."
 permalink: /guides/tournament-creation/
 ---
 # Create a tournament

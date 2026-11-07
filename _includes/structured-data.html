@@ -1,0 +1,211 @@
+{% if page.url == '/' %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": ["Organization", "ProfessionalService", "LocalBusiness"],
+      "@id": "https://devdylnz.com/#organization",
+      "name": "Dev Dyl NZ",
+      "url": "https://devdylnz.com",
+      "email": "contact@devdylnz.com",
+      "slogan": "BUILD • AUTOMATE • COMMUNITIES",
+      "identifier": {
+        "@type": "PropertyValue",
+        "propertyID": "NZBN",
+        "value": "9429054041851"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Tauranga",
+        "addressRegion": "Bay of Plenty",
+        "addressCountry": "NZ"
+      }
+    },
+    {
+      "@type": ["SoftwareApplication", "WebApplication"],
+      "@id": "https://devdylnz.com/bracket-control#software",
+      "name": "Bracket Control",
+      "softwareVersion": "2.0",
+      "url": "https://devdylnz.com/bracket-control",
+      "installUrl": "https://app.devdylnz.com/app/",
+      "sameAs": [
+        "https://app.devdylnz.com/app/",
+        "https://docs.devdylnz.com/"
+      ],
+      "applicationCategory": "GameApplication",
+      "operatingSystem": "Web, Discord",
+      "description": {{ page.description | default: site.description | jsonify }},
+      "author": {
+        "@id": "https://devdylnz.com/#organization"
+      },
+      "publisher": {
+        "@id": "https://devdylnz.com/#organization"
+      },
+      "featureList": [
+        "Optional-channel Discord server setup via Automatic Setup or Manual Setup",
+        "Standard Team and Captain Draft tournament creation for 2 to 16 teams",
+        "Single elimination, double elimination, and round robin brackets",
+        "Live Captain Drafts supporting Standard (1-for-1) and Snake draft styles",
+        "Scheduled Discord draft voice waiting room and automatic team voice rooms",
+        "Undrafted Reserve Player Pool and captain-selected substitute requests",
+        "Captain team registration with Discord member search and organiser approval queue",
+        "Competitive skill divisions with automatic winner promotion",
+        "Per-game match result reporting with scoresheet uploads, opponent confirmation, and organiser dispute resolution",
+        "Discord channel publishing for brackets, team lists, match results, and final standings",
+        "Read-only Server Audit Log for Discord Server Owners and Administrators",
+        "Optional private Discord support tickets with encrypted transcript retention"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://docs.devdylnz.com/#website",
+      "name": {{ site.title | jsonify }},
+      "url": "https://docs.devdylnz.com/",
+      "description": {{ site.description | jsonify }},
+      "inLanguage": "en-NZ",
+      "publisher": {
+        "@id": "https://devdylnz.com/#organization"
+      },
+      "about": {
+        "@id": "https://devdylnz.com/bracket-control#software"
+      }
+    }
+  ]
+}
+</script>
+{% elsif page.sitemap != false %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "TechArticle",
+      "@id": {{ page.url | absolute_url | append: "#article" | jsonify }},
+      "headline": {{ page.title | default: site.title | jsonify }},
+      "description": {{ page.description | default: site.description | jsonify }},
+      "url": {{ page.url | absolute_url | jsonify }},
+      "mainEntityOfPage": {{ page.url | absolute_url | jsonify }},
+      "inLanguage": "en-NZ",
+      "author": {
+        "@id": "https://devdylnz.com/#organization"
+      },
+      "publisher": {
+        "@type": ["Organization", "ProfessionalService", "LocalBusiness"],
+        "@id": "https://devdylnz.com/#organization",
+        "name": "Dev Dyl NZ",
+        "url": "https://devdylnz.com",
+        "email": "contact@devdylnz.com",
+        "slogan": "BUILD • AUTOMATE • COMMUNITIES",
+        "identifier": {
+          "@type": "PropertyValue",
+          "propertyID": "NZBN",
+          "value": "9429054041851"
+        },
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Tauranga",
+          "addressRegion": "Bay of Plenty",
+          "addressCountry": "NZ"
+        }
+      },
+      "about": {
+        "@type": ["SoftwareApplication", "WebApplication"],
+        "@id": "https://devdylnz.com/bracket-control#software",
+        "name": "Bracket Control",
+        "softwareVersion": "2.0",
+        "url": "https://devdylnz.com/bracket-control",
+        "installUrl": "https://app.devdylnz.com/app/",
+        "applicationCategory": "GameApplication",
+        "operatingSystem": "Web, Discord"
+      },
+      "isPartOf": {
+        "@type": "WebSite",
+        "@id": "https://docs.devdylnz.com/#website",
+        "name": {{ site.title | jsonify }},
+        "url": "https://docs.devdylnz.com/"
+      }
+    }{% if page.url == '/troubleshooting/' %},
+    {
+      "@type": "FAQPage",
+      "@id": "https://docs.devdylnz.com/troubleshooting/#faq",
+      "url": "https://docs.devdylnz.com/troubleshooting/",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What should I do if I cannot find my Discord server or dashboard?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check that you signed in with the correct Discord account and still belong to the server, then open Your Discord servers. Ask the server owner to check that the bot is connected and your organiser access is configured. Players can open the tournament link supplied by their organiser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why did the website legal acknowledgement popup return?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The website asks again when the applicable legal documents change. Anonymous acknowledgement is remembered only in the current browser, so clearing browser storage or using another browser shows it again. Signed-in users keep their current acknowledgements with their Discord account."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is a registration role or personal tournament acceptance missing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Neither is required. There is no separate player registration, registered-player role or Verify Registration step. Organisers communicate and enforce their own community and tournament rules."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do I find a missing substitute invitation?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Open Profile → Substitute invitations using the Discord account selected by the captain. A substitute request requires both organiser approval and the selected reserve player's confirmation to join the team."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is my approved team not ready for the tournament?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "An approved lineup and confirmed attendance are separate. Open the correct event in My Teams, check Confirm participation and the registration deadline, and resolve any roster approval, attendance or division warnings with the organiser."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How do I resume an interrupted Discord server setup?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Return to Open Server Setup, choose Resume interrupted setup, review the saved plan, check the resume confirmation and select Resume setup after any displayed Discord retry time."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are draft players or Discord voice rooms missing?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Check the tournament's Draft Voice Waiting Room assignment, ensure players stay connected to that waiting room, and confirm selected captains in Captain Selection before starting the draft. Verify the bot has Manage Channels, Manage Roles, View Audit Log, Connect and Move Members permissions."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why will my scoresheet not upload?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For Report Win, choose one PNG, JPEG, WebP or PDF file up to 10 MB as the winning captain for the selected game, and check that the previous game is confirmed and the tournament is live."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What happens when a match result is disputed?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The opposing captain can select Confirm Result, or enter a reason and select Dispute Result in Captain Dashboard. A dispute pauses the series until an organiser reviews it in Manage Tournament → Matches."
+          }
+        }
+      ]
+    }{% endif %}
+  ]
+}
+</script>
+{% endif %}

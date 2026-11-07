@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Captain guide
+description: "Use the Bracket Control Captain Dashboard to confirm tournament participation, make live draft picks, request reserve substitutes, edit rosters and report wins."
 permalink: /guides/captains/
 ---
 # Captain Dashboard

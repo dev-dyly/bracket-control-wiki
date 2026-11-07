@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Support Ticket Privacy Disclosure
+description: "Support Ticket Privacy Disclosure for Bracket Control explaining encrypted transcript retention, authenticated Discord access and private closure notifications."
 permalink: /legal/support-tickets/
 ---
 # Support Ticket Privacy Disclosure

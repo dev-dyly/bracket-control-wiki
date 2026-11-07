@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Player Information Notice
+description: "Player Information Notice for Bracket Control by Dev Dyl NZ explaining how player gaming tags, Discord IDs, rosters, draft picks and match results are handled."
 permalink: /legal/player-notice/
 ---
 # Player Information Notice

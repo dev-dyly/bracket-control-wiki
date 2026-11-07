@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Cookie Notice
+description: "Cookie Notice for Bracket Control by Dev Dyl NZ explaining essential Discord authentication session cookies, OAuth state protection and browser session storage."
 permalink: /legal/cookies/
 ---
 # Cookie Notice
