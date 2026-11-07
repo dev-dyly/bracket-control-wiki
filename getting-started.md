@@ -12,7 +12,7 @@ Use your own Discord account to play, captain a team or organise events for your
 
 ## 1. Sign in
 
-1. Open [Bracket Control](https://app.devdylnz.com/app/).
+1. Open [Bracket Control](https://bracketcontrol.runs-on.dev/app/).
 2. Select **Sign in with Discord**.
 3. Use the Discord account you use in your gaming server.
 

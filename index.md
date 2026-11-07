@@ -49,4 +49,4 @@ The [three original illustrated PDF guides]({{ '/guides/visual-guides/' | relati
 - [Cookie Notice]({{ '/legal/cookies/' | relative_url }})
 - [Player Information Notice]({{ '/legal/player-notice/' | relative_url }})
 
-[**Open Bracket Control →**](https://app.devdylnz.com/app/)
+[**Open Bracket Control →**](https://bracketcontrol.runs-on.dev/app/)
