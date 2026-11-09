@@ -35,6 +35,21 @@ Choose **Not Required** for unused features. Website-only organisers can leave e
 
 Keep Staff Approvals private. If you enable support tickets, select its panel channel, private category and support staff settings. Choose categories only where needed. Existing configured channels and support settings remain available.
 
+### Support ticket closure settings
+
+After setup, open **Server Management → Support Tickets → Support Ticket Settings** to manage tickets for that Discord server. The following options are enabled by default:
+
+| Setting | What it does |
+| --- | --- |
+| **Send closure DM** | DMs the ticket creator a closure confirmation with the server, ticket number and closure time. |
+| **Attach ticket transcript** | Includes a downloadable `.txt` conversation transcript in that DM; requires closure DMs to be enabled. |
+| **Allow members to reopen via DM** | Includes a **Reopen Ticket** button for the original creator; requires closure DMs to be enabled. |
+| **Automatically delete closed ticket channels** | Removes the Discord channel immediately after a complete, encrypted transcript is successfully archived and verified, provided no preservation hold blocks deletion. |
+
+These settings apply per server. Turning off automatic channel deletion keeps closed ticket channels until an administrator explicitly manages them; it does not switch to delayed automatic deletion. If archiving or integrity verification fails, the bot preserves the channel for review. Failed Discord DM delivery does not prevent a completed ticket closure or an otherwise safe channel cleanup.
+
+Support staff can manage tickets without inheriting tournament-administration permissions. Authorised administrators can reopen closed tickets through the dashboard.
+
 ## Review and finish
 
 1. Continue to **Optional messages** and choose whether to publish the team-registration message.
