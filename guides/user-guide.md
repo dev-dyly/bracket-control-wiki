@@ -37,4 +37,8 @@ A reserve player can respond to a captain-selected substitute invitation under *
 
 ## Support and privacy
 
-Use My Support Tickets to follow your tickets. Support staff access does not grant tournament-administrator access. Notifications remain available from the bell at the top of the page. Privacy Settings retains notices and privacy information; historical records remain available for authorised privacy and audit work.
+Use **My Support Tickets** to follow your tickets and view available retained transcripts. When staff close a ticket, the bot can DM its creator the server name, ticket number, closure time, downloadable `.txt` transcript and **Reopen Ticket** button, depending on that server's settings. If DMs are blocked, the ticket can still close.
+
+Click **Reopen Ticket** in the closure DM to create a new private Discord channel for the same ticket. Only the original creator may reopen through DMs; the archived conversation is presented as history with original authors and timestamps. Staff can also reopen tickets through the dashboard. A closed ticket's original channel may have been removed after safe archival, but the retained transcript remains available in Bracket Control for the configured retention period.
+
+Support staff access does not grant tournament-administrator access. Notifications remain available from the bell at the top of the page. Privacy Settings retains notices and privacy information; historical records remain available for authorised privacy and audit work.
