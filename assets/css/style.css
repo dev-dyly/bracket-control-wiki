@@ -50,3 +50,5 @@
 
 /* Keep current guide screenshots inside the reading column on phones. */
 .content img{display:block;max-width:100%;height:auto}
+
+.official-logo{width:180px;height:auto;object-fit:contain;vertical-align:middle}@media(max-width:600px){.official-logo{width:132px}}
