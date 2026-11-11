@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Tournament creation
-description: "Create Standard Team or Captain Draft tournaments in Bracket Control with six competition formats, group stages, Grand Finals and placement matches for 2 to 16 teams."
+description: "Create Standard Team or Captain Draft tournaments in Bracket Control with six formats, group stages, Grand Finals and placement matches for 2 to 16 teams."
 permalink: /guides/tournament-creation/
 ---
 # Create a tournament
