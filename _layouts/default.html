@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="color-scheme" content="dark">
   {% seo %}
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/branding/favicon.svg' | relative_url }}">
   {% if page.sitemap == false %}
   <meta name="robots" content="noindex, follow">
   {% else %}
@@ -29,7 +30,7 @@
 {% endfor %}
 <a class="skip" href="#content">Skip to content</a>
 <header class="hero" id="top"><div class="wrap">
-  <a class="brand" href="{{ '/' | relative_url }}"><span class="mark">⌘</span> BRACKET <strong>CONTROL</strong> <small>DOCS</small></a>
+  <a class="brand" href="{{ '/' | relative_url }}"><img class="official-logo" src="{{ '/assets/images/branding/bracket-control.webp' | relative_url }}" width="180" height="120" alt="Bracket Control — Dev Dyl NZ"> <small>DOCS</small></a>
   <p>Run great tournaments. Keep your community in control.</p>
 </div></header>
 <nav aria-label="Main navigation" class="navigation"><div class="wrap navinner">

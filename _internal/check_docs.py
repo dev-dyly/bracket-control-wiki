@@ -81,11 +81,14 @@ def main():
             assert url in urls, f'Guide missing from navigation: {url}'
             assert front['layout'] == 'default', f'Guide bypasses common layout: {url}'
             assert not re.search(r'```|\b(?:API|backend|frontend|migration|pull request)\b', text, re.I), f'Developer wording: {file}'
-    for i, chapter in enumerate(chapters):
+    # New standalone guides are navigable without joining the ordered pager chain.
+    chain = [c['url'] for c in chapters if c.get('previous_url') or c.get('next_url')]
+    for chapter in chapters:
         url = chapter['url']
+        i = chain.index(url) if url in chain else None
         assert url in pages, f'Navigation destination missing: {url}'
         for key, offset, rel in [('previous_url', -1, 'prev'), ('next_url', 1, 'next')]:
-            expected = urls[i + offset] if 0 <= i + offset < len(urls) else None
+            expected = chain[i + offset] if i is not None and 0 <= i + offset < len(chain) else None
             assert chapter.get(key) == expected, f'Broken ordered {key}: {url}'
             assert pages[url].pagers.get(rel) == expected, f'Rendered pager mismatch: {url}'
             if expected:
@@ -109,7 +112,7 @@ def main():
         assert sha(file.read_bytes()) == sha(original), f'Original PDF modified: {relative}'
         assert any(c.get('pdf') and c['url'] == '/' + relative for c in navigation), f'PDF link missing: {relative}'
     assert not (SITE / '_internal').exists(), 'Internal review files exposed by Jekyll'
-    print(f'PASS: {len(pages)} rendered pages; {len(chapters)} ordered chapters; {len(checked)} internal destinations; all anchors and pagers; 3 unchanged PDFs.')
+    print(f'PASS: {len(pages)} rendered pages; {len(chain)} ordered chapters; {len(checked)} internal destinations; all anchors and pagers; 3 unchanged PDFs.')
     if args.live:
         def fetch(path):
             response = requests.get(ORIGIN + path, timeout=45)

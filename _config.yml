@@ -19,7 +19,12 @@ social:
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
+logo: /assets/images/branding/bracket-control.webp
 defaults:
+  - scope:
+      path: ""
+    values:
+      image: /assets/images/branding/bracket-control-social.png
   - scope:
       path: "legal/versions"
     values:
